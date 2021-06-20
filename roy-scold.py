@@ -23,7 +23,7 @@ try:
     import requests
 except ImportError:
     os.system('pip2 install requests')
-    os.system('python2 cr4ck.py')
+    os.system('python2 roy-scold.py')
 
 from requests.exceptions import ConnectionError
 from mechanize import Browser
@@ -576,7 +576,7 @@ def pilih_indo():
     print '\x1b[1;97m{\x1b[1;93m\xe2\x97\x8f\x1b[1;97m} \x1b[1;92mOK\x1b[1;97m/\x1b[1;93mCP \x1b[1;93mfile tersimpan \x1b[1;91m: \x1b[1;92mdone/indo.txt'
     print 50 * '\x1b[1;94m\xe2\x94\x80'
     raw_input('\x1b[1;97m{<\x1b[1;93mKembali\x1b[1;97m>}')
-    os.system('python2 cr4ck.py')
+    os.system('python2 roy-scold.py')
 
 
 def crack_bangla():
@@ -875,7 +875,7 @@ def pilih_bangla():
     print '\x1b[1;97m{\x1b[1;96m\xe2\x97\x8f\x1b[1;97m} \x1b[1;92mOK\x1b[1;97m/\x1b[1;96mCP \x1b[1;96mfile tersimpan \x1b[1;91m: \x1b[1;92mdone/bangla.txt'
     print 50 * '\x1b[1;94m\xe2\x94\x80'
     raw_input('\x1b[1;97m{<\x1b[1;96mKembali\x1b[1;97m>}')
-    os.system('python2 cr4ck.py')
+    os.system('python2 roy-scold.py')
 
 
 def crack_usa():
@@ -1108,7 +1108,7 @@ def pilih_usa():
     print '\x1b[1;97m{\x1b[1;95m\xe2\x97\x8f\x1b[1;97m} \x1b[1;92mOK\x1b[1;97m/\x1b[1;95mCP \x1b[1;95mfile tersimpan \x1b[1;91m: \x1b[1;92mdone/usa.txt'
     print 50 * '\x1b[1;94m\xe2\x94\x80'
     raw_input('\x1b[1;97m{<\x1b[1;95mKembali\x1b[1;97m>}')
-    os.system('python2 cr4ck.py')
+    os.system('python2 roy-scold.py')
 
 
 def crack_pakis():
@@ -1407,7 +1407,7 @@ def pilih_pakis():
     print '\x1b[1;97m{\x1b[1;91m\xe2\x97\x8f\x1b[1;97m} \x1b[1;92mOK\x1b[1;97m/\x1b[1;91mCP \x1b[1;91mfile tersimpan \x1b[1;91m: \x1b[1;92mdone/pakis.txt'
     print 50 * '\x1b[1;94m\xe2\x94\x80'
     raw_input('\x1b[1;97m{<\x1b[1;91mKembali\x1b[1;97m>}')
-    os.system('python2 cr4ck.py')
+    os.system('python2 roy-scold.py')
 
 
 def crack_likes():
@@ -1603,7 +1603,7 @@ def crack_likes():
     print '\x1b[1;97m{\x1b[1;96m\xe2\x97\x8f\x1b[1;97m} \x1b[1;92mOK\x1b[1;97m/\x1b[1;96mCP \x1b[1;96mfile tersimpan \x1b[1;91m: \x1b[1;92mdone/grup.txt'
     print 50 * '\x1b[1;94m\xe2\x94\x80'
     raw_input('\x1b[1;97m{<\x1b[1;96mKembali\x1b[1;97m>}')
-    os.system('python2 cr4ck.py')
+    os.system('python2 roy-scold.py')
 
 
 def crack_follow():
@@ -1796,7 +1796,7 @@ def crack_follow():
     print '\x1b[1;97m{\x1b[1;95m\xe2\x97\x8f\x1b[1;97m} \x1b[1;92mOK\x1b[1;97m/\x1b[1;95mCP \x1b[1;95mfile tersimpan \x1b[1;91m: \x1b[1;92mdone/follow.txt'
     print 50 * '\x1b[1;94m\xe2\x94\x80'
     raw_input('\x1b[1;97m{<\x1b[1;95mKembali\x1b[1;97m>}')
-    os.system('python2 cr4ck.py')
+    os.system('python2 roy-scold.py')
 
 
 def user_id():
@@ -1819,7 +1819,7 @@ def perbarui():
     jalan('\x1b[1;92mMemperbarui Script ...\x1b[1;93m')
     os.system('git pull origin master')
     raw_input('\n\x1b[1;94m{\x1b[1;97m<Kembali>\x1b[1;94m}')
-    os.system('python2 cr4ck.py')
+    os.system('python2 roy-scold.py')
 
 
 if __name__ == '__main__':
